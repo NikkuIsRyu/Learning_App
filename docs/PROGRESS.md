@@ -16,7 +16,7 @@ Track every ticket from [`02_HANDOFF_ROADMAP.md`](02_HANDOFF_ROADMAP.md). Allowe
 | `T2.2` | 2 | Room schema (entities, relations, converters, DAOs) | G0, G1 | `DONE` | GATE G1 PASS (`build/agent-logs/T2.2-G1-20261102-154802.log`), GATE G0 PASS (1.json 13 entities, 0 forbidden patterns) | `21537d7` |
 | `T2.3` | 2 | DAO tests (Robolectric JVM) | G2 | `DONE` | GATE G2 PASS (`build/agent-logs/T2.3-G2-20261102-155349.log`, 7 test cases verified) | `7adde3d` |
 | `T2.4` | 2 | Content ETL & seed JSON + errata validation | G0, G2 | `DONE` | GATE G0 PASS (`review_queue.json` count=0); GATE G2 PASS (`build/agent-logs/T2.4-G2-20261102-162222.log`, 9 test cases, counts 45/41/54/51/48/39/57, errata golden set) | `7c4c0a1` |
-| `T2.5` | 2 | `ContentSeeder` & DataStore settings | G2, G4 | `TODO` | — | — |
+| `T2.5` | 2 | `ContentSeeder` & DataStore settings | G2, G4 | `DONE` | GATE G2 PASS (`build/agent-logs/T2.5-G2-20261102-163430.log`, 5 test cases, fixture seeding, no-op check, version 2 stale pruning + user progress preservation, real assets counts verified), GATE G1 PASS (`build/agent-logs/T2.5-G1-20261102-163455.log`) | `6359ada` |
 | `T2.6` | 2 | Deterministic SRS scheduler & review use cases | G2 | `TODO` | — | — |
 | `T3.1` | 3 | Japanese Chapter Hub (1–50, 26–32 verified) & detail | G2, G3 | `TODO` | — | — |
 | `T3.2` | 3 | Rule-based Conjugation Engine & golden tests | G2 | `TODO` | — | — |
