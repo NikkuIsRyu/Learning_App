@@ -37,6 +37,7 @@ fun ChapterRoute(
   modifier: Modifier = Modifier,
   onBackClick: () -> Unit = {},
   onStartDrill: (String) -> Unit = {},
+  onKanjiClick: (String) -> Unit = {},
   viewModel: ChapterViewModel = hiltViewModel()
 ) {
   val uiState by viewModel.uiState.collectAsStateWithLifecycle()
@@ -46,6 +47,7 @@ fun ChapterRoute(
       when (event) {
         is ChapterEvent.Back -> onBackClick()
         is ChapterEvent.StartDrill -> onStartDrill(event.drillType)
+        is ChapterEvent.OpenKanji -> onKanjiClick(event.literal)
         else -> viewModel.onEvent(event)
       }
     },
@@ -129,7 +131,7 @@ fun ChapterScreen(
       when (state.selectedTab) {
         ChapterTab.GRAMMAR -> GrammarTabContent(state = state, onEvent = onEvent)
         ChapterTab.WORDS -> WordsTabContent(state = state)
-        ChapterTab.KANJI -> KanjiTabContent(state = state)
+        ChapterTab.KANJI -> KanjiTabContent(state = state, onEvent = onEvent)
         ChapterTab.DRILLS -> DrillsTabContent(onEvent = onEvent)
       }
     }
@@ -302,7 +304,10 @@ private fun WordsTabContent(state: ChapterUiState) {
 }
 
 @Composable
-private fun KanjiTabContent(state: ChapterUiState) {
+private fun KanjiTabContent(
+  state: ChapterUiState,
+  onEvent: (ChapterEvent) -> Unit
+) {
   if (state.kanji.isEmpty()) {
     EmptyTabPlaceholder(message = "No kanji introduced in Chapter ${state.chapter}.")
   } else {
@@ -316,7 +321,10 @@ private fun KanjiTabContent(state: ChapterUiState) {
           shape = RoundedCornerShape(12.dp),
           colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
           elevation = CardDefaults.cardElevation(defaultElevation = 1.dp),
-          modifier = Modifier.fillMaxWidth()
+          modifier = Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(12.dp))
+            .clickable { onEvent(ChapterEvent.OpenKanji(k.literal)) }
         ) {
           Row(
             modifier = Modifier

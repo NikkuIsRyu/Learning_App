@@ -468,3 +468,14 @@ LexiconViewModelTest.kt:140:32 No value passed for parameter 'collector'.
 - **(b) Faulty Assumption:** Assumed calling `flow.collect()` without arguments or lambda was valid syntax to trigger collection.
 - **(c) Corrective Code Strategy:** Import `kotlinx.coroutines.flow.launchIn` and use `viewModel.uiState.launchIn(backgroundScope)` in each unit test to activate the `WhileSubscribed` StateFlow.
 - **Outcome:** PASS (GATE G2 PASS)
+
+
+### [R-0034] T3.8 · G1 · attempt 1/3 · 2026-11-02T18:31:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ChapterViewModel.kt:85:5 'when' expression must be exhaustive. Add the 'is OpenKanji' branch or an 'else' branch.
+```
+- **(a) Root Cause:** `ChapterEvent.OpenKanji` was added to `sealed interface ChapterEvent`, but the `when (event)` in `ChapterViewModel.onEvent` was missing a branch for it.
+- **(b) Faulty Assumption:** Assumed adding `OpenKanji` to `ChapterRoute` handler was sufficient without updating `ChapterViewModel.onEvent`'s exhaustive `when`.
+- **(c) Corrective Code Strategy:** Add `is ChapterEvent.OpenKanji` to the navigation events branch in `ChapterViewModel.kt`.
+- **Outcome:** PASS (GATE G1 PASS)

@@ -15,6 +15,8 @@ import tech.nikku.learningapp.feature.japanese.scramble.SentenceBuilderRoute as 
 import tech.nikku.learningapp.feature.japanese.listening.ListeningRoute as ListeningDestination
 import tech.nikku.learningapp.feature.japanese.lexicon.LexiconRoute as LexiconDestination
 import tech.nikku.learningapp.feature.japanese.lexicon.WordDetailRoute as WordDetailDestination
+import tech.nikku.learningapp.feature.japanese.kanji.ChapterKanjiDestination
+import tech.nikku.learningapp.feature.japanese.kanji.KanjiDetailDestination
 import tech.nikku.learningapp.feature.japanese.hub.JapaneseHubRoute
 import tech.nikku.learningapp.feature.today.TodayRoute
 import tech.nikku.learningapp.feature.vault.VaultRoute
@@ -44,7 +46,8 @@ fun AppNavHost(
       ChapterRoute(
         chapter = route.chapter,
         onBackClick = { navController.popBackStack() },
-        onStartDrill = { _ -> navController.navigate(ConjugationMatrixRoute(route.chapter)) }
+        onStartDrill = { _ -> navController.navigate(ConjugationMatrixRoute(route.chapter)) },
+        onKanjiClick = { literal -> navController.navigate(KanjiDetailRoute(literal)) }
       )
     }
     composable<ConjugationMatrixRoute> {
@@ -84,7 +87,20 @@ fun AppNavHost(
     composable<WordDetailRoute> {
       WordDetailDestination(
         onBackClick = { navController.popBackStack() },
-        onPartnerClick = { partnerId -> navController.navigate(WordDetailRoute(partnerId)) }
+        onPartnerClick = { partnerId -> navController.navigate(WordDetailRoute(partnerId)) },
+        onKanjiClick = { literal -> navController.navigate(KanjiDetailRoute(literal)) }
+      )
+    }
+    composable<ChapterKanjiRoute> {
+      ChapterKanjiDestination(
+        onBackClick = { navController.popBackStack() },
+        onKanjiClick = { literal -> navController.navigate(KanjiDetailRoute(literal)) }
+      )
+    }
+    composable<KanjiDetailRoute> {
+      KanjiDetailDestination(
+        onBackClick = { navController.popBackStack() },
+        onWordClick = { wordId -> navController.navigate(WordDetailRoute(wordId)) }
       )
     }
     composable<ChineseRoute> {

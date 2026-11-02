@@ -34,6 +34,7 @@ sealed interface ChapterEvent {
   data class ToggleRule(val ruleId: String) : ChapterEvent
   data object Back : ChapterEvent
   data class StartDrill(val drillType: String) : ChapterEvent
+  data class OpenKanji(val literal: String) : ChapterEvent
 }
 
 @HiltViewModel
@@ -86,7 +87,7 @@ class ChapterViewModel @Inject constructor(
       is ChapterEvent.ToggleRule -> {
         _expandedRuleId.value = if (_expandedRuleId.value == event.ruleId) null else event.ruleId
       }
-      is ChapterEvent.Back, is ChapterEvent.StartDrill -> {
+      is ChapterEvent.Back, is ChapterEvent.StartDrill, is ChapterEvent.OpenKanji -> {
         // Handled by route navigation
       }
     }
