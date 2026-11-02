@@ -7,6 +7,7 @@ When any Evaluator gate (`G0`–`G5`) fails, Gemini Flash MUST append a reflecti
 - **L-02**: Never instantiate `hiltViewModel()` or Room databases inside `@Preview` functions; always preview the stateless `XxxScreen(state, onEvent)` composable with preview fixture data.
 - **L-03**: Always pass `LocaleList("ja-JP")` for Japanese text and `LocaleList("zh-CN")` for Chinese text to prevent Han-unification glyph mismatches.
 - **L-04**: Always quote workspace paths in PowerShell/CLI commands (`d:\.D Dokuments\Uni Stuff\Knowledge_App` contains spaces).
+- **L-05**: Specify `@Config(sdk = [34])` on Robolectric test classes to run within Java 17 JBR compatibility limits when `compileSdk` is 36.
 
 ---
 
@@ -97,3 +98,15 @@ TopLevelDestination.kt:22:12 Unresolved reference 'Icons'.
 - **(b) Faulty Assumption:** Assumed `material3` re-exported `material-icons-core` transitively on the compile classpath for application modules.
 - **(c) Corrective Code Strategy:** Add `androidx-compose-material-icons-core = { group = "androidx.compose.material", name = "material-icons-core" }` to `gradle/libs.versions.toml` (managed by compose-bom) and add `implementation(libs.androidx.compose.material.icons.core)` to `app/build.gradle.kts`.
 - **Outcome:** PASS (GATE G1 PASS)
+
+### [R-0007] T1.5 · G2 · attempt 1/3 · 2026-11-02T15:33:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+tech.nikku.learningapp.core.data.loader.VaultRoadmapLoaderTest.classMethod:
+java.lang.UnsupportedOperationException: Failed to create a Robolectric sandbox: Android SDK 36 requires Java 21 (have Java 17)
+> Task :core:data:testDebugUnitTest FAILED
+```
+- **(a) Root Cause:** Robolectric defaults its simulation environment to `targetSdk` / `compileSdk` (36), whose Robolectric android-all jar requires Java 21 runtime bytecode. The project environment runs on Android Studio JBR (Java 17).
+- **(b) Faulty Assumption:** Assumed Robolectric without `@Config(sdk = ...)` would run on Java 17 for `compileSdk = 36`.
+- **(c) Corrective Code Strategy:** Add `@Config(sdk = [34])` to Robolectric test classes (and promote as lesson **L-05**: all Robolectric tests must specify `@Config(sdk = [34])` to run within Java 17 JBR sandbox limits).
+- **Outcome:** PASS (GATE G2 PASS)

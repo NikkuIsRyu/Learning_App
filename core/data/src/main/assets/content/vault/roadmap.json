@@ -1,0 +1,50 @@
+[
+  {
+    "id": "vault:cs:theo",
+    "title": "Theoretical Computer Science",
+    "badge": "Planned",
+    "description": "Automata, formal languages, computability, complexity theory, and P vs NP."
+  },
+  {
+    "id": "vault:cs:algo",
+    "title": "Algorithms & Data Structures",
+    "badge": "Next up",
+    "description": "Trees, graphs, dynamic programming, amortization, and asymptotic algorithmic analysis."
+  },
+  {
+    "id": "vault:cs:db",
+    "title": "Databases & Information Systems",
+    "badge": "Planned",
+    "description": "Relational calculus, SQL optimization, ACID semantics, indexing, and distributed databases."
+  },
+  {
+    "id": "vault:cs:ise",
+    "title": "Information Systems Engineering (ISE)",
+    "badge": "Drafting",
+    "description": "Software architecture, microservices, Clean Architecture, and domain-driven design."
+  },
+  {
+    "id": "vault:cs:sec",
+    "title": "IT Security",
+    "badge": "Planned",
+    "description": "Cryptography, network protocols, penetration testing, threat modeling, and defensive system design."
+  },
+  {
+    "id": "vault:cs:ml",
+    "title": "Machine Learning & Deep Learning",
+    "badge": "Next up",
+    "description": "Neural networks, transformer architectures, backpropagation, and latent representations."
+  },
+  {
+    "id": "vault:cs:rmi",
+    "title": "RMI & Computer Anatomy",
+    "badge": "Planned",
+    "description": "Instruction sets, memory hierarchies, pipelining, operating systems, and virtualization."
+  },
+  {
+    "id": "vault:cs:agentic",
+    "title": "Agentic AI Seminar",
+    "badge": "Drafting",
+    "description": "Autonomous ReAct/Reflexion loops, LLM tool orchestration, episodic memory, and human-in-the-loop systems."
+  }
+]
