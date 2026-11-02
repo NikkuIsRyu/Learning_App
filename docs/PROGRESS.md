@@ -12,7 +12,7 @@ Track every ticket from [`02_HANDOFF_ROADMAP.md`](02_HANDOFF_ROADMAP.md). Allowe
 | `T1.3` | 1 | Design system & CJK primitives (`FuriganaText`, `PinyinText`) | G2, G3 | `DONE` | GATE G2 PASS (`build/agent-logs/T1.3-G2-20261102-151519.log`), GATE G3 PASS (FuriganaText, PinyinText, FormulaPills previews rendered & visually verified) | `d352c35` |
 | `T1.4` | 1 | App shell & adaptive top-level navigation | G1, G3, G4 | `DONE` | GATE G1 PASS (`build/agent-logs/T1.4-G1-20261102-152659.log`), GATE G3 PASS (Phone & Tablet previews rendered & verified) | `d7d7d35` |
 | `T1.5` | 1 | Vault "Work in Progress" screen | G2, G3 | `DONE` | GATE G2 PASS (`build/agent-logs/T1.5-G2-20261102-153424.log`), GATE G3 PASS (VaultScreen light & dark previews rendered & verified) | `ca41612` |
-| `T2.1` | 2 | Domain models & repository interfaces | G1, G2 | `TODO` | — | — |
+| `T2.1` | 2 | Domain models & repository interfaces | G1, G2 | `DONE` | GATE G1 PASS (`build/agent-logs/T2.1-G1-20261102-153948.log`), GATE G2 PASS (`build/agent-logs/T2.1-G2-20261102-154010.log`) | Pending |
 | `T2.2` | 2 | Room schema (entities, relations, converters, DAOs) | G0, G1 | `TODO` | — | — |
 | `T2.3` | 2 | DAO tests (Robolectric JVM) | G2 | `TODO` | — | — |
 | `T2.4` | 2 | Content ETL & seed JSON + errata validation | G0, G2 | `TODO` | — | — |

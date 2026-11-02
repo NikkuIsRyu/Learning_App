@@ -110,3 +110,15 @@ java.lang.UnsupportedOperationException: Failed to create a Robolectric sandbox:
 - **(b) Faulty Assumption:** Assumed Robolectric without `@Config(sdk = ...)` would run on Java 17 for `compileSdk = 36`.
 - **(c) Corrective Code Strategy:** Add `@Config(sdk = [34])` to Robolectric test classes (and promote as lesson **L-05**: all Robolectric tests must specify `@Config(sdk = [34])` to run within Java 17 JBR sandbox limits).
 - **Outcome:** PASS (GATE G2 PASS)
+
+### [R-0008] T2.1 · G1 · attempt 1/3 · 2026-11-02T15:38:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ExercisePayload.kt:98:42 Unresolved reference 'compareTo'.
+ExercisePayload.kt:98:43 Syntax error: Expecting an element.
+> Task :core:domain:compileKotlin FAILED
+```
+- **(a) Root Cause:** Typo in `ExercisePayload.Listening` default argument: `val options: List<String> = emptyList>,` had an accidental `>` instead of `()`.
+- **(b) Faulty Assumption:** Typographical error during manual transcription of ExercisePayload fields.
+- **(c) Corrective Code Strategy:** Correct default argument to `emptyList()`.
+- **Outcome:** PASS (GATE G1 PASS)

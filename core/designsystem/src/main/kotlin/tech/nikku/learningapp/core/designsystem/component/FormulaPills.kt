@@ -45,25 +45,8 @@ import tech.nikku.learningapp.core.designsystem.theme.RoleTopicDark
 import tech.nikku.learningapp.core.designsystem.theme.RoleTopicLight
 import tech.nikku.learningapp.core.designsystem.theme.RoleVerbDark
 import tech.nikku.learningapp.core.designsystem.theme.RoleVerbLight
-
-enum class SyntaxRole(val label: String) {
-  SUBJECT("Subject"),
-  TOPIC("Topic"),
-  TIME("Time"),
-  PLACE("Place"),
-  MODAL_NEGATION("Modal/Negation"),
-  VERB("Verb"),
-  OBJECT("Object"),
-  PARTICLE("Particle"),
-  MEASURE("Measure"),
-  CONNECTOR("Connector")
-}
-
-data class PatternToken(
-  val text: String,
-  val role: SyntaxRole,
-  val tooltip: String? = null
-)
+import tech.nikku.learningapp.core.domain.model.PatternToken
+import tech.nikku.learningapp.core.domain.model.SyntaxRole
 
 fun syntaxRoleColor(role: SyntaxRole, isDark: Boolean): Color {
   return when (role) {
@@ -71,12 +54,12 @@ fun syntaxRoleColor(role: SyntaxRole, isDark: Boolean): Color {
     SyntaxRole.TOPIC -> if (isDark) RoleTopicDark else RoleTopicLight
     SyntaxRole.TIME -> if (isDark) RoleTimeDark else RoleTimeLight
     SyntaxRole.PLACE -> if (isDark) RolePlaceDark else RolePlaceLight
-    SyntaxRole.MODAL_NEGATION -> if (isDark) RoleModalNegationDark else RoleModalNegationLight
+    SyntaxRole.MODAL, SyntaxRole.NEGATION -> if (isDark) RoleModalNegationDark else RoleModalNegationLight
     SyntaxRole.VERB -> if (isDark) RoleVerbDark else RoleVerbLight
     SyntaxRole.OBJECT -> if (isDark) RoleObjectDark else RoleObjectLight
     SyntaxRole.PARTICLE -> if (isDark) RoleParticleDark else RoleParticleLight
     SyntaxRole.MEASURE -> if (isDark) RoleMeasureDark else RoleMeasureLight
-    SyntaxRole.CONNECTOR -> if (isDark) RoleConnectorDark else RoleConnectorLight
+    SyntaxRole.CONNECTOR, SyntaxRole.COMPLEMENT, SyntaxRole.LITERAL -> if (isDark) RoleConnectorDark else RoleConnectorLight
   }
 }
 
