@@ -39,4 +39,8 @@ abstract class RepositoryModule {
   @Binds
   @Singleton
   abstract fun bindGrammarRepository(impl: GrammarRepositoryImpl): GrammarRepository
+
+  @Binds
+  @Singleton
+  abstract fun bindProgressRepository(impl: tech.nikku.learningapp.core.data.repository.ProgressRepositoryImpl): tech.nikku.learningapp.core.domain.repository.ProgressRepository
 }

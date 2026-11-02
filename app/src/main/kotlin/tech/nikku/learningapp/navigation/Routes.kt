@@ -21,6 +21,9 @@ data class ChapterDetailRoute(val chapter: Int)
 data class ConjugationMatrixRoute(val chapter: Int? = null)
 
 @Serializable
+data class ConjugationDrillRoute(val wordId: String? = null, val targetForm: String? = null)
+
+@Serializable
 data class ParticleClozeRoute(val chapter: Int? = null)
 
 @Serializable

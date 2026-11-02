@@ -308,3 +308,65 @@ tech.nikku.learningapp.core.domain.engine.conjugation.ConjugatorGoldenTest.testI
 - **(b) Faulty Assumption:** Assumed the test prefix for `食べる` was just the kanji `食`, omitting the okurigana `べ`.
 - **(c) Corrective Code Strategy:** In `ConjugatorGoldenTest.kt`, use `lemma.dropLast(1)` as `stem` (matching `rStem = reading.dropLast(1)`) so `食べる` conjugates to `食べます`, `食べた`, etc.
 - **Outcome:** PASS (GATE G2 PASS)
+
+
+### [R-0021] T3.3 · G1 · attempt 1/3 · 2026-11-02T17:10:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ProgressRepositoryImpl.kt:126:34 Unresolved reference 'reps'.
+ProgressRepositoryImpl.kt:128:35 Unresolved reference 'stepIndex'.
+```
+- **(a) Root Cause:** `ProgressRepositoryImpl.kt` referenced `reps` and `stepIndex` on `SrsSnapshot` instead of `repetitions` and `learningStep`.
+- **(b) Faulty Assumption:** Assumed `SrsSnapshot` field names matched shorthand `reps` and `stepIndex`.
+- **(c) Corrective Code Strategy:** In `ProgressRepositoryImpl.kt`, use `nextSnapshot.repetitions` and `nextSnapshot.learningStep` (and use `SrsSnapshot.initial(itemKey, dueAt)` for new items).
+- **Outcome:** PASS (GATE G1 PASS)
+
+
+### [R-0022] T3.3 · G1 · attempt 2/3 · 2026-11-02T17:13:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ProgressRepositoryImpl.kt:76:7 No parameter with name 'current' found.
+ProgressRepositoryImpl.kt:79:7 No parameter with name 'zoneId' found.
+ProgressRepositoryImpl.kt:79:7 No value passed for parameter 'state'.
+```
+- **(a) Root Cause:** `ProgressRepositoryImpl.kt` called `SrsScheduler.schedule(current = ..., zoneId = ...)` with incorrect parameter names. The method parameter is `state: SrsSnapshot`, `grade: ReviewGrade`, `now: Instant`, with default `cfg` and `seed`.
+- **(b) Faulty Assumption:** Assumed `SrsScheduler.schedule` had a `current` and `zoneId` parameter name.
+- **(c) Corrective Code Strategy:** Call `SrsScheduler.schedule(state = snapshot, grade = grade, now = Instant.ofEpochMilli(nowMs))` in `ProgressRepositoryImpl.kt`.
+- **Outcome:** PASS (GATE G1 PASS)
+
+
+### [R-0023] T3.3 · G1 · attempt 3/3 · 2026-11-02T17:14:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ConjugationDrillScreen.kt:25:47 Unresolved reference 'Lightbulb'.
+ConjugationDrillScreen.kt:295:32 Unresolved reference 'Lightbulb'.
+```
+- **(a) Root Cause:** `Icons.Default.Lightbulb` is an extended material icon not present in core `material.icons.filled`.
+- **(b) Faulty Assumption:** Assumed `Lightbulb` was available in core Material 3 icons.
+- **(c) Corrective Code Strategy:** Replace `Icons.Default.Lightbulb` with `Icons.Default.Info` in `ConjugationDrillScreen.kt`.
+- **Outcome:** PASS (GATE G1 PASS)
+
+
+### [R-0024] T3.3 · G1 · attempt 4/3 (sub-step) · 2026-11-02T17:15:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ConjugationDrillScreen.kt: No parameter with name 'rubyText' found.
+ConjugationMatrixScreen.kt: No parameter with name 'rubyText' found.
+```
+- **(a) Root Cause:** `FuriganaText` takes `text: String`, `style: TextStyle`, `rubyStyle: TextStyle`, but `ConjugationMatrixScreen.kt` and `ConjugationDrillScreen.kt` called it with `rubyText`, `baseFontSize`, and `rubyFontSize`.
+- **(b) Faulty Assumption:** Assumed `FuriganaText` accepted discrete font size arguments rather than `style: TextStyle`.
+- **(c) Corrective Code Strategy:** Pass `text = rubyMarkup, style = TextStyle(fontSize = ..., fontWeight = ...), rubyStyle = TextStyle(fontSize = ...)` to `FuriganaText` in both screens.
+- **Outcome:** PASS (GATE G1 PASS)
+
+
+### [R-0025] T3.3 · G2 · attempt 1/3 · 2026-11-02T17:18:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ConjugationDrillViewModelTest.kt:65:1 Class 'FakeSettingsRepository' is not abstract and does not implement abstract members:
+fun observePlaybackSpeed(): Flow<Float>
+suspend fun setPlaybackSpeed(speed: Float): Unit
+```
+- **(a) Root Cause:** `FakeSettingsRepository` in `ConjugationDrillViewModelTest.kt` omitted `observePlaybackSpeed` and `setPlaybackSpeed` from `SettingsRepository`.
+- **(b) Faulty Assumption:** Assumed `SettingsRepository` did not contain audio playback speed methods.
+- **(c) Corrective Code Strategy:** Implement `observePlaybackSpeed(): Flow<Float> = flowOf(1.0f)` and `suspend fun setPlaybackSpeed(speed: Float) {}` in `FakeSettingsRepository`.
+- **Outcome:** PASS (GATE G2 PASS)
