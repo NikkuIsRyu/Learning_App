@@ -5,8 +5,8 @@ Track every ticket from [`02_HANDOFF_ROADMAP.md`](02_HANDOFF_ROADMAP.md). Allowe
 | Ticket | Phase | Title | Gates | Status | Gate Evidence / Log Path | Commit |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `T0.1` | 0 | Toolchain probe | G0 | `DONE` | `docs/ENVIRONMENT.md` generated & verified (G0 PASS) | — |
-| `T0.2` | 0 | Git wiring | G0 | `TODO` | — | — |
-| `T0.3` | 0 | Evaluator harness (`gate.ps1`, `preview.ps1`) | G0 | `TODO` | — | — |
+| `T0.2` | 0 | Git wiring | G0 | `BLOCKED` | Local repo & initial commit `d9f8fe9` ready; remote `ls-remote` returned `Permission denied (publickey)` | `d9f8fe9` |
+| `T0.3` | 0 | Evaluator harness (`gate.ps1`, `preview.ps1`) | G0 | `DONE` | `gate.ps1 errors=0`, `preview.ps1 errors=0`, negative test verified | `86ffc32` |
 | `T1.1` | 1 | Generate Android project (`android create`) | G1 | `TODO` | — | — |
 | `T1.2` | 1 | 4-module split & dependency stack | G1, G2 | `TODO` | — | — |
 | `T1.3` | 1 | Design system & CJK primitives (`FuriganaText`, `PinyinText`) | G2, G3 | `TODO` | — | — |
