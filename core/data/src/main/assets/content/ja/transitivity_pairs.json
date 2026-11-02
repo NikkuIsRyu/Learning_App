@@ -1,0 +1,22 @@
+[
+  {
+    "intransitiveId": "ja:mnn:26:w030",
+    "transitiveId": "ja:mnn:29:w018",
+    "pair": "片づく / 片づける"
+  },
+  {
+    "intransitiveId": "ja:mnn:29:w010",
+    "transitiveId": "ja:mnn:27:w037",
+    "pair": "付く / 付ける"
+  },
+  {
+    "intransitiveId": "ja:mnn:29:w015",
+    "transitiveId": "ja:mnn:30:w002",
+    "pair": "掛かる / 掛ける"
+  },
+  {
+    "intransitiveId": "ja:mnn:32:w008",
+    "transitiveId": "ja:mnn:31:w001",
+    "pair": "続く / 続ける"
+  }
+]

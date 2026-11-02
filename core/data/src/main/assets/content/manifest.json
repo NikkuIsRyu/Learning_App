@@ -1,0 +1,60 @@
+{
+  "contentVersion": 1,
+  "files": [
+    {
+      "path": "ja/grammar_26_32.json",
+      "entity": "grammar_rule",
+      "sha256": "85a5a12762025b16249cce8ebcc9d6348cbadc598e329992a84925041418609f"
+    },
+    {
+      "path": "ja/kanji.json",
+      "entity": "kanji",
+      "sha256": "fb06028fe90d4a399471deac97eff6eacc11168969fe0ac3e4dbf4f405d91231"
+    },
+    {
+      "path": "ja/kanji_compounds.json",
+      "entity": "kanji_compound",
+      "sha256": "08c32017896b2a603c35cb7d530aa04e02b4daad822604268651c79e6bcc7f6d"
+    },
+    {
+      "path": "ja/words_mnn_26_32.json",
+      "entity": "word",
+      "sha256": "69011051f5523dab71a294b7b8b9f19cd2c0082669b3ae7e9b53ccf2893e7571"
+    },
+    {
+      "path": "ja/words_mnn_other.json",
+      "entity": "word",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "vault/roadmap.json",
+      "entity": "vault_roadmap",
+      "sha256": "6a230cc13050e5fec4dda475c4672dae42f2f644e5cc1a72950ffc8a49e35f31"
+    },
+    {
+      "path": "zh/confusables.json",
+      "entity": "confusable_pair",
+      "sha256": "5c84744afce6c4c5bf87a30a271d4cd1f9e35bce62c95c767d90556041b42aaa"
+    },
+    {
+      "path": "zh/dialogue_turns.json",
+      "entity": "dialogue_turn",
+      "sha256": "4e1dc1c4b6db14635afb44a340e1a4b213849ad02ed5c5a00f5bbe2fede40f6e"
+    },
+    {
+      "path": "zh/dialogues.json",
+      "entity": "dialogue",
+      "sha256": "565f89466a5b9ded9cbf50fcbd8bf7b349ef754b09b12ba44eb4eb3a7fd3b0c6"
+    },
+    {
+      "path": "zh/grammar_examples.json",
+      "entity": "grammar_example",
+      "sha256": "49ce9bb6e787e8e40b828051d43502bc78bfc6243ebf300c1c2cbe8a030e71d0"
+    },
+    {
+      "path": "zh/grammar_rules.json",
+      "entity": "grammar_rule",
+      "sha256": "4e4136d2732b543c3d509b4ab7174229804a80bba3dd6f666b65db65ab1c17db"
+    }
+  ]
+}

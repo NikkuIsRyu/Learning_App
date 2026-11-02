@@ -1,0 +1,9 @@
+[project]
+name = "content-etl"
+version = "0.1.0"
+description = "ETL pipeline for Japanese and Chinese content ingestion"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "zstandard>=0.22.0",
+]

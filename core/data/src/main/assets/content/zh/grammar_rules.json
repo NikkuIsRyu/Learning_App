@@ -1,0 +1,1030 @@
+[
+  {
+    "id": "zh:g:szov-syntax",
+    "domain": "CHINESE",
+    "chapter": 2,
+    "sectionLabel": "szov-syntax",
+    "category": "syntax",
+    "part": "Teil I: Grundlegende Syntax",
+    "titleEn": "1. Basic Sentence Order (The S-T-P-V-O Rule)",
+    "titleDe": "1. Grundlegende Satzstellung (Die S-Z-O-V-Regel)",
+    "pattern": "Subjekt + Zeitpunkt + Ort + [Modalverb / Negation] + Verb + Objekt",
+    "patternTokens": [
+      {
+        "text": "Subjekt",
+        "role": "SUBJECT"
+      },
+      {
+        "text": "Zeitpunkt",
+        "role": "TIME"
+      },
+      {
+        "text": "Ort",
+        "role": "PLACE"
+      },
+      {
+        "text": "[Modalverb / Negation]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "Verb",
+        "role": "VERB"
+      },
+      {
+        "text": "Objekt",
+        "role": "OBJECT"
+      }
+    ],
+    "summaryEn": "Predicate precedes object (SVO). Modifying time and location elements must strictly precede the predicate verb.",
+    "summaryDe": "Das Prädikat steht wie im Englischen vor dem Objekt (SVO). Modifizierende Zeit- und Ortsangaben stehen jedoch immer VOR dem Verb.",
+    "nuancesEn": [
+      "Time words may move to the absolute beginning of the sentence to set the temporal frame (e.g. 今天我去...).",
+      "Locative phrases with 在 (zài) directly precede the action verb (e.g. 在上海工作)."
+    ],
+    "nuancesDe": [
+      "Zeitangaben können zur thematischen Betonung auch ganz vor das Subjekt an den Satzanfang gestellt werden (z. B. 今天我去...).",
+      "Ortsangaben mit 在 (zài) stehen direkt vor der eigentlichen Handlung (z. B. 在上海工作)."
+    ],
+    "bodyMarkdown": null,
+    "tags": [
+      "Syntax",
+      "SVO",
+      "Zeit",
+      "Ort"
+    ],
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "id": "zh:g:four-question-types",
+    "domain": "CHINESE",
+    "chapter": 2,
+    "sectionLabel": "four-question-types",
+    "category": "questions",
+    "part": "Teil I: Grundlegende Syntax",
+    "titleEn": "2. The Four Question Types in Mandarin",
+    "titleDe": "2. Die vier Fragetypen im Chinesischen",
+    "pattern": "Aussagesatz + 吗 | Fragewort am Platz der Antwort | V-不-V | A 还是 B",
+    "patternTokens": [
+      {
+        "text": "Aussagesatz",
+        "role": "LITERAL"
+      },
+      {
+        "text": "吗 | Fragewort am Platz der Antwort | V-不-V | A 还是 B",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Mandarin features 4 question patterns: Particle questions (吗/呢), Question pronoun in-situ, A-not-A constructions, and Alternative questions with 还是.",
+    "summaryDe": "Chinesisch kennt 4 Fragemuster: Partikelfragen (吗 / 呢), W-Fragen mit Fragewort an Antwortposition, A-nicht-A Fragen und Auswahlsätze mit 还是.",
+    "nuancesEn": [
+      "No fronting: Question words (wh-in-situ) stay exactly where the answered noun would sit.",
+      "A-not-A structures forbid the question particle 吗 (e.g. 你去不去？ never *你去不去吗？)."
+    ],
+    "nuancesDe": [
+      "Keine Inversion: Bei W-Fragen wird die Satzstellung nicht umgestellt! Fragewörter (什么, 哪儿, 谁) ersetzen genau den Antwortplatz.",
+      "A-nicht-A Fragen schließen das Fragepartikel 吗 kategorisch aus (z. B. 你去不去？ nicht *你去不去吗？)."
+    ],
+    "bodyMarkdown": null,
+    "tags": [
+      "Fragen",
+      "Partikel",
+      "Pronomen",
+      "A-not-A",
+      "Auswahl"
+    ],
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "id": "zh:g:shenme-syntax",
+    "domain": "CHINESE",
+    "chapter": 5,
+    "sectionLabel": "shenme-syntax",
+    "category": "questions",
+    "part": "Teil II: Raumpositionen & Lokative",
+    "titleEn": "3. Question Pronoun 什么 (shénme) – Standalone & Attributive",
+    "titleDe": "3. Das Fragepronomen 什么 (shénme) – allein & als Attribut",
+    "pattern": "Verb + 什么 („was?“) | 什么 + [Nomen] („was für ein...?“)",
+    "patternTokens": [
+      {
+        "text": "Verb",
+        "role": "VERB"
+      },
+      {
+        "text": "什么 („was?“) | 什么",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Nomen] („was für ein...?“)",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Standalone after verbs, 什么 asks \"what?\". Directly preceding a noun without 的, it specifies category or type (\"what kind of...?\").",
+    "summaryDe": "Alleinstehend nach dem Verb fragt 什么 nach Gegenständen („was?“). Direkt vor einem Nomen ohne 的 erfragt es die Kategorie („was für ein...?“).",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Pronomen",
+      "Fragen",
+      "Attribut"
+    ],
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "id": "zh:g:locatives-fangweici",
+    "domain": "CHINESE",
+    "chapter": 5,
+    "sectionLabel": "locatives-fangweici",
+    "category": "locatives",
+    "part": "Teil II: Raumpositionen & Lokative",
+    "titleEn": "4. Syntax of Chinese Locative Nouns (方位词)",
+    "titleDe": "4. Die Syntax der chinesischen Lokativwörter (方位词)",
+    "pattern": "在 + [Bezugsnomen] + [Lokativwort] | [Lokativwort] + 的 + [Nomen]",
+    "patternTokens": [
+      {
+        "text": "在",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Bezugsnomen]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Lokativwort] | [Lokativwort]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "的",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Nomen]",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Locative markers (上边, 旁边, 里边) are grammatically nouns, not prepositions. They follow the reference object.",
+    "summaryDe": "Chinesische Lokativwörter (上边, 旁边, 里边) sind Substantive, keine Präpositionen. Sie werden dem Bezugsnomen nachgestellt.",
+    "nuancesEn": [],
+    "nuancesDe": [
+      "In festen Verbindungen entfällt oft die Silbe 边: 桌子上 (auf dem Tisch), 房间里 (im Zimmer).",
+      "Als Attribut vor Nomen wird 的 ergänzt: 左边的办公室 (das linke Büro)."
+    ],
+    "bodyMarkdown": null,
+    "tags": [
+      "Lokative",
+      "Raum",
+      "Nomen",
+      "Syntax"
+    ],
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "id": "zh:g:zai-vs-you-rule",
+    "domain": "CHINESE",
+    "chapter": 5,
+    "sectionLabel": "zai-vs-you-rule",
+    "category": "locatives",
+    "part": "Teil II: Raumpositionen & Lokative",
+    "titleEn": "5. Locative Existence Sentences: 在 vs. 有",
+    "titleDe": "5. Ortsbezogene Existenzsätze: 在 (zài) vs. 有 (yǒu)",
+    "pattern": "[Bekannt] + 在 + [Ort] vs. [Ort] + 有 + [Unbekannt]",
+    "patternTokens": [
+      {
+        "text": "[Bekannt]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "在",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Ort] vs. [Ort]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "有",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Unbekannt]",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "With 在, the known entity comes first. With 有, start with the location directly to state what exists there.",
+    "summaryDe": "Bei 在 steht das bekannte Bezugsobjekt vorn. Bei 有 nennt man zuerst den Ort (ohne 在 am Anfang) und gibt an, was dort neu/unbestimmt vorhanden ist.",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Lokative",
+      "Existenz",
+      "Confusable",
+      "Partikel"
+    ],
+    "verified": true,
+    "sortOrder": 5
+  },
+  {
+    "id": "zh:g:qu-destination",
+    "domain": "CHINESE",
+    "chapter": 5,
+    "sectionLabel": "qu-destination",
+    "category": "verbs-modals",
+    "part": "Teil II: Raumpositionen & Lokative",
+    "titleEn": "6. Directional Verb 去 (qù) + Destination",
+    "titleDe": "6. Richtungsverb 去 (qù) + Zielort",
+    "pattern": "去 + [Zielort]",
+    "patternTokens": [
+      {
+        "text": "去",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Zielort]",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "The destination directly follows 去 without needing any preposition equivalent to \"to\" or \"towards\".",
+    "summaryDe": "Das Ziel einer Bewegung folgt unmittelbar auf 去, ohne dass eine Präposition wie „nach“ oder „zu“ nötig ist.",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Verben",
+      "Richtung",
+      "Zielort"
+    ],
+    "verified": true,
+    "sortOrder": 6
+  },
+  {
+    "id": "zh:g:shei-de-possession",
+    "domain": "CHINESE",
+    "chapter": 5,
+    "sectionLabel": "shei-de-possession",
+    "category": "questions",
+    "part": "Teil II: Raumpositionen & Lokative",
+    "titleEn": "7. Possessive Questions with 谁的 (whose)",
+    "titleDe": "7. Besitzfragen mit 谁的 (shéi de – wessen)",
+    "pattern": "这是谁的 + [Nomen]？ | [Nomen] 是谁的？",
+    "patternTokens": [
+      {
+        "text": "这是谁的",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Nomen]？ | [Nomen] 是谁的？",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "谁的 asks for possession or ownership. Can appear attributively before nouns or predicatively at the clause end.",
+    "summaryDe": "Mit 谁的 wird nach dem Eigentümer oder Besitzer gefragt. Es kann als Attribut vor Nomen oder prädikativ am Satzende stehen.",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Besitz",
+      "Fragen",
+      "Pronomen"
+    ],
+    "verified": true,
+    "sortOrder": 7
+  },
+  {
+    "id": "zh:g:guo-wen-yu",
+    "domain": "CHINESE",
+    "chapter": 5,
+    "sectionLabel": "guo-wen-yu",
+    "category": "syntax",
+    "part": "Teil II: Raumpositionen & Lokative",
+    "titleEn": "8. Country, Script & Spoken Language Suffixes",
+    "titleDe": "8. Länder-, Sprach- und Medienattribute: 国 vs. 文 vs. 语",
+    "pattern": "[Stamm] + 国 (Land) | [Stamm] + 文 (Schriftsprache) | [Stamm] + 语 (Gesprochene Sprache)",
+    "patternTokens": [
+      {
+        "text": "[Stamm]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "国 (Land) | [Stamm]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "文 (Schriftsprache) | [Stamm]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "语 (Gesprochene Sprache)",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "国 designates state/country, 文 denotes written script/literature, and 语 signifies spoken tongue/oral speech.",
+    "summaryDe": "国 bezeichnet das Territorium/Land, 文 die Schriftsprache (Texte, Dokumente) und 语 die gesprochene Sprache (Mündlichkeit).",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Nomen",
+      "Sprache",
+      "Land",
+      "Suffix"
+    ],
+    "verified": true,
+    "sortOrder": 8
+  },
+  {
+    "id": "zh:g:duo-adjective-degree",
+    "domain": "CHINESE",
+    "chapter": 5,
+    "sectionLabel": "duo-adjective-degree",
+    "category": "questions",
+    "part": "Teil II: Raumpositionen & Lokative",
+    "titleEn": "9. Degree and Dimension Questions with 多 + Adjective",
+    "titleDe": "9. Grad- und Dimensionsfragen mit 多 (duō + Adjektiv)",
+    "pattern": "[Objekt] + 有多 + 大 / 远 / 高 / 重？",
+    "patternTokens": [
+      {
+        "text": "[Objekt]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "有多",
+        "role": "LITERAL"
+      },
+      {
+        "text": "大 / 远 / 高 / 重？",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Ask for concrete quantities, measurements, or ages by prefixing scalable adjectives with 多.",
+    "summaryDe": "Zur quantitativen Erfragung von Distanzen, Flächen, Höhen oder Altern kombiniert man 多 direkt mit einem Adjektiv.",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Fragen",
+      "Dimension",
+      "Adjektiv",
+      "Grad"
+    ],
+    "verified": true,
+    "sortOrder": 9
+  },
+  {
+    "id": "zh:g:yixia-shortness",
+    "domain": "CHINESE",
+    "chapter": 5,
+    "sectionLabel": "yixia-shortness",
+    "category": "verbs-modals",
+    "part": "Teil II: Raumpositionen & Lokative",
+    "titleEn": "10. Softening Actions with 一下 (yīxià)",
+    "titleDe": "10. Kurzzeitigkeit & Höflichkeit mit 一下 (yīxià)",
+    "pattern": "Verb + 一下 (wörtl.: „einmal kurz...“)",
+    "patternTokens": [
+      {
+        "text": "Verb",
+        "role": "VERB"
+      },
+      {
+        "text": "一下 (wörtl.: „einmal kurz...“)",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Following a verb, 一下 denotes an action of brief duration and softens imperative requests politely.",
+    "summaryDe": "Nach einem Verb signalisiert 一下 eine kurze Dauer und mildert Bitten höflich ab („ich schau mal kurz nach“).",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Höflichkeit",
+      "Aspekt",
+      "Verben"
+    ],
+    "verified": true,
+    "sortOrder": 10
+  },
+  {
+    "id": "zh:g:weishenme-order",
+    "domain": "CHINESE",
+    "chapter": 6,
+    "sectionLabel": "weishenme-order",
+    "category": "questions",
+    "part": "Teil III: Reisen & Modalverben",
+    "titleEn": "11. Word Order of 为什么 (Why)",
+    "titleDe": "11. Wortstellung bei 为什么 (wèishénme – warum)",
+    "pattern": "[Subjekt] + 为什么 + [Prädikat] | 为什么 + [Subjekt] + [Prädikat]",
+    "patternTokens": [
+      {
+        "text": "[Subjekt]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "为什么",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Prädikat] | 为什么",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Subjekt]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Prädikat]",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Causal question words can either sit directly in front of the verb or at the very start before the subject.",
+    "summaryDe": "Fragewörter für Kausalität können sowohl direkt vor dem Verb als auch ganz vor dem Subjekt am Satzanfang stehen.",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Fragen",
+      "Syntax",
+      "Kausalität"
+    ],
+    "verified": true,
+    "sortOrder": 11
+  },
+  {
+    "id": "zh:g:yao-vs-xiang-rule",
+    "domain": "CHINESE",
+    "chapter": 6,
+    "sectionLabel": "yao-vs-xiang-rule",
+    "category": "verbs-modals",
+    "part": "Teil III: Reisen & Modalverben",
+    "titleEn": "12. Modal Verbs 要 vs. 想 & Negation Quirks",
+    "titleDe": "12. Die Modalverben 要 (yào) und 想 (xiǎng) & Verneinung",
+    "pattern": "想 (Wunsch, Verneinung: 不想) | 要 (Absicht, Verneinung: 不想!)",
+    "patternTokens": [
+      {
+        "text": "想 (Wunsch, Verneinung: 不想) | 要 (Absicht, Verneinung: 不想!)",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "想 indicates wishes. 要 signals firm plans. To negate an intention, use 不想; 不要 acts as a prohibitive command (\"don't!\").",
+    "summaryDe": "想 drückt einen höflichen Wunsch aus. 要 steht für feste Pläne. Achtung: Zur Verneinung einer Absicht nutzt man 不想, da 不要 ein Verbot ist!",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Modalverben",
+      "Wille",
+      "Confusable"
+    ],
+    "verified": true,
+    "sortOrder": 12
+  },
+  {
+    "id": "zh:g:qu-second-verb-purpose",
+    "domain": "CHINESE",
+    "chapter": 6,
+    "sectionLabel": "qu-second-verb-purpose",
+    "category": "verbs-modals",
+    "part": "Teil III: Reisen & Modalverben",
+    "titleEn": "13. Purpose Clauses with 去 + Verb & 打算 (Planning)",
+    "titleDe": "13. Finalsätze mit 去 (qù) + Zweitverb & 打算 (dǎsuàn)",
+    "pattern": "[Subjekt] + 打算 + 去 + [Ort] + [Handlungsverb]",
+    "patternTokens": [
+      {
+        "text": "[Subjekt]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "打算",
+        "role": "LITERAL"
+      },
+      {
+        "text": "去",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Ort]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Handlungsverb]",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Serial verb structure: Traveling to a place (去 + location) directly followed by the intended purpose action.",
+    "summaryDe": "Serielle Verbkonstruktion: Man geht an einen Ort (去 + Ort), um dort unmittelbar eine Handlung auszuführen.",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Finalsätze",
+      "Verben",
+      "Reise"
+    ],
+    "verified": true,
+    "sortOrder": 13
+  },
+  {
+    "id": "zh:g:ji-vs-duoshao-rule",
+    "domain": "CHINESE",
+    "chapter": 6,
+    "sectionLabel": "ji-vs-duoshao-rule",
+    "category": "numbers-commerce",
+    "part": "Teil III: Reisen & Modalverben",
+    "titleEn": "14. Quantity Inquiry: 几 vs. 多少",
+    "titleDe": "14. Mengenerfragung: 几 (jǐ) vs. 多少 (duōshǎo)",
+    "pattern": "几 + [Zählwort] (< 10) vs. 多少 + [optional Zählwort] (> 10 & Rufnummern)",
+    "patternTokens": [
+      {
+        "text": "几",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Zählwort] (< 10) vs. 多少",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[optional Zählwort] (> 10 & Rufnummern)",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "几 requires a classifier and expects numbers < 10. 多少 is used for larger quantities, prices, and telephone numbers.",
+    "summaryDe": "几 verlangt zwingend ein Zählwort und fragt nach Mengen < 10. 多少 fragt nach beliebigen Mengen, Preisen und Telefonnummern.",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Zahlen",
+      "Fragen",
+      "Confusable"
+    ],
+    "verified": true,
+    "sortOrder": 14
+  },
+  {
+    "id": "zh:g:ge-classifier-tian-nian",
+    "domain": "CHINESE",
+    "chapter": 6,
+    "sectionLabel": "ge-classifier-tian-nian",
+    "category": "numbers-commerce",
+    "part": "Teil III: Reisen & Modalverben",
+    "titleEn": "15. General Classifier 个 & Exception for 天 and 年",
+    "titleDe": "15. Das Universal-Zählwort 个 & Ausnahme für 天 und 年",
+    "pattern": "Zahl + 个 + Nomen | ABER: Zahl + 天 / 年 (KEIN 个!)",
+    "patternTokens": [
+      {
+        "text": "Zahl",
+        "role": "LITERAL"
+      },
+      {
+        "text": "个",
+        "role": "LITERAL"
+      },
+      {
+        "text": "Nomen | ABER: Zahl",
+        "role": "LITERAL"
+      },
+      {
+        "text": "天 / 年 (KEIN 个!)",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "个 is the default classifier. Exception: 天 (day) and 年 (year) act as their own measure units and forbid 个!",
+    "summaryDe": "Das Universal-Zählwort 个 steht vor den meisten Nomen. Ausnahme: 天 (Tag) und 年 (Jahr) fungieren selbst als Zeiteinheit und dulden kein 个!",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Zählwörter",
+      "Zeit",
+      "Syntax"
+    ],
+    "verified": true,
+    "sortOrder": 15
+  },
+  {
+    "id": "zh:g:time-point-vs-duration",
+    "domain": "CHINESE",
+    "chapter": 6,
+    "sectionLabel": "time-point-vs-duration",
+    "category": "syntax",
+    "part": "Teil III: Reisen & Modalverben",
+    "titleEn": "16. Golden Word Order: Time Point vs. Duration",
+    "titleDe": "16. Goldene Wortstellungsregel: Zeitpunkt vs. Zeitdauer",
+    "pattern": "[Zeitpunkt] + Verb + [Zeitdauer]",
+    "patternTokens": [
+      {
+        "text": "[Zeitpunkt]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "Verb",
+        "role": "VERB"
+      },
+      {
+        "text": "[Zeitdauer]",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Time points (WHEN) precede the verb. Duration spans (HOW LONG) succeed the verb.",
+    "summaryDe": "WANN etwas geschieht (Zeitpunkt), steht VOR dem Verb. WIE LANGE etwas dauert (Zeitdauer), steht HINTER dem Verb.",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Syntax",
+      "Zeit",
+      "Dauer",
+      "SVO"
+    ],
+    "verified": true,
+    "sortOrder": 16
+  },
+  {
+    "id": "zh:g:dagai-vs-zuoyou",
+    "domain": "CHINESE",
+    "chapter": 6,
+    "sectionLabel": "dagai-vs-zuoyou",
+    "category": "numbers-commerce",
+    "part": "Teil III: Reisen & Modalverben",
+    "titleEn": "17. Approximation: 大概 (Prefix) vs. 左右 (Suffix)",
+    "titleDe": "17. Ungefähre Angaben: 大概 (dàgài) vs. 左右 (zuǒyòu)",
+    "pattern": "大概 + [Zahl/Angabe] vs. [Zahl/Angabe] + 左右",
+    "patternTokens": [
+      {
+        "text": "大概",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Zahl/Angabe] vs. [Zahl/Angabe]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "左右",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "大概 precedes the number as an adverb (\"approximately\"). 左右 follows the number as a postposition (\"or so\").",
+    "summaryDe": "大概 steht als Adverb VOR der Zahl. 左右 steht als Nachstellung HINTER der Zahl.",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Zahlen",
+      "Syntax",
+      "Schätzung"
+    ],
+    "verified": true,
+    "sortOrder": 17
+  },
+  {
+    "id": "zh:g:transit-construction",
+    "domain": "CHINESE",
+    "chapter": 7,
+    "sectionLabel": "transit-construction",
+    "category": "verbs-modals",
+    "part": "Teil IV: Stadtverkehr & Routen",
+    "titleEn": "18. Transit Construction: 坐 / 开 / 骑 + Vehicle + 来/去",
+    "titleDe": "18. Fortbewegungskonstruktion: 坐 / 开 / 骑 + Verkehrsmittel",
+    "pattern": "坐 (sitzen) / 开 (fahren) / 骑 (reiten) + [Fahrzeug] + 去 / 来 + [Ort]",
+    "patternTokens": [
+      {
+        "text": "坐 (sitzen) / 开 (fahren) / 骑 (reiten)",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Fahrzeug]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "去 / 来",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Ort]",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Means of transit are formatted as a preceding verbal clause before the destination motion.",
+    "summaryDe": "Verkehrsmittel werden als vorbereitende Prädikate vor das Zielverb gestellt (wörtl. „U-Bahn nehmend dorthin fahren“).",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Verkehr",
+      "Verben",
+      "Reise"
+    ],
+    "verified": true,
+    "sortOrder": 18
+  },
+  {
+    "id": "zh:g:hui-huilai-huiqu",
+    "domain": "CHINESE",
+    "chapter": 7,
+    "sectionLabel": "hui-huilai-huiqu",
+    "category": "verbs-modals",
+    "part": "Teil IV: Stadtverkehr & Routen",
+    "titleEn": "19. Returning with 回 and Directional Complements",
+    "titleDe": "19. Das Rückkehrverb 回 (huí) & Richtungskomplemente",
+    "pattern": "回 + [Ort] | 回来 (zum Sprecher hin) | 回去 (vom Sprecher weg)",
+    "patternTokens": [
+      {
+        "text": "回",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Ort] | 回来 (zum Sprecher hin) | 回去 (vom Sprecher weg)",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "回 directly takes the destination noun. Adding 来 or 去 specifies orientation towards or away from speaker.",
+    "summaryDe": "回 verlangt direkt das Zielnomen. Durch 来 oder 去 wird präzisiert, ob die Rückkehr zum aktuellen Sprecherstandort erfolgt.",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Verben",
+      "Richtung",
+      "Komplemente"
+    ],
+    "verified": true,
+    "sortOrder": 19
+  },
+  {
+    "id": "zh:g:keyi-vs-buneng",
+    "domain": "CHINESE",
+    "chapter": 7,
+    "sectionLabel": "keyi-vs-buneng",
+    "category": "verbs-modals",
+    "part": "Teil IV: Stadtverkehr & Routen",
+    "titleEn": "20. Permission & Inability: 可以 vs. 不能",
+    "titleDe": "20. Erlaubnis & Möglichkeit: 可以 (kěyǐ) vs. 不能 (bù néng)",
+    "pattern": "可以 + Verb (erlaubt/möglich) | 不能 + Verb (nicht dürfen/unmöglich)",
+    "patternTokens": [
+      {
+        "text": "可以",
+        "role": "LITERAL"
+      },
+      {
+        "text": "Verb (erlaubt/möglich) | 不能",
+        "role": "LITERAL"
+      },
+      {
+        "text": "Verb (nicht dürfen/unmöglich)",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Situational possibility/permission is granted via 可以, but negated with 不能 (cannot / not allowed).",
+    "summaryDe": "Möglichkeit und Erlaubnis werden mit 可以 bejaht, aber mit 不能 verneint („hier kann/darf man nicht parken“).",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Modalverben",
+      "Erlaubnis",
+      "Negation"
+    ],
+    "verified": true,
+    "sortOrder": 20
+  },
+  {
+    "id": "zh:g:wang-direction-movement",
+    "domain": "CHINESE",
+    "chapter": 7,
+    "sectionLabel": "wang-direction-movement",
+    "category": "locatives",
+    "part": "Teil IV: Stadtverkehr & Routen",
+    "titleEn": "21. Directional Preposition 往 (Towards) + Motion",
+    "titleDe": "21. Richtungspräposition 往 (wǎng) + Richtung + Verb",
+    "pattern": "往 + [前 / 后 / 左 / 右 / 东 / 西] + 走 / 开 / 拐",
+    "patternTokens": [
+      {
+        "text": "往",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[前 / 后 / 左 / 右 / 东 / 西]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "走 / 开 / 拐",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "往 specifies the vector of movement (\"turn right\", \"walk straight ahead\").",
+    "summaryDe": "往 gibt die Zielrichtung einer Fortbewegung an („nach rechts abbiegen“, „geradeaus gehen“).",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Richtung",
+      "Präposition",
+      "Orientierung"
+    ],
+    "verified": true,
+    "sortOrder": 21
+  },
+  {
+    "id": "zh:g:verb-reduplication",
+    "domain": "CHINESE",
+    "chapter": 8,
+    "sectionLabel": "verb-reduplication",
+    "category": "verbs-modals",
+    "part": "Teil V: Handel & Rabatte",
+    "titleEn": "22. Verb Reduplication (V-V) for Casual Actions",
+    "titleDe": "22. Verbverdoppelung (V-V) für lockere Kurzhandlungen",
+    "pattern": "V + V (zweite Silbe im Neutralton) | 看看 / 问问 / 试试",
+    "patternTokens": [
+      {
+        "text": "V",
+        "role": "VERB"
+      },
+      {
+        "text": "V (zweite Silbe im Neutralton) | 看看 / 问问 / 试试",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Reduplicating a monosyllabic verb conveys an informal, brief attempt (\"try it on a bit\", \"take a quick look\").",
+    "summaryDe": "Die Verdoppelung einsilbiger Verben drückt eine lockere, unverbindliche Handlung von kurzer Dauer aus („mal kurz anprobieren“).",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Verben",
+      "Höflichkeit",
+      "Stil"
+    ],
+    "verified": true,
+    "sortOrder": 22
+  },
+  {
+    "id": "zh:g:numbers-zero-rule",
+    "domain": "CHINESE",
+    "chapter": 8,
+    "sectionLabel": "numbers-zero-rule",
+    "category": "numbers-commerce",
+    "part": "Teil V: Handel & Rabatte",
+    "titleEn": "23. Large Numbers & The Zero Rule (零 líng)",
+    "titleDe": "23. Große Zahlen & die Null-Regel (零 líng)",
+    "pattern": "百 (100) | 千 (1.000) | Binnen-Nullen werden mit 零 gesprochen",
+    "patternTokens": [
+      {
+        "text": "百 (100) | 千 (1.000) | Binnen-Nullen werden mit 零 gesprochen",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Internal zeros across place-value tiers must be verbalized once as 零 (105 = 一百零五). Trailing zeros are dropped.",
+    "summaryDe": "Eingeschobene Nullen zwischen Stellenwerten müssen einmal als 零 gesprochen werden (105 = 一百零五). Endnullen entfallen.",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Zahlen",
+      "Preise",
+      "Grammatik"
+    ],
+    "verified": true,
+    "sortOrder": 23
+  },
+  {
+    "id": "zh:g:pivot-sentence-jianyu",
+    "domain": "CHINESE",
+    "chapter": 9,
+    "sectionLabel": "pivot-sentence-jianyu",
+    "category": "syntax",
+    "part": "Teil VI: Termine & Pivotsätze",
+    "titleEn": "24. Telescopic / Pivot Sentences with 请 and 让",
+    "titleDe": "24. Der Kupplungssatz (兼语句 / Pivotsatz) mit 请 & 让",
+    "pattern": "[Subjekt] + 请 / 让 / 叫 + [Pivot-Person] + [Zweitverb-Aktion]",
+    "patternTokens": [
+      {
+        "text": "[Subjekt]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "请 / 让 / 叫",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Pivot-Person]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Zweitverb-Aktion]",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "The object of the causer verb (请/让) doubles simultaneously as the subject of the ensuing action clause.",
+    "summaryDe": "Das Objekt des ersten Verbs (请/让) fungiert gleichzeitig als Subjekt des nachfolgenden Verbs („Ich lade dich ein, essen zu gehen“).",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Pivot",
+      "Syntax",
+      "Aufforderung"
+    ],
+    "verified": true,
+    "sortOrder": 24
+  },
+  {
+    "id": "zh:g:progressive-aspect-zhengzai",
+    "domain": "CHINESE",
+    "chapter": 9,
+    "sectionLabel": "progressive-aspect-zhengzai",
+    "category": "aspect-particles",
+    "part": "Teil VI: Termine & Pivotsätze",
+    "titleEn": "25. Ongoing Action Aspect with （正）在",
+    "titleDe": "25. Die Verlaufsform (Progressive Aspect) mit （正）在",
+    "pattern": "[Subjekt] + 正在 / 在 + [Verb] + [Objekt] + [呢]",
+    "patternTokens": [
+      {
+        "text": "[Subjekt]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "正在 / 在",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Verb]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Objekt]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[呢]",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "Expresses that an activity is actively in progress right at the reference moment (analogous to \"-ing\").",
+    "summaryDe": "Drückt aus, dass eine Handlung genau im aktuellen Moment im Gange ist (entspricht dem englischen „-ing“).",
+    "nuancesEn": [],
+    "nuancesDe": [],
+    "bodyMarkdown": null,
+    "tags": [
+      "Aspekt",
+      "Verlaufsform",
+      "Zeit"
+    ],
+    "verified": true,
+    "sortOrder": 25
+  },
+  {
+    "id": "zh:g:bi-comparison-rule",
+    "domain": "CHINESE",
+    "chapter": 10,
+    "sectionLabel": "bi-comparison-rule",
+    "category": "comparisons",
+    "part": "Teil VII: Restaurant & Vergleiche",
+    "titleEn": "26. Comparison Sentences with 比 (Compared to)",
+    "titleDe": "26. Der Vergleichssatz mit 比 (bǐ – verglichen mit)",
+    "pattern": "A + 比 + B + [Adjektiv] + [Differenzbetrag] | Verneinung: A 没有 B + [Adj]",
+    "patternTokens": [
+      {
+        "text": "A",
+        "role": "LITERAL"
+      },
+      {
+        "text": "比",
+        "role": "LITERAL"
+      },
+      {
+        "text": "B",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Adjektiv]",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Differenzbetrag] | Verneinung: A 没有 B",
+        "role": "LITERAL"
+      },
+      {
+        "text": "[Adj]",
+        "role": "LITERAL"
+      }
+    ],
+    "summaryEn": "A is more [adjective] than B. Never place “很” before the adjective in 比-clauses! Negation uses 没有 (\"A is not as ... as B\").",
+    "summaryDe": "A ist [Adjektiv]-er als B. Kein „很“ vor dem Adjektiv im 比-Satz! Verneint wird mit 没有 („A ist nicht so ... wie B“).",
+    "nuancesEn": [],
+    "nuancesDe": [
+      "Genaue Differenzen stehen hinter dem Adjektiv: 这条鱼比那条贵二十块 (Dieser Fisch ist um 20 Yuan teurer als jener).",
+      "Zur Steigerung nutzt man 更 oder 还: 这家菜比那家更辣 (Das Essen hier ist noch schärfer als dort)."
+    ],
+    "bodyMarkdown": null,
+    "tags": [
+      "Vergleich",
+      "Adjektiv",
+      "Syntax"
+    ],
+    "verified": true,
+    "sortOrder": 26
+  }
+]

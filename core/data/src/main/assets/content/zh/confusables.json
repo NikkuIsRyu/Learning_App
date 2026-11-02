@@ -1,0 +1,320 @@
+[
+  {
+    "id": "zh:c:er-vs-liang",
+    "domain": "CHINESE",
+    "chapter": 6,
+    "pairLabel": "二 (èr) vs. 两 (liǎng)",
+    "topicEn": "Math/Digits vs. Quantities with Classifiers",
+    "topicDe": "Ziffern & Mathematik vs. Mengenangaben vor Zählwörtern",
+    "left": {
+      "term": "二",
+      "romanization": "èr",
+      "conceptEn": "Mathematical digit, ordinals, phone numbers",
+      "conceptDe": "Mathematische Ziffer, Ordnungszahlen, Telefonnummern",
+      "formula": "二 / 第二 / [Telefon-Ziffer]",
+      "ruleEn": "Used for counting, serial numbers, dates, floor levels, and phone numbers.",
+      "ruleDe": "Wird beim reinen Zählen (1, 2, 3...), in Daten, Stockwerken (二楼) und Telefonnummern verwendet.",
+      "correct": {
+        "text": "我们住在二楼，房间号是二零二。",
+        "romanization": "Wǒmen zhù zài èr lóu, fángjiān hào shì èr líng èr.",
+        "translationEn": "We live on the 2nd floor, room number 202.",
+        "translationDe": "Wir wohnen im 2. Stock, Zimmernummer ist 202."
+      },
+      "incorrect": {
+        "text": "我买两，他买一。",
+        "romanization": "Wǒ mǎi liǎng, tā mǎi yī.",
+        "explanationEn": "“两” cannot be used standalone without a classifier or noun!",
+        "explanationDe": "„两“ kann nicht isoliert ohne Zählwort oder Nomen gezählt werden!"
+      }
+    },
+    "right": {
+      "term": "两",
+      "romanization": "liǎng",
+      "conceptEn": "Quantity \"two\" BEFORE measure words",
+      "conceptDe": "Paare, Zählmenge VOR Zählwörtern",
+      "formula": "两 + [Zählwort] + [Nomen]",
+      "ruleEn": "MUST always be used whenever a measure word follows (\"two items\", \"two people\").",
+      "ruleDe": "MUSS immer verwendet werden, wenn ein Zählwort folgt („zwei Stück“, „zwei Personen“).",
+      "correct": {
+        "text": "我有两个中国朋友，想买两瓶水。",
+        "romanization": "Wǒ yǒu liǎng gè Zhōngguó péngyou, xiǎng mǎi liǎng píng shuǐ.",
+        "translationEn": "I have two Chinese friends and want to buy two bottles of water.",
+        "translationDe": "Ich habe zwei chinesische Freunde und möchte zwei Flaschen Wasser kaufen."
+      },
+      "incorrect": {
+        "text": "我有二个中国朋友。",
+        "romanization": "Wǒ yǒu èr gè Zhōngguó péngyou.",
+        "explanationEn": "“二个” is grammatically incorrect! Before measure words like “个”, always use “两”!",
+        "explanationDe": "„二个“ ist grammatisch falsch! Vor Zählwörtern wie „个“ immer „两“!"
+      }
+    },
+    "mnemonicEn": "Rule of thumb: Digit = 二 (èr), Quantity with classifier = 两 (liǎng).",
+    "mnemonicDe": "Merkhilfe: Ziffer = 二 (èr), Zählmenge mit Zählwort = 两 (liǎng).",
+    "sortOrder": 1
+  },
+  {
+    "id": "zh:c:zai-vs-you",
+    "domain": "CHINESE",
+    "chapter": 5,
+    "pairLabel": "在 (zài) vs. 有 (yǒu)",
+    "topicEn": "Location of known items vs. Existence of new items",
+    "topicDe": "Standort bekannter Dinge vs. Existenz unbekannter Dinge am Ort",
+    "left": {
+      "term": "在",
+      "romanization": "zài",
+      "conceptEn": "Known object is located at place X",
+      "conceptDe": "Definites/Bekanntes Objekt steht am Ort X",
+      "formula": "[Bekanntes Subjekt] + 在 + [Ort/Lokativ]",
+      "ruleEn": "The object is already known/specific; you specify its location.",
+      "ruleDe": "Man weiß bereits, von welchem Gegenstand die Rede ist, und gibt dessen Position an.",
+      "correct": {
+        "text": "你的手机在沙发上边。",
+        "romanization": "Nǐ de shǒujī zài shāfā shàngbian.",
+        "translationEn": "Your phone is on top of the sofa.",
+        "translationDe": "Dein Handy liegt auf dem Sofa."
+      },
+      "incorrect": {
+        "text": "在沙发上边是你的手机。",
+        "romanization": "Zài shāfā shàngbian shì nǐ de shǒujī.",
+        "explanationEn": "Do not start with “在” to assert the location of a known subject.",
+        "explanationDe": "„在“ steht nicht an erster Stelle für Existenzsätze mit Definitpronomen!"
+      }
+    },
+    "right": {
+      "term": "有",
+      "romanization": "yǒu",
+      "conceptEn": "At place X there exists an indefinite object",
+      "conceptDe": "An Ort X existiert / befindet sich ein unbestimmtes Objekt",
+      "formula": "[Ort/Lokativ] + 有 + [Unbestimmtes Nomen]",
+      "ruleEn": "Start directly with the location (no 在!) and describe what exists there.",
+      "ruleDe": "Man nennt zuerst den Ort (ohne 在!) und beschreibt, was dort vorhanden ist.",
+      "correct": {
+        "text": "沙发上边有一部手机。",
+        "romanization": "Shāfā shàngbian yǒu yí bù shǒujī.",
+        "translationEn": "On the sofa there is a mobile phone.",
+        "translationDe": "Auf dem Sofa liegt ein (unbestimmtes) Handy."
+      },
+      "incorrect": {
+        "text": "在沙发上边有手机。",
+        "romanization": "Zài shāfā shàngbian yǒu shǒujī.",
+        "explanationEn": "Never prefix the initial location with “在” in existential “有” sentences!",
+        "explanationDe": "Kein „在“ am Satzanfang vor Existenzsätzen mit „有“!"
+      }
+    },
+    "mnemonicEn": "Rule of thumb: Known = Subject + 在 + Place. New = Place + 有 + Object.",
+    "mnemonicDe": "Merkhilfe: Bekannt = Subjekt + 在 + Ort. Unbekannt = Ort + 有 + Objekt.",
+    "sortOrder": 2
+  },
+  {
+    "id": "zh:c:xiang-vs-yao",
+    "domain": "CHINESE",
+    "chapter": 6,
+    "pairLabel": "想 (xiǎng) vs. 要 (yào)",
+    "topicEn": "Polite wish/desire vs. Determined plan/necessity",
+    "topicDe": "Höflicher Wunsch / Gedanke vs. Entschlossene Absicht / Notwendigkeit",
+    "left": {
+      "term": "想",
+      "romanization": "xiǎng",
+      "conceptEn": "Would like to, feel like doing, thinking of",
+      "conceptDe": "Möchte gerne, Lust haben, nachdenken",
+      "formula": "[Subjekt] + 想 + [Verb] / Verneinung: 不想",
+      "ruleEn": "Polite wish or inclination. Negated with 不想 (no desire to).",
+      "ruleDe": "Höflicher Wunsch oder innere Neigung. Verneint mit 不想 (keine Lust haben).",
+      "correct": {
+        "text": "周末我想去大理看看风景。",
+        "romanization": "Zhōumò wǒ xiǎng qù Dàlǐ kànkan fēngjǐng.",
+        "translationEn": "This weekend I would like to go to Dali to see the scenery.",
+        "translationDe": "Am Wochenende möchte ich gerne nach Dali fahren und die Landschaft anschauen."
+      },
+      "incorrect": {
+        "text": "我不想要加班。",
+        "romanization": "Wǒ bù xiǎng yào jiābān.",
+        "explanationEn": "“不想” alone is standard; “不想要” is redundant before actions.",
+        "explanationDe": "„不想“ reicht vollkommen; „不想要“ wirkt redundant für Tätigkeiten."
+      }
+    },
+    "right": {
+      "term": "要",
+      "romanization": "yào",
+      "conceptEn": "Want firmly, intend to, must, ordering",
+      "conceptDe": "Wollen, feste Absicht, müssen / bestellen",
+      "formula": "[Subjekt] + 要 + [Verb] / Verneinung: 不想 (nicht 不要!)",
+      "ruleEn": "Determined intention or order. Caution: Negating an intention uses “不想”, as “不要” means \"Don't do it!\"",
+      "ruleDe": "Entschlossener Wille oder Notwendigkeit. Achtung: Verneint man die Absicht, sagt man „不想“ (denn „不要“ bedeutet „Tu es nicht! / Verboten“)!",
+      "correct": {
+        "text": "我明天要参加上海工博会。",
+        "romanization": "Wǒ míngtiān yào cānjiā Shànghǎi gōngbóhuì.",
+        "translationEn": "I will / am determined to attend the Shanghai Industrial Fair tomorrow.",
+        "translationDe": "Ich werde morgen definitiv an der Shanghai Industriemesse teilnehmen."
+      },
+      "incorrect": {
+        "text": "明天我不要去。 (wenn gemeint ist: Ich will nicht)",
+        "romanization": "Míngtiān wǒ bú yào qù.",
+        "explanationEn": "“不要去” is a prohibitive command (\"Don't go!\"). To say \"I don't want to go\", use “不想去”!",
+        "explanationDe": "„不要去“ bedeutet als Aufforderung „Geh nicht!“. Will man „Ich habe keine Lust zu gehen“ sagen: „不想去“!"
+      }
+    },
+    "mnemonicEn": "Rule of thumb: Wish = 想 (negated 不想). Intent = 要 (intention negated with 不想, not 不要!).",
+    "mnemonicDe": "Merkhilfe: Höflich/Wunsch = 想 (Verneinung 不想). Feste Absicht = 要 (Verneinung ebenfalls 不想!).",
+    "sortOrder": 3
+  },
+  {
+    "id": "zh:c:li-vs-cong-dao",
+    "domain": "CHINESE",
+    "chapter": 7,
+    "pairLabel": "离 (lí) vs. 从 … 到 … (cóng … dào …)",
+    "topicEn": "Static distance between 2 points vs. Dynamic route from A to B",
+    "topicDe": "Statischer Abstand zweier Punkte vs. Dynamische Wegstrecke & Route",
+    "left": {
+      "term": "离",
+      "romanization": "lí",
+      "conceptEn": "Static distance (Away from)",
+      "conceptDe": "Statischer Abstand (Entfernt von)",
+      "formula": "[Ort A] + 离 + [Ort B] + 远 / 近 / [km]",
+      "ruleEn": "Describes the fixed static distance between A and B (\"Airport is far from city center\").",
+      "ruleDe": "Vergleicht den festen räumlichen Abstand zwischen Punkt A und B („Flughafen ist weit von Innenstadt entfernt“).",
+      "correct": {
+        "text": "国际机场离市中心很远，大概四十公里。",
+        "romanization": "Guójì jīchǎng lí shìzhōngxīn hěn yuǎn, dàgài sìshí gōnglǐ.",
+        "translationEn": "The international airport is far from the city center, about 40 km.",
+        "translationDe": "Der internationale Flughafen ist weit vom Stadtzentrum entfernt, etwa 40 km."
+      },
+      "incorrect": {
+        "text": "我离酒店去机场。",
+        "romanization": "Wǒ lí jiǔdiàn qù jīchǎng.",
+        "explanationEn": "“离” cannot express travel from A to B! Use “从 … 到 …” for journeys!",
+        "explanationDe": "„离“ kann keine Bewegung beschreiben! Für Bewegung immer „从 … 到 …“!"
+      }
+    },
+    "right": {
+      "term": "从 … 到 …",
+      "romanization": "cóng … dào …",
+      "conceptEn": "Dynamic travel route or time span (From … to …)",
+      "conceptDe": "Dynamische Reiseroute oder Zeitspanne (Von … bis …)",
+      "formula": "从 + [Start] + 到 + [Ziel] + [Verb/Dauer]",
+      "ruleEn": "Traces the trajectory from starting point to destination, including transit mode or duration.",
+      "ruleDe": "Beschreibt den Weg vom Ausgangspunkt zum Endpunkt inklusive Fortbewegungsmethode oder Fahrzeit.",
+      "correct": {
+        "text": "从酒店到地铁站走过去要十分钟。",
+        "romanization": "Cóng jiǔdiàn dào dìtiězhàn zǒu guòqù yào shí fēnzhōng.",
+        "translationEn": "From the hotel to the subway station takes 10 minutes on foot.",
+        "translationDe": "Vom Hotel bis zur U-Bahn-Station braucht man zu Fuß zehn Minuten."
+      },
+      "incorrect": {
+        "text": "国际机场从市中心很远。",
+        "romanization": "Guójì jīchǎng cóng shìzhōngxīn hěn yuǎn.",
+        "explanationEn": "Before static adjectives like “很远” or “很近”, you must use “离”, never “从”!",
+        "explanationDe": "Vor statischen Adjektiven wie „很远“ (sehr weit) oder „很近“ (sehr nah) steht „离“, nicht „从“!"
+      }
+    },
+    "mnemonicEn": "Rule of thumb: A 离 B 很远 (spatial gap). 从 A 到 B (moving across path).",
+    "mnemonicDe": "Merkhilfe: A 离 B 很远 (Abstand). 从 A 到 B (Strecke zurücklegen).",
+    "sortOrder": 4
+  },
+  {
+    "id": "zh:c:ji-vs-duoshao",
+    "domain": "CHINESE",
+    "chapter": 6,
+    "pairLabel": "几 (jǐ) vs. 多少 (duōshǎo)",
+    "topicEn": "Small numbers (<10) with classifier vs. Any quantity & numbers",
+    "topicDe": "Fragen nach kleinen Mengen (<10) mit Zählwort vs. Beliebige Mengen & Telefonnummern",
+    "left": {
+      "term": "几",
+      "romanization": "jǐ",
+      "conceptEn": "Small counts (< 10), CLASSIFIER MANDATORY",
+      "conceptDe": "Kleinere Zahlen (< 10), ZÄHLWORT OBLIGATORISCH",
+      "formula": "几 + [Zählwort] + [Nomen]",
+      "ruleEn": "Asks for small quantities typically below 10. A measure word is strictly REQUIRED.",
+      "ruleDe": "Fragt nach Mengen, die typischerweise unter 10 liegen (Familienmitglieder, Tage, Uhrzeiten). Ein Zählwort ist PFLICHT.",
+      "correct": {
+        "text": "你打算在上海住几天？",
+        "romanization": "Nǐ dǎsuàn zài Shànghǎi zhù jǐ tiān?",
+        "translationEn": "How many days do you plan to stay in Shanghai?",
+        "translationDe": "Wie viele Tage hast du vor, in Shanghai zu bleiben?"
+      },
+      "incorrect": {
+        "text": "你的电话号码是几？",
+        "romanization": "Nǐ de diànhuà hàomǎ shì jǐ?",
+        "explanationEn": "Phone numbers are always asked with “多少”, never with “几”!",
+        "explanationDe": "Telefonnummern werden im Chinesischen immer mit „多少“ erfragt, niemals mit „几“!"
+      }
+    },
+    "right": {
+      "term": "多少",
+      "romanization": "duōshǎo",
+      "conceptEn": "Any quantity, prices, phone numbers (Classifier optional)",
+      "conceptDe": "Beliebige Mengen, Preise, Rufnummern (Zählwort optional)",
+      "formula": "多少 + [optional Zählwort] + [Nomen]",
+      "ruleEn": "Asks for quantities > 10, prices (“多少钱”), and phone numbers.",
+      "ruleDe": "Fragt nach unbestimmten oder großen Mengen (> 10), Preisen („多少钱“) und Telefonnummern.",
+      "correct": {
+        "text": "请问天津分公司的传真号码是多少？",
+        "romanization": "Qǐngwèn Tiānjīn fēngōngsī de chuánzhēn hàomǎ shì duōshǎo?",
+        "translationEn": "May I ask what the fax number of the Tianjin branch is?",
+        "translationDe": "Darf ich fragen, wie die Faxnummer der Filiale Tianjin lautet?"
+      },
+      "incorrect": {
+        "text": "现在多少点？",
+        "romanization": "Xiànzài duōshǎo diǎn?",
+        "explanationEn": "For clock time (< 12 hours) always ask “现在几点？”, not “多少点”!",
+        "explanationDe": "Bei Uhrzeiten (< 12) fragt man immer „现在几点？“!"
+      }
+    },
+    "mnemonicEn": "Rule of thumb: 几 + classifier for < 10 & time. 多少 for prices, phone numbers & large counts.",
+    "mnemonicDe": "Merkhilfe: 几 + Zählwort für < 10 & Uhrzeit. 多少 für Preise, Rufnummern & große Mengen.",
+    "sortOrder": 5
+  },
+  {
+    "id": "zh:c:da-zhe-discount",
+    "domain": "CHINESE",
+    "chapter": 8,
+    "pairLabel": "打 x 折 (dǎ x zhé) vs. Deutsches Rabattsystem",
+    "topicEn": "Paying x-tenths in China vs. West %-off mindset",
+    "topicDe": "Chinesischer Zahlbetrag (x Zehntel) vs. Westlicher Prozentsatz-Abzug",
+    "left": {
+      "term": "打八折",
+      "romanization": "dǎ bā zhé",
+      "conceptEn": "Customer pays 80% = 20% discount",
+      "conceptDe": "Kunde zahlt 80% des Preises = 20% Rabatt",
+      "formula": "原价 × 0.8",
+      "ruleEn": "“打八折” literally means paying 8/10ths of original price. You pay 80% (20% off)!",
+      "ruleDe": "„打八折“ bedeutet wörtlich: Man schlägt den Preis auf 8 Zehntel an. Man zahlt 80 %!",
+      "correct": {
+        "text": "这件外套原价五百块，现在打八折，只要四百块。",
+        "romanization": "Zhè jiàn wàitào yuánjià wǔbǎi kuài, xiànzài dǎ bā zhé, zhǐ yào sìbǎi kuài.",
+        "translationEn": "This jacket is 500 yuan regular, now at 20% off it is only 400 yuan.",
+        "translationDe": "Diese Jacke kostet regulär 500 Yuan, jetzt mit 20% Rabatt nur 400 Yuan."
+      },
+      "incorrect": {
+        "text": "打八折 = 80% Rabatt (Achtung Denkfehler!)",
+        "romanization": "Dǎ bā zhé = 80% off (False!)",
+        "explanationEn": "Common trap: You do NOT get 80% off, you PAY 80%!",
+        "explanationDe": "Häufiger Fehler: Man spart NICHT 80 %, sondern bezahlt 80 %!"
+      }
+    },
+    "right": {
+      "term": "打八五折",
+      "romanization": "dǎ bā wǔ zhé",
+      "conceptEn": "Customer pays 85% = 15% discount",
+      "conceptDe": "Kunde zahlt 85% des Preises = 15% Rabatt",
+      "formula": "原价 × 0.85",
+      "ruleEn": "If two digits follow like “八五”, you pay 85% of the sticker price (15% off).",
+      "ruleDe": "Folgen zwei Ziffern wie „八五“, zahlt man 85 % des Preises (also 15 % Rabatt).",
+      "correct": {
+        "text": "买两盒电池可以打八五折。",
+        "romanization": "Mǎi liǎng hé diànchí kěyǐ dǎ bā wǔ zhé.",
+        "translationEn": "Buying two packs of batteries yields a 15% discount (pay 85%).",
+        "translationDe": "Beim Kauf von zwei Packungen Batterien gibt es 15% Rabatt (Zahlung 85%)."
+      },
+      "incorrect": {
+        "text": "打八五折 = 85% Rabatt",
+        "romanization": "Dǎ bā wǔ zhé = 85% off",
+        "explanationEn": "Never interpret as deduction amount; it represents the remaining price fraction!",
+        "explanationDe": "Niemals als Rabatthöhe lesen, sondern immer als Restkaufpreis!"
+      }
+    },
+    "mnemonicEn": "Golden formula: (10 − x) × 10 = Discount %! 打九折 = 10% off, 打七折 = 30% off.",
+    "mnemonicDe": "Goldene Formel: (10 − x) × 10 = Rabatt in Prozent! 打九折 = 10% Rabatt, 打七折 = 30% Rabatt.",
+    "sortOrder": 6
+  }
+]

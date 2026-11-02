@@ -1,0 +1,2624 @@
+[
+  {
+    "kanji": "下",
+    "wordId": "ja:mnn:30:w028",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "不",
+    "wordId": "ja:mnn:27:w034",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "並",
+    "wordId": "ja:mnn:30:w004",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "中",
+    "wordId": "ja:mnn:30:w033",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "中",
+    "wordId": "ja:mnn:30:w040",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "丸",
+    "wordId": "ja:mnn:30:w042",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "主",
+    "wordId": "ja:mnn:27:w032",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "予",
+    "wordId": "ja:mnn:30:w010",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "予",
+    "wordId": "ja:mnn:30:w016",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "予",
+    "wordId": "ja:mnn:30:w021",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "事",
+    "wordId": "ja:mnn:26:w017",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "事",
+    "wordId": "ja:mnn:29:w029",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "交",
+    "wordId": "ja:mnn:29:w027",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "人",
+    "wordId": "ja:mnn:27:w032",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "人",
+    "wordId": "ja:mnn:28:w016",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "人",
+    "wordId": "ja:mnn:30:w023",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "人",
+    "wordId": "ja:mnn:32:w055",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "今",
+    "wordId": "ja:mnn:26:w020",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "今",
+    "wordId": "ja:mnn:29:w032",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "今",
+    "wordId": "ja:mnn:32:w035",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "他",
+    "wordId": "ja:mnn:27:w023",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "付",
+    "wordId": "ja:mnn:27:w037",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "付",
+    "wordId": "ja:mnn:29:w010",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "休",
+    "wordId": "ja:mnn:31:w003",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "休",
+    "wordId": "ja:mnn:31:w006",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "休",
+    "wordId": "ja:mnn:31:w007",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "会",
+    "wordId": "ja:mnn:26:w010",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "会",
+    "wordId": "ja:mnn:26:w017",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "会",
+    "wordId": "ja:mnn:26:w038",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "会",
+    "wordId": "ja:mnn:28:w045",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "会",
+    "wordId": "ja:mnn:31:w010",
+    "verified": true,
+    "sortOrder": 5
+  },
+  {
+    "kanji": "会",
+    "wordId": "ja:mnn:31:w016",
+    "verified": true,
+    "sortOrder": 6
+  },
+  {
+    "kanji": "会",
+    "wordId": "ja:mnn:31:w037",
+    "verified": true,
+    "sortOrder": 7
+  },
+  {
+    "kanji": "体",
+    "wordId": "ja:mnn:28:w051",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "何",
+    "wordId": "ja:mnn:26:w026",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "作",
+    "wordId": "ja:mnn:31:w008",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "例",
+    "wordId": "ja:mnn:27:w036",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "倒",
+    "wordId": "ja:mnn:29:w047",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "値",
+    "wordId": "ja:mnn:28:w022",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "偉",
+    "wordId": "ja:mnn:28:w009",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "健",
+    "wordId": "ja:mnn:32:w053",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "側",
+    "wordId": "ja:mnn:29:w035",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "働",
+    "wordId": "ja:mnn:32:w049",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "元",
+    "wordId": "ja:mnn:30:w031",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "元",
+    "wordId": "ja:mnn:32:w043",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "先",
+    "wordId": "ja:mnn:29:w030",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "先",
+    "wordId": "ja:mnn:32:w018",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "入",
+    "wordId": "ja:mnn:31:w029",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "公",
+    "wordId": "ja:mnn:27:w032",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "具",
+    "wordId": "ja:mnn:27:w013",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "具",
+    "wordId": "ja:mnn:27:w025",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "冷",
+    "wordId": "ja:mnn:32:w010",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "出",
+    "wordId": "ja:mnn:26:w031",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "出",
+    "wordId": "ja:mnn:30:w026",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "出",
+    "wordId": "ja:mnn:32:w013",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "分",
+    "wordId": "ja:mnn:26:w008",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "分",
+    "wordId": "ja:mnn:26:w009",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "分",
+    "wordId": "ja:mnn:27:w040",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "分",
+    "wordId": "ja:mnn:28:w037",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "分",
+    "wordId": "ja:mnn:32:w015",
+    "verified": true,
+    "sortOrder": 5
+  },
+  {
+    "kanji": "前",
+    "wordId": "ja:mnn:29:w046",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "割",
+    "wordId": "ja:mnn:29:w006",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "力",
+    "wordId": "ja:mnn:28:w015",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "功",
+    "wordId": "ja:mnn:32:w002",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "加",
+    "wordId": "ja:mnn:28:w048",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "動",
+    "wordId": "ja:mnn:26:w010",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "動",
+    "wordId": "ja:mnn:31:w018",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "動",
+    "wordId": "ja:mnn:32:w001",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "北",
+    "wordId": "ja:mnn:32:w030",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "十",
+    "wordId": "ja:mnn:32:w015",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "卒",
+    "wordId": "ja:mnn:31:w032",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "南",
+    "wordId": "ja:mnn:32:w029",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "占",
+    "wordId": "ja:mnn:32:w047",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "参",
+    "wordId": "ja:mnn:28:w048",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "取",
+    "wordId": "ja:mnn:29:w017",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "取",
+    "wordId": "ja:mnn:31:w003",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "受",
+    "wordId": "ja:mnn:31:w004",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "台",
+    "wordId": "ja:mnn:28:w013",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "号",
+    "wordId": "ja:mnn:31:w022",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "合",
+    "wordId": "ja:mnn:26:w004",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "合",
+    "wordId": "ja:mnn:32:w004",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "合",
+    "wordId": "ja:mnn:32:w013",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "周",
+    "wordId": "ja:mnn:30:w032",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "味",
+    "wordId": "ja:mnn:28:w019",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "品",
+    "wordId": "ja:mnn:28:w021",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "員",
+    "wordId": "ja:mnn:29:w026",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "困",
+    "wordId": "ja:mnn:32:w050",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "国",
+    "wordId": "ja:mnn:26:w017",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "国",
+    "wordId": "ja:mnn:32:w031",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "園",
+    "wordId": "ja:mnn:31:w018",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "土",
+    "wordId": "ja:mnn:28:w050",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "地",
+    "wordId": "ja:mnn:29:w042",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "堂",
+    "wordId": "ja:mnn:26:w017",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "場",
+    "wordId": "ja:mnn:26:w013",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "場",
+    "wordId": "ja:mnn:26:w033",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "壁",
+    "wordId": "ja:mnn:29:w043",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "壁",
+    "wordId": "ja:mnn:30:w029",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "壊",
+    "wordId": "ja:mnn:29:w005",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "士",
+    "wordId": "ja:mnn:26:w045",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "声",
+    "wordId": "ja:mnn:27:w010",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "売",
+    "wordId": "ja:mnn:28:w001",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "夕",
+    "wordId": "ja:mnn:32:w036",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "外",
+    "wordId": "ja:mnn:29:w011",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "夜",
+    "wordId": "ja:mnn:32:w035",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "夢",
+    "wordId": "ja:mnn:30:w044",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "大",
+    "wordId": "ja:mnn:27:w031",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "大",
+    "wordId": "ja:mnn:28:w005",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "大",
+    "wordId": "ja:mnn:31:w017",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "太",
+    "wordId": "ja:mnn:32:w024",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "失",
+    "wordId": "ja:mnn:32:w003",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "好",
+    "wordId": "ja:mnn:27:w031",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "娘",
+    "wordId": "ja:mnn:28:w035",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "娘",
+    "wordId": "ja:mnn:28:w036",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "婚",
+    "wordId": "ja:mnn:31:w011",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "嫌",
+    "wordId": "ja:mnn:30:w046",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "嫌",
+    "wordId": "ja:mnn:31:w034",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "子",
+    "wordId": "ja:mnn:27:w030",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "子",
+    "wordId": "ja:mnn:28:w033",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "子",
+    "wordId": "ja:mnn:28:w034",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "子",
+    "wordId": "ja:mnn:31:w021",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "子",
+    "wordId": "ja:mnn:31:w038",
+    "verified": true,
+    "sortOrder": 5
+  },
+  {
+    "kanji": "学",
+    "wordId": "ja:mnn:28:w005",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "学",
+    "wordId": "ja:mnn:31:w017",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "学",
+    "wordId": "ja:mnn:31:w029",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "宇",
+    "wordId": "ja:mnn:26:w039",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "宇",
+    "wordId": "ja:mnn:26:w041",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "宇",
+    "wordId": "ja:mnn:26:w043",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "宇",
+    "wordId": "ja:mnn:26:w045",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "宙",
+    "wordId": "ja:mnn:26:w039",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "宙",
+    "wordId": "ja:mnn:26:w041",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "宙",
+    "wordId": "ja:mnn:26:w043",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "宙",
+    "wordId": "ja:mnn:26:w045",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "定",
+    "wordId": "ja:mnn:30:w016",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "定",
+    "wordId": "ja:mnn:30:w021",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "宝",
+    "wordId": "ja:mnn:32:w051",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "宝",
+    "wordId": "ja:mnn:32:w052",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "実",
+    "wordId": "ja:mnn:28:w044",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "室",
+    "wordId": "ja:mnn:27:w006",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "室",
+    "wordId": "ja:mnn:27:w018",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "家",
+    "wordId": "ja:mnn:27:w015",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "家",
+    "wordId": "ja:mnn:27:w025",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "家",
+    "wordId": "ja:mnn:28:w030",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "家",
+    "wordId": "ja:mnn:28:w031",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "容",
+    "wordId": "ja:mnn:28:w012",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "将",
+    "wordId": "ja:mnn:27:w041",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "将",
+    "wordId": "ja:mnn:28:w038",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "小",
+    "wordId": "ja:mnn:28:w029",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "小",
+    "wordId": "ja:mnn:28:w030",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "展",
+    "wordId": "ja:mnn:31:w010",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "山",
+    "wordId": "ja:mnn:27:w003",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "布",
+    "wordId": "ja:mnn:26:w015",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "帰",
+    "wordId": "ja:mnn:31:w020",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "常",
+    "wordId": "ja:mnn:30:w037",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "常",
+    "wordId": "ja:mnn:30:w038",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "平",
+    "wordId": "ja:mnn:26:w018",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "店",
+    "wordId": "ja:mnn:31:w015",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "度",
+    "wordId": "ja:mnn:26:w020",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "座",
+    "wordId": "ja:mnn:32:w048",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "康",
+    "wordId": "ja:mnn:32:w053",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "廊",
+    "wordId": "ja:mnn:30:w028",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "建",
+    "wordId": "ja:mnn:27:w028",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "弁",
+    "wordId": "ja:mnn:26:w019",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "式",
+    "wordId": "ja:mnn:31:w011",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "式",
+    "wordId": "ja:mnn:31:w012",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "式",
+    "wordId": "ja:mnn:31:w013",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "引",
+    "wordId": "ja:mnn:30:w026",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "当",
+    "wordId": "ja:mnn:32:w052",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "形",
+    "wordId": "ja:mnn:27:w033",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "形",
+    "wordId": "ja:mnn:28:w017",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "形",
+    "wordId": "ja:mnn:30:w023",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "後",
+    "wordId": "ja:mnn:27:w021",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "復",
+    "wordId": "ja:mnn:30:w011",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "心",
+    "wordId": "ja:mnn:27:w007",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "心",
+    "wordId": "ja:mnn:28:w008",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "忘",
+    "wordId": "ja:mnn:29:w033",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "怖",
+    "wordId": "ja:mnn:26:w042",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "思",
+    "wordId": "ja:mnn:27:w034",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "恋",
+    "wordId": "ja:mnn:32:w054",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "恋",
+    "wordId": "ja:mnn:32:w055",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "息",
+    "wordId": "ja:mnn:28:w033",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "息",
+    "wordId": "ja:mnn:28:w034",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "悪",
+    "wordId": "ja:mnn:26:w009",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "愛",
+    "wordId": "ja:mnn:32:w054",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "憩",
+    "wordId": "ja:mnn:31:w006",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "懐",
+    "wordId": "ja:mnn:30:w040",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "成",
+    "wordId": "ja:mnn:32:w002",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "戻",
+    "wordId": "ja:mnn:30:w006",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "所",
+    "wordId": "ja:mnn:26:w013",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "所",
+    "wordId": "ja:mnn:28:w013",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "所",
+    "wordId": "ja:mnn:30:w031",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "手",
+    "wordId": "ja:mnn:28:w028",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "折",
+    "wordId": "ja:mnn:29:w007",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "拭",
+    "wordId": "ja:mnn:29:w016",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "拾",
+    "wordId": "ja:mnn:26:w006",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "指",
+    "wordId": "ja:mnn:29:w045",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "捜",
+    "wordId": "ja:mnn:26:w002",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "授",
+    "wordId": "ja:mnn:30:w013",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "掛",
+    "wordId": "ja:mnn:29:w015",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "掛",
+    "wordId": "ja:mnn:30:w002",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "探",
+    "wordId": "ja:mnn:26:w002",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "接",
+    "wordId": "ja:mnn:26:w022",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "支",
+    "wordId": "ja:mnn:31:w015",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "敗",
+    "wordId": "ja:mnn:32:w003",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "教",
+    "wordId": "ja:mnn:27:w006",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "教",
+    "wordId": "ja:mnn:27:w018",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "教",
+    "wordId": "ja:mnn:31:w016",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "文",
+    "wordId": "ja:mnn:31:w008",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "料",
+    "wordId": "ja:mnn:28:w023",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "料",
+    "wordId": "ja:mnn:28:w052",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "方",
+    "wordId": "ja:mnn:27:w020",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "方",
+    "wordId": "ja:mnn:29:w049",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "方",
+    "wordId": "ja:mnn:31:w023",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "方",
+    "wordId": "ja:mnn:32:w036",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "日",
+    "wordId": "ja:mnn:26:w018",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "日",
+    "wordId": "ja:mnn:28:w049",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "日",
+    "wordId": "ja:mnn:28:w050",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "星",
+    "wordId": "ja:mnn:32:w025",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "星",
+    "wordId": "ja:mnn:32:w047",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "映",
+    "wordId": "ja:mnn:31:w033",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "時",
+    "wordId": "ja:mnn:26:w003",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "時",
+    "wordId": "ja:mnn:26:w004",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "時",
+    "wordId": "ja:mnn:30:w038",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "景",
+    "wordId": "ja:mnn:28:w011",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "晴",
+    "wordId": "ja:mnn:32:w006",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "曇",
+    "wordId": "ja:mnn:32:w007",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "曜",
+    "wordId": "ja:mnn:28:w050",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "書",
+    "wordId": "ja:mnn:29:w024",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "替",
+    "wordId": "ja:mnn:29:w017",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "月",
+    "wordId": "ja:mnn:31:w030",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "服",
+    "wordId": "ja:mnn:29:w009",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "木",
+    "wordId": "ja:mnn:29:w007",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "本",
+    "wordId": "ja:mnn:27:w026",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "本",
+    "wordId": "ja:mnn:31:w014",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "村",
+    "wordId": "ja:mnn:31:w031",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "来",
+    "wordId": "ja:mnn:27:w041",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "来",
+    "wordId": "ja:mnn:28:w038",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "東",
+    "wordId": "ja:mnn:32:w027",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "枝",
+    "wordId": "ja:mnn:29:w025",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "格",
+    "wordId": "ja:mnn:32:w004",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "棚",
+    "wordId": "ja:mnn:27:w026",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "棚",
+    "wordId": "ja:mnn:29:w039",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "植",
+    "wordId": "ja:mnn:30:w005",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "業",
+    "wordId": "ja:mnn:30:w013",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "業",
+    "wordId": "ja:mnn:31:w032",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "様",
+    "wordId": "ja:mnn:26:w040",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "横",
+    "wordId": "ja:mnn:26:w034",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "機",
+    "wordId": "ja:mnn:28:w032",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "歌",
+    "wordId": "ja:mnn:28:w028",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "止",
+    "wordId": "ja:mnn:29:w012",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "残",
+    "wordId": "ja:mnn:31:w028",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "段",
+    "wordId": "ja:mnn:28:w022",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "氏",
+    "wordId": "ja:mnn:29:w031",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "気",
+    "wordId": "ja:mnn:26:w008",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "気",
+    "wordId": "ja:mnn:26:w009",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "気",
+    "wordId": "ja:mnn:28:w016",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "気",
+    "wordId": "ja:mnn:29:w003",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "気",
+    "wordId": "ja:mnn:29:w004",
+    "verified": true,
+    "sortOrder": 5
+  },
+  {
+    "kanji": "気",
+    "wordId": "ja:mnn:32:w043",
+    "verified": true,
+    "sortOrder": 6
+  },
+  {
+    "kanji": "水",
+    "wordId": "ja:mnn:32:w032",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "汚",
+    "wordId": "ja:mnn:29:w009",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "池",
+    "wordId": "ja:mnn:30:w030",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "決",
+    "wordId": "ja:mnn:30:w009",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "泉",
+    "wordId": "ja:mnn:31:w019",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "波",
+    "wordId": "ja:mnn:27:w011",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "活",
+    "wordId": "ja:mnn:30:w039",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "消",
+    "wordId": "ja:mnn:29:w004",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "温",
+    "wordId": "ja:mnn:31:w019",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "源",
+    "wordId": "ja:mnn:29:w031",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "火",
+    "wordId": "ja:mnn:27:w012",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "灯",
+    "wordId": "ja:mnn:30:w040",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "無",
+    "wordId": "ja:mnn:28:w052",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "無",
+    "wordId": "ja:mnn:32:w014",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "熱",
+    "wordId": "ja:mnn:28:w008",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "熱",
+    "wordId": "ja:mnn:32:w008",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "燃",
+    "wordId": "ja:mnn:26:w032",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "燃",
+    "wordId": "ja:mnn:29:w050",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "片",
+    "wordId": "ja:mnn:26:w030",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "片",
+    "wordId": "ja:mnn:29:w018",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "牛",
+    "wordId": "ja:mnn:32:w048",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "牡",
+    "wordId": "ja:mnn:32:w048",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "物",
+    "wordId": "ja:mnn:26:w030",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "物",
+    "wordId": "ja:mnn:28:w021",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "物",
+    "wordId": "ja:mnn:29:w031",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "物",
+    "wordId": "ja:mnn:29:w033",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "物",
+    "wordId": "ja:mnn:31:w018",
+    "verified": true,
+    "sortOrder": 5
+  },
+  {
+    "kanji": "玄",
+    "wordId": "ja:mnn:30:w027",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "理",
+    "wordId": "ja:mnn:32:w014",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "瓶",
+    "wordId": "ja:mnn:26:w035",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "瓶",
+    "wordId": "ja:mnn:30:w024",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "生",
+    "wordId": "ja:mnn:30:w039",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "生",
+    "wordId": "ja:mnn:32:w018",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "由",
+    "wordId": "ja:mnn:31:w039",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "申",
+    "wordId": "ja:mnn:31:w005",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "画",
+    "wordId": "ja:mnn:31:w033",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "番",
+    "wordId": "ja:mnn:28:w026",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "番",
+    "wordId": "ja:mnn:29:w027",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "発",
+    "wordId": "ja:mnn:31:w009",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "皿",
+    "wordId": "ja:mnn:29:w019",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "盆",
+    "wordId": "ja:mnn:26:w011",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "目",
+    "wordId": "ja:mnn:30:w048",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "直",
+    "wordId": "ja:mnn:26:w022",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "真",
+    "wordId": "ja:mnn:30:w033",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "知",
+    "wordId": "ja:mnn:28:w047",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "知",
+    "wordId": "ja:mnn:30:w017",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "石",
+    "wordId": "ja:mnn:32:w057",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "破",
+    "wordId": "ja:mnn:29:w008",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "確",
+    "wordId": "ja:mnn:29:w040",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "社",
+    "wordId": "ja:mnn:26:w038",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "社",
+    "wordId": "ja:mnn:31:w014",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "空",
+    "wordId": "ja:mnn:27:w038",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "空",
+    "wordId": "ja:mnn:31:w035",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "空",
+    "wordId": "ja:mnn:32:w023",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "箱",
+    "wordId": "ja:mnn:30:w022",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "紙",
+    "wordId": "ja:mnn:29:w008",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "組",
+    "wordId": "ja:mnn:28:w026",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "経",
+    "wordId": "ja:mnn:28:w014",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "結",
+    "wordId": "ja:mnn:31:w011",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "絡",
+    "wordId": "ja:mnn:26:w007",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "給",
+    "wordId": "ja:mnn:28:w023",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "続",
+    "wordId": "ja:mnn:31:w001",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "続",
+    "wordId": "ja:mnn:32:w008",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "網",
+    "wordId": "ja:mnn:29:w039",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "缶",
+    "wordId": "ja:mnn:26:w036",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "置",
+    "wordId": "ja:mnn:26:w033",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "美",
+    "wordId": "ja:mnn:28:w012",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "義",
+    "wordId": "ja:mnn:30:w014",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "習",
+    "wordId": "ja:mnn:30:w010",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "習",
+    "wordId": "ja:mnn:30:w011",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "聞",
+    "wordId": "ja:mnn:27:w004",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "育",
+    "wordId": "ja:mnn:28:w051",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "胃",
+    "wordId": "ja:mnn:32:w044",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "自",
+    "wordId": "ja:mnn:27:w040",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "自",
+    "wordId": "ja:mnn:28:w037",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "自",
+    "wordId": "ja:mnn:31:w039",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "船",
+    "wordId": "ja:mnn:26:w041",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "色",
+    "wordId": "ja:mnn:28:w011",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "色",
+    "wordId": "ja:mnn:28:w018",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "花",
+    "wordId": "ja:mnn:27:w012",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "花",
+    "wordId": "ja:mnn:30:w024",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "荷",
+    "wordId": "ja:mnn:26:w030",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "落",
+    "wordId": "ja:mnn:29:w014",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "葬",
+    "wordId": "ja:mnn:31:w012",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "行",
+    "wordId": "ja:mnn:26:w045",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "表",
+    "wordId": "ja:mnn:30:w021",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "表",
+    "wordId": "ja:mnn:31:w009",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "袋",
+    "wordId": "ja:mnn:29:w023",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "袋",
+    "wordId": "ja:mnn:30:w037",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "西",
+    "wordId": "ja:mnn:29:w048",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "西",
+    "wordId": "ja:mnn:32:w028",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "見",
+    "wordId": "ja:mnn:26:w001",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "見",
+    "wordId": "ja:mnn:27:w003",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "見",
+    "wordId": "ja:mnn:30:w044",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "見",
+    "wordId": "ja:mnn:31:w002",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "覚",
+    "wordId": "ja:mnn:29:w038",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "覚",
+    "wordId": "ja:mnn:30:w048",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "覧",
+    "wordId": "ja:mnn:31:w010",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "診",
+    "wordId": "ja:mnn:26:w001",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "試",
+    "wordId": "ja:mnn:31:w004",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "試",
+    "wordId": "ja:mnn:31:w029",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "試",
+    "wordId": "ja:mnn:32:w003",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "試",
+    "wordId": "ja:mnn:32:w004",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "試",
+    "wordId": "ja:mnn:32:w013",
+    "verified": true,
+    "sortOrder": 5
+  },
+  {
+    "kanji": "話",
+    "wordId": "ja:mnn:28:w045",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "誘",
+    "wordId": "ja:mnn:28:w053",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "語",
+    "wordId": "ja:mnn:29:w031",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "説",
+    "wordId": "ja:mnn:28:w029",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "説",
+    "wordId": "ja:mnn:28:w030",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "講",
+    "wordId": "ja:mnn:30:w014",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "議",
+    "wordId": "ja:mnn:26:w017",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "議",
+    "wordId": "ja:mnn:27:w034",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "財",
+    "wordId": "ja:mnn:26:w015",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "走",
+    "wordId": "ja:mnn:27:w002",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "踊",
+    "wordId": "ja:mnn:26:w011",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "踊",
+    "wordId": "ja:mnn:28:w002",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "車",
+    "wordId": "ja:mnn:29:w012",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "車",
+    "wordId": "ja:mnn:29:w032",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "辺",
+    "wordId": "ja:mnn:29:w037",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "込",
+    "wordId": "ja:mnn:31:w005",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "込",
+    "wordId": "ja:mnn:32:w011",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "返",
+    "wordId": "ja:mnn:29:w029",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "通",
+    "wordId": "ja:mnn:28:w005",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "連",
+    "wordId": "ja:mnn:26:w007",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "連",
+    "wordId": "ja:mnn:31:w007",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "遅",
+    "wordId": "ja:mnn:26:w003",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "遅",
+    "wordId": "ja:mnn:32:w038",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "運",
+    "wordId": "ja:mnn:26:w010",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "運",
+    "wordId": "ja:mnn:32:w001",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "道",
+    "wordId": "ja:mnn:27:w002",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "道",
+    "wordId": "ja:mnn:27:w005",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "道",
+    "wordId": "ja:mnn:27:w013",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "道",
+    "wordId": "ja:mnn:32:w011",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "道",
+    "wordId": "ja:mnn:32:w012",
+    "verified": true,
+    "sortOrder": 5
+  },
+  {
+    "kanji": "道",
+    "wordId": "ja:mnn:32:w032",
+    "verified": true,
+    "sortOrder": 6
+  },
+  {
+    "kanji": "違",
+    "wordId": "ja:mnn:26:w044",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "選",
+    "wordId": "ja:mnn:28:w004",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "都",
+    "wordId": "ja:mnn:31:w037",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "配",
+    "wordId": "ja:mnn:27:w007",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "針",
+    "wordId": "ja:mnn:29:w044",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "鏡",
+    "wordId": "ja:mnn:30:w025",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "閉",
+    "wordId": "ja:mnn:29:w002",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "閉",
+    "wordId": "ja:mnn:31:w036",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "開",
+    "wordId": "ja:mnn:27:w006",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "開",
+    "wordId": "ja:mnn:29:w001",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "間",
+    "wordId": "ja:mnn:26:w003",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "間",
+    "wordId": "ja:mnn:26:w004",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "関",
+    "wordId": "ja:mnn:30:w027",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "院",
+    "wordId": "ja:mnn:28:w012",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "院",
+    "wordId": "ja:mnn:31:w017",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "陽",
+    "wordId": "ja:mnn:32:w024",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "隅",
+    "wordId": "ja:mnn:30:w034",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "際",
+    "wordId": "ja:mnn:32:w031",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "雨",
+    "wordId": "ja:mnn:32:w005",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "電",
+    "wordId": "ja:mnn:29:w003",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "電",
+    "wordId": "ja:mnn:29:w004",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "電",
+    "wordId": "ja:mnn:29:w032",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "電",
+    "wordId": "ja:mnn:30:w040",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "震",
+    "wordId": "ja:mnn:29:w042",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "非",
+    "wordId": "ja:mnn:30:w037",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "非",
+    "wordId": "ja:mnn:30:w038",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "音",
+    "wordId": "ja:mnn:27:w004",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "願",
+    "wordId": "ja:mnn:28:w043",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "類",
+    "wordId": "ja:mnn:29:w024",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "風",
+    "wordId": "ja:mnn:32:w026",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "飛",
+    "wordId": "ja:mnn:26:w045",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "飛",
+    "wordId": "ja:mnn:27:w039",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "飼",
+    "wordId": "ja:mnn:27:w001",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "飾",
+    "wordId": "ja:mnn:30:w003",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "館",
+    "wordId": "ja:mnn:28:w051",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "館",
+    "wordId": "ja:mnn:31:w033",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "駅",
+    "wordId": "ja:mnn:29:w026",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "駅",
+    "wordId": "ja:mnn:29:w046",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "験",
+    "wordId": "ja:mnn:28:w014",
+    "verified": true,
+    "sortOrder": 1
+  },
+  {
+    "kanji": "験",
+    "wordId": "ja:mnn:31:w004",
+    "verified": true,
+    "sortOrder": 2
+  },
+  {
+    "kanji": "験",
+    "wordId": "ja:mnn:31:w029",
+    "verified": true,
+    "sortOrder": 3
+  },
+  {
+    "kanji": "験",
+    "wordId": "ja:mnn:32:w003",
+    "verified": true,
+    "sortOrder": 4
+  },
+  {
+    "kanji": "験",
+    "wordId": "ja:mnn:32:w004",
+    "verified": true,
+    "sortOrder": 5
+  },
+  {
+    "kanji": "鳥",
+    "wordId": "ja:mnn:27:w009",
+    "verified": true,
+    "sortOrder": 1
+  }
+]

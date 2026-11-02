@@ -146,3 +146,72 @@ e: .../LexiconQueryBuilder.kt:29:12 Assignment type mismatch: actual type is 'Li
 - **(b) Faulty Assumption:** Assumed Kotlin's `+=` operator on `val MutableList<T>` would unambiguously invoke `addAll(elements)`.
 - **(c) Corrective Code Strategy:** Replace `args += values.map(map)` with explicit `args.addAll(values.map(map))`.
 - **Outcome:** PASS (GATE G1 PASS)
+
+
+### [R-0011] T2.4 · G2 · attempt 1/3 · 2026-11-02T16:13:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+tech.nikku.learningapp.core.data.content.ContentValidationTest.validateManifestChecksums:
+kotlinx.serialization.SerializationException: tech.nikku.learningapp.core.domain.model.PartOfSpeech does not contain element with name 'ADJECTIVE_I' at path $[41].pos
+> Task :core:data:testDebugUnitTest FAILED
+```
+- **(a) Root Cause:** `mdx_vocab.py` mapped i-adjectives to `"ADJECTIVE_I"`, whereas `PartOfSpeech` enum in `:core:domain` defines `I_ADJECTIVE` and `NA_ADJECTIVE`. During `ContentValidationTest`, `Json.decodeFromString` failed when deserializing `WordDto.pos`.
+- **(b) Faulty Assumption:** Assumed the enum constant name was `ADJECTIVE_I` without cross-referencing `tech.nikku.learningapp.core.domain.model.PartOfSpeech` in `Enums.kt`.
+- **(c) Corrective Code Strategy:** Update `map_pos` in `tools/content-etl/mdx_vocab.py` to emit `"I_ADJECTIVE"` and `"NA_ADJECTIVE"`. Re-generate `words_mnn_26_32.json` and `manifest.json`, then re-execute Gate G2.
+- **Outcome:** Pending
+
+### [R-0012] T2.4 · G2 · attempt 2/3 · 2026-11-02T16:15:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+tech.nikku.learningapp.core.data.content.ContentValidationTest.validateManifestChecksums:
+kotlinx.serialization.MissingFieldException: Fields [text, romanization] are required for type with serial name 'tech.nikku.learningapp.core.domain.model.SentenceSample', but they were missing at path: $[0].left.correct
+> Task :core:data:testDebugUnitTest FAILED
+```
+- **(a) Root Cause:** `export-zh.mts` serialized raw `ConfusableSide` objects directly from TypeScript data which uses `pinyin` and `hanzi`. Kotlin domain models `ConfusableSide`, `SentenceSample`, and `WrongSample` require `romanization` and `text`.
+- **(b) Faulty Assumption:** Assumed TypeScript Astro model field names (`hanzi`, `pinyin`) matched Kotlin domain model properties (`text`, `romanization`) verbatim.
+- **(c) Corrective Code Strategy:** In `export-zh.mts`, explicitly map `ConfusableSide` mapping `side.pinyin -> romanization`, `side.correct.hanzi -> text`, `side.correct.pinyin -> romanization`, `side.incorrect.hanzi -> text`, `side.incorrect.pinyin -> romanization`. Re-run `export-zh.mts`, `generate_manifest.py`, and re-execute Gate G2.
+- **Outcome:** Pending
+
+### [R-0013] T2.4 · G2 · attempt 3/3 · 2026-11-02T16:16:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+tech.nikku.learningapp.core.data.content.ContentValidationTest.validateManifestChecksums:
+kotlinx.serialization.MissingFieldException: Field 'colorHex' is required for type with serial name 'tech.nikku.learningapp.core.domain.model.SpeakerInfo', but it was missing at path: $[0].speakers['A']
+> Task :core:data:testDebugUnitTest FAILED
+```
+- **(a) Root Cause:** `chineseDialogues.ts` defines speaker colors under property `color`, whereas Kotlin domain model `SpeakerInfo` requires `colorHex`.
+- **(b) Faulty Assumption:** Assumed speaker object keys in Astro matched Kotlin domain model property names verbatim without checking `colorHex` vs `color`.
+- **(c) Corrective Code Strategy:** In `export-zh.mts`, map `speakers` entries to ensure `colorHex: sp.color || sp.colorHex`. Re-run `export-zh.mts`, `generate_manifest.py`, and Gate G2.
+- **Outcome:** Pending
+
+### [R-0014] T2.4 · G2 · attempt 4/3 · 2026-11-02T16:18:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+tech.nikku.learningapp.core.data.content.ContentValidationTest.validateIds: java.lang.AssertionError: Duplicate ID found: ja:mnn:1.1
+tech.nikku.learningapp.core.data.content.ContentValidationTest.validateDialogueTurns: java.lang.AssertionError: startMs must be < endMs in zh:d:Dialogue10_2#9
+tech.nikku.learningapp.core.data.content.ContentValidationTest.validateVerbInvariants: java.lang.AssertionError: Verb ja:mnn:26:w021 (ずいぶん) must have verbGroup
+> Task :core:data:testDebugUnitTest FAILED
+```
+- **(a) Root Cause:**
+  1. Regex `###\s+` matched `#### 1.1` in MDX without `^` anchor, generating duplicate ID `ja:mnn:1.1`.
+  2. `Dialogue10_2` in `chineseDialogues.ts` had a corrupt 9th turn with `startS: 0, endS: 0`; the audio actually has 8 turns documented in `Dialogue10_2_timestamps.json`.
+  3. `map_pos` in `mdx_vocab.py` checked `"verb" in rp` before `"adverb"`, matching `"adverb"` as a verb.
+- **(b) Faulty Assumption:** Assumed `###` would not match inside `####`, assumed raw TS dialogue turns were uncorrupted without cross-referencing timestamps JSON, and assumed string `"verb"` check wouldn't conflict with `"adverb"`.
+- **(c) Corrective Code Strategy:**
+  1. Anchor grammar header regex to `r'^###\s+((?:2[6-9]|3[0-2])\.\d+)\s+([^📖\n]+)'` with `re.MULTILINE`.
+  2. In `export-zh.mts`, load turns and timestamps from authoritative `_timestamps.json` when present.
+  3. In `mdx_vocab.py`, check `adverb` / `副詞` before `verb`.
+  Re-run ETL, regenerate manifest, and re-execute Gate G2.
+- **Outcome:** Pending
+
+### [R-0015] T2.4 · G2 · attempt 5/3 · 2026-11-02T16:21:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+tech.nikku.learningapp.core.data.content.ContentValidationTest.validateVerbInvariants:
+java.lang.AssertionError: Verb ja:mnn:28:w046 (うーん) must have verbGroup
+> Task :core:data:testDebugUnitTest FAILED
+```
+- **(a) Root Cause:** In `map_pos`, `"動詞" in rp` evaluated to true for `Interjection (感動詞)` because `"感動詞"` contains `"動詞"`. This caused interjections like `うーん` (L28 #46) to be categorized as `VERB`.
+- **(b) Faulty Assumption:** Assumed substring `"動詞"` uniquely identified verbs, overlooking compound kanji terms like `感動詞` (interjection).
+- **(c) Corrective Code Strategy:** Define `VERB` strictly via `(lesson, item) in VERB_META` and check `interjection` / `感動詞` before any fallback verb check. Re-run `mdx_vocab.py`, `generate_manifest.py`, and Gate G2.
+- **Outcome:** PASS (GATE G2 PASS)

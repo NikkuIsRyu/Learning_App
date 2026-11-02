@@ -1,0 +1,749 @@
+[
+  {
+    "id": "zh:d:Dialogue2_1",
+    "domain": "CHINESE",
+    "chapter": 2,
+    "titleEn": "Dialogue 2.1: Business Contacts & Origin",
+    "titleDe": "Dialog 2.1: Geschäftskontakte & Herkunft",
+    "nativeTitle": "第2课 对话一：我来给二位介绍一下",
+    "topicEn": "Introducing new colleagues, business cards, background & Singapore",
+    "topicDe": "Vorstellung neuer Kollegen, Visitenkarten, Herkunft & Singapur",
+    "descriptionEn": "Three-person dialogue: A colleague introduces Mr. Weber (Siemens) and Mr. Chen Ming to each other. Business cards are exchanged and Mr. Chen's Singaporean background is discussed.",
+    "descriptionDe": "Drei-Personen-Gespräch: Eine Kollegin stellt Herrn Weber (Siemens) und Herrn Chen Ming einander vor. Visitenkarten werden ausgetauscht und die Herkunft aus Singapur geklärt.",
+    "audioRef": "media/zh/dialogues/Dialogue2_1.mp3",
+    "durationMs": 42100,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": null,
+        "role": "Moderatorin / Kollegin",
+        "roleEn": null,
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Herr Chen (陈先生)",
+        "labelEn": null,
+        "role": "Chen Ming (Partner aus Singapur)",
+        "roleEn": null,
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Herr Weber (韦伯先生)",
+        "labelEn": null,
+        "role": "Siemens-Kollege (西门子公司)",
+        "roleEn": null,
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 1
+  },
+  {
+    "id": "zh:d:Dialogue2_2",
+    "domain": "CHINESE",
+    "chapter": 2,
+    "titleEn": "Dialogue 2.2: Language Skills & Translation",
+    "titleDe": "Dialog 2.2: Sprachkenntnisse & Übersetzung",
+    "nativeTitle": "第2课 对话二：她的德语讲得很流利",
+    "topicEn": "Multilingual proficiency, department roles & Japanese-Chinese background",
+    "topicDe": "Fremdsprachen, binationale Familie & geschäftliche Übersetzung",
+    "descriptionEn": "Two-person dialogue: Two colleagues discuss Ms. Tanaka Yahui, a trilingual translator in the international trade department with a Tokyo father and Beijing mother.",
+    "descriptionDe": "Zwei Kollegen sprechen über Tanaka Yahui (田中雅慧), Übersetzerin für Außenwirtschaft mit japanischem Vater aus Tokio und chinesischer Mutter aus Peking.",
+    "audioRef": "media/zh/dialogues/Dialogue2_2.mp3",
+    "durationMs": 33940,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": null,
+        "role": "Fragende Kollegin",
+        "roleEn": null,
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Sprecher B",
+        "labelEn": null,
+        "role": "Kollege",
+        "roleEn": null,
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      }
+    },
+    "sortOrder": 2
+  },
+  {
+    "id": "zh:d:Dialogue3_1",
+    "domain": "CHINESE",
+    "chapter": 3,
+    "titleEn": "Dialogue 3.1: Exhibition Center & Phone Numbers",
+    "titleDe": "Dialog 3.1: Messezentrum & Telefonnummern",
+    "nativeTitle": "第3课 对话一：宣传册放在哪儿了",
+    "topicEn": "Exhibition brochure, office numbers, extensions & the digit 'yāo'",
+    "topicDe": "Büromaterial, Verzeichnis, Telefonnummern & Durchwahlen",
+    "descriptionEn": "Two-person dialogue: Two colleagues search for the new business exhibition center brochure to find the central switchboard number and marketing extension.",
+    "descriptionDe": "Zwei Kollegen suchen im Büro nach der Broschüre des neuen Messezentrums, um die Telefonnummer der Zentrale und die Durchwahl der Marketingabteilung herauszusuchen.",
+    "audioRef": "media/zh/dialogues/Dialogue3_1.mp3",
+    "durationMs": 30670,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": null,
+        "role": "Suchende Kollegin",
+        "roleEn": null,
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "David (大卫)",
+        "labelEn": null,
+        "role": "Kollege",
+        "roleEn": null,
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      }
+    },
+    "sortOrder": 3
+  },
+  {
+    "id": "zh:d:Dialogue3_2",
+    "domain": "CHINESE",
+    "chapter": 3,
+    "titleEn": "Dialogue 3.2: Contact Details & Studio in Chengdu",
+    "titleDe": "Dialog 3.2: Kontaktdaten & Studio in Chengdu",
+    "nativeTitle": "第3课 对话二：周明搬到成都市区了",
+    "topicEn": "Contact cards, mobile numbers, company locations & Chengdu",
+    "topicDe": "Ehemalige Kommilitonen, Adressen in Chengdu & Festnetznummern",
+    "descriptionEn": "Two colleagues talk about former classmate Zhou Ming (Zhou Wenqiang), who recently opened an innovation consultancy in Chengdu's Qingyang District.",
+    "descriptionDe": "Zwei Kollegen sprechen über ihren früheren TUM-Kommilitonen Zhou Wenqiang (Zhou Ming), der ein Beratungsstudio in der Chunxi-Straße in Chengdu eröffnet hat.",
+    "audioRef": "media/zh/dialogues/Dialogue3_2.mp3",
+    "durationMs": 38890,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": null,
+        "role": "Kollegin",
+        "roleEn": null,
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Sprecher B",
+        "labelEn": null,
+        "role": "Kollege",
+        "roleEn": null,
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      }
+    },
+    "sortOrder": 4
+  },
+  {
+    "id": "zh:d:Dialogue4_1",
+    "domain": "CHINESE",
+    "chapter": 4,
+    "titleEn": "Dialogue 4.1: Time & Zurich Time Zones",
+    "titleDe": "Dialog 4.1: Uhrzeit & Zeitzonen Zürich",
+    "nativeTitle": "第4课 对话一：咱们这边目前是几点钟",
+    "topicEn": "Exact time, Beijing time vs. Zurich, daylight saving & scheduling",
+    "topicDe": "Uhrzeit, Zeitzonen, Sommerzeit & Terminabsprache",
+    "descriptionEn": "Two colleagues compare current time in China (10:15 AM) with Zurich taking European Summer Time into account (5-hour difference) to schedule a team conference.",
+    "descriptionDe": "Zwei Kollegen vergleichen die aktuelle Uhrzeit in China mit Zürich unter Berücksichtigung der Sommerzeit (5 Stunden Differenz) zwecks Meetingplanung.",
+    "audioRef": "media/zh/dialogues/Dialogue4_1.mp3",
+    "durationMs": 40090,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": null,
+        "role": "Kollegin",
+        "roleEn": null,
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Sprecher B",
+        "labelEn": null,
+        "role": "Kollege",
+        "roleEn": null,
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      }
+    },
+    "sortOrder": 5
+  },
+  {
+    "id": "zh:d:Dialogue4_2",
+    "domain": "CHINESE",
+    "chapter": 4,
+    "titleEn": "Dialogue 4.2: Date, Weekday & Calendar",
+    "titleDe": "Dialog 4.2: Datum, Wochentag & Kalender",
+    "nativeTitle": "第4课 对话二：今天是几月几号",
+    "topicEn": "Day of the week, month dates, previous month calendar & scheduling",
+    "topicDe": "Datum, Wochentage, Geburtstage & Kalenderverwechslung",
+    "descriptionEn": "Department Head Zhao and a colleague check the current date and realize a confusion arose because the wall calendar was still turned to the previous month.",
+    "descriptionDe": "Zwei Kollegen versuchen herauszufinden, welcher Tag heute ist. Eine Verwirrung entsteht, weil der Wandkalender noch aus dem Vormonat stammt.",
+    "audioRef": "media/zh/dialogues/Dialogue4_2.mp3",
+    "durationMs": 43900,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": null,
+        "role": "Kollegin",
+        "roleEn": null,
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Leiter Zhao (赵主管)",
+        "labelEn": null,
+        "role": "Abteilungsleiter",
+        "roleEn": null,
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      }
+    },
+    "sortOrder": 6
+  },
+  {
+    "id": "zh:d:Dialogue5_1",
+    "domain": "CHINESE",
+    "chapter": 5,
+    "titleEn": "Dialogue 5.1: Office Premises & Workshop Inspection",
+    "titleDe": "Dialog 5.1: Büroräume & Werkstattvorbereitung",
+    "nativeTitle": "第5课 对话一：两位同事，请问看到设计图纸了吗",
+    "topicEn": "Spatial orientation, floorplans, climate controls & management inspection",
+    "topicDe": "Büromöbel, Raumorientierung (oben/unten/neben/hinter), Vorbereitung Werkstatt",
+    "descriptionEn": "Three colleagues locate building floorplans, verify AC and heating controls, and prepare for Manager Zhang's inspection of the workshop.",
+    "descriptionDe": "Drei Kollegen suchen die Baupläne für das Bürogebäude, erklären die Bedienung von Klimaanlage und Heizung und bereiten sich auf den Besuch von Manager Zhang vor.",
+    "audioRef": "media/zh/dialogues/Dialogue5_1.mp3",
+    "durationMs": 58410,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": null,
+        "role": "Suchende Kollegin",
+        "roleEn": null,
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Kollege B",
+        "labelEn": null,
+        "role": "Kollege",
+        "roleEn": null,
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Kollege C",
+        "labelEn": null,
+        "role": "Kollege 2",
+        "roleEn": null,
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 7
+  },
+  {
+    "id": "zh:d:Dialogue5_2",
+    "domain": "CHINESE",
+    "chapter": 5,
+    "titleEn": "Dialogue 5.2: Direction to the Production Workshop",
+    "titleDe": "Dialog 5.2: Orientierung zur Produktionswerkstatt",
+    "nativeTitle": "第5课 对话二：从办公楼到一号生产车间有多远",
+    "topicEn": "Walking distances, garden pathways, orientation & plant kiosk",
+    "topicDe": "Wegbeschreibung, Distanzen (Meter), Garten, Kiosk & Erfrischungen",
+    "descriptionEn": "The colleagues discuss the short walk to Workshop 1 through the central courtyard and take a quick break to fetch water at the company kiosk.",
+    "descriptionDe": "Drei Kollegen besprechen den Fußweg zur Produktionswerkstatt 1 durch den Garten und machen einen gemeinsamen Abstecher zum Kiosk.",
+    "audioRef": "media/zh/dialogues/Dialogue5_2.mp3",
+    "durationMs": 52230,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": null,
+        "role": "Kollegin (Kiosk)",
+        "roleEn": null,
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Kollege B",
+        "labelEn": null,
+        "role": "Wegweiser",
+        "roleEn": null,
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Kollege C",
+        "labelEn": null,
+        "role": "Kollege 2",
+        "roleEn": null,
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 8
+  },
+  {
+    "id": "zh:d:Dialogue6_1",
+    "domain": "CHINESE",
+    "chapter": 6,
+    "titleEn": "Dialogue 6.1: Shanghai Industrial Fair & Travel Plans",
+    "titleDe": "Dialog 6.1: Industriemesse Shanghai & Reisepläne",
+    "nativeTitle": "第6课 对话一：工业博览会的项目负责人",
+    "topicEn": "Business travel, trade fair schedule, autumn season & excursion",
+    "topicDe": "Messe Shanghai, Reisedauer, Jahreszeiten & Ausflug nach Hangzhou",
+    "descriptionEn": "Three colleagues coordinate project manager arrival for the Shanghai Industrial Fair and plan an autumn side-trip to Shaoxing and Hangzhou.",
+    "descriptionDe": "Drei Kollegen besprechen die Shanghai Industrie-Messe, Ankunft des Projektleiters und Reiseideen im angenehmen Herbstklima.",
+    "audioRef": "media/zh/dialogues/Dialogue6_1.mp3",
+    "durationMs": 58420,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": null,
+        "role": "Projektkoordinatorin",
+        "roleEn": null,
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Kollege B",
+        "labelEn": null,
+        "role": "Messeplaner",
+        "roleEn": null,
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Kollege C",
+        "labelEn": null,
+        "role": "Reisebegleiter",
+        "roleEn": null,
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 9
+  },
+  {
+    "id": "zh:d:Dialogue6_2",
+    "domain": "CHINESE",
+    "chapter": 6,
+    "titleEn": "Dialogue 6.2: Metropolis Dynamics vs. Countryside in Dali",
+    "titleDe": "Dialog 6.2: Großstadt-Dynamik vs. Landleben in Dali",
+    "nativeTitle": "第6课 对话二：喜欢在大城市还是向往农村生活",
+    "topicEn": "Career opportunities, traffic congestion, lifestyle pace & Dali",
+    "topicDe": "Urbanes Leben vs. Natur, Berufsverkehr, Umzug nach Dali & Lebensqualität",
+    "descriptionEn": "A lively conversation comparing the energetic career opportunities and stress of tier-1 metropolises with the relaxed, scenic life in Dali.",
+    "descriptionDe": "Drei Kollegen diskutieren Vor- und Nachteile zwischen Metropolen (Verkehrsstau, Tempo) und dem ruhigen Leben im südwestchinesischen Dali.",
+    "audioRef": "media/zh/dialogues/Dialogue6_2.mp3",
+    "durationMs": 64070,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": null,
+        "role": "Diskussionsteilnehmerin",
+        "roleEn": null,
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Kollege B",
+        "labelEn": null,
+        "role": "Großstadt-Befürworter",
+        "roleEn": null,
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Kollege C",
+        "labelEn": null,
+        "role": "Dali-Interessent",
+        "roleEn": null,
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 10
+  },
+  {
+    "id": "zh:d:Dialogue7_1",
+    "domain": "CHINESE",
+    "chapter": 7,
+    "titleEn": "Dialogue 7.1: Sichuan Restaurant & Ordering Dishes",
+    "titleDe": "Dialog 7.1: Sichuan-Restaurant & Menübestellung",
+    "nativeTitle": "第7课 对话一：大家肚子都饿了吧",
+    "topicEn": "Menu selection, spice tolerance, Sichuan cuisine & Longjing tea",
+    "topicDe": "Restaurant, Sichuan-Küche, scharf vs. mild, Gerichte & Getränkeauswahl",
+    "descriptionEn": "After work, three colleagues browse a Sichuan restaurant menu and select sea bass, tomato scrambled eggs, Kung Pao chicken, and hot tea.",
+    "descriptionDe": "Drei Kollegen bestellen im Sichuan-Restaurant: Gedämpfter Fisch, Tomaten-Ei, Kung-Pao-Huhn und grüner Longjing-Tee.",
+    "audioRef": "media/zh/dialogues/Dialogue7_1.mp3",
+    "durationMs": 62050,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": null,
+        "role": "Gastgeberin / Bestellerin",
+        "roleEn": null,
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Kollege B",
+        "labelEn": null,
+        "role": "Milde Speisen & Tee",
+        "roleEn": null,
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Kollege C",
+        "labelEn": null,
+        "role": "Sichuan-Spezialitäten",
+        "roleEn": null,
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 11
+  },
+  {
+    "id": "zh:d:Dialogue7_2",
+    "domain": "CHINESE",
+    "chapter": 7,
+    "titleEn": "Dialogue 7.2: Settling the Bill & AA Split (Go Dutch)",
+    "titleDe": "Dialog 7.2: Rechnungsbegleichung & Kostenteilung (AA-System)",
+    "nativeTitle": "第7课 对话二：刚才那道清蒸鱼的味道真是太绝了",
+    "topicEn": "Hospitality customs, bill payment, polite insistence & AA system",
+    "topicDe": "Rechnung bezahlen, Trinkgeld/Kostenaufteilung, AA-Prinzip (getrennte Rechnung)",
+    "descriptionEn": "After dinner, the host offers to treat the table, but her colleagues politely insist on splitting the bill equally according to the AA system.",
+    "descriptionDe": "Nach dem Festessen loben die Kollegen die Gerichte und diskutieren die Rechnung – Einladung vs. faire Kostenteilung im Kollegium (AA-System).",
+    "audioRef": "media/zh/dialogues/Dialogue7_2.mp3",
+    "durationMs": 62200,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": null,
+        "role": "Einladende",
+        "roleEn": null,
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Kollege B",
+        "labelEn": null,
+        "role": "AA-Befürworter",
+        "roleEn": null,
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Kollege C",
+        "labelEn": null,
+        "role": "Rechnungsprüfer",
+        "roleEn": null,
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 12
+  },
+  {
+    "id": "zh:d:Dialogue8_1",
+    "domain": "CHINESE",
+    "chapter": 8,
+    "titleEn": "Dialogue 8.1: Electronics in the Department Store & Official Invoice",
+    "titleDe": "Dialog 8.1: Elektronikzubehör im Technik-Kaufhaus & Quittung",
+    "nativeTitle": "第8课 对话一：请问这种优盘和储存卡多少钱",
+    "topicEn": "Electronics accessories in department store, pricing & official corporate invoice",
+    "topicDe": "Elektronikzubehör im Technik-Kaufhaus & Quittung",
+    "descriptionEn": "Two colleagues (A and C) purchase USB flash drives, optical discs, a mobile phone recharge card, and camera batteries from a sales assistant (B) ahead of a conference and request a corporate invoice (*Fāpiào*).",
+    "descriptionDe": "Zwei Kollegen (A und C) besorgen vor einer Konferenz in der Elektronikabteilung bei einem Verkäufer (B) USB-Sticks, Speicherkarten, eine Handy-Aufladekarte sowie Batterien und lassen sich eine Firmenquittung (*Fāpiào*) ausstellen.",
+    "audioRef": "media/zh/dialogues/Dialogue8_1.mp3",
+    "durationMs": 54650,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": "Speaker A",
+        "role": "Sprecherin A / Kollegin",
+        "roleEn": "Colleague A",
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Verkäufer B",
+        "labelEn": "Sales Assistant B",
+        "role": "Verkäufer Elektronik",
+        "roleEn": "Department Store Sales Assistant",
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Kollege C",
+        "labelEn": "Colleague C",
+        "role": "Kollege C",
+        "roleEn": "Colleague C",
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 13
+  },
+  {
+    "id": "zh:d:Dialogue8_2",
+    "domain": "CHINESE",
+    "chapter": 8,
+    "titleEn": "Dialogue 8.2: Clothing, Colors & Bargaining at the Night Market",
+    "titleDe": "Dialog 8.2: Kleidung, Farben & Feilschen auf dem Abendmarkt",
+    "nativeTitle": "第8课 对话二：这些丝绸领带和衬衫打几折",
+    "topicEn": "Apparel, silk ties, color preferences & evening market price bargaining",
+    "topicDe": "Kleidung, Farben & Feilschen auf dem Abendmarkt",
+    "descriptionEn": "Two colleagues (A and C) stroll through an evening apparel market, browse silk neckties and a dark blue dress shirt with a merchant (B), and negotiate discount percentages (*dǎzhé*).",
+    "descriptionDe": "Zwei Kollegen (A und C) bummeln über einen Bekleidungsmarkt, lassen sich von einem Händler (B) Seidenkrawatten und ein dunkelblaues Hemd zeigen und verhandeln über Rabatte (*dǎzhé*).",
+    "audioRef": "media/zh/dialogues/Dialogue8_2.mp3",
+    "durationMs": 52920,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": "Speaker A",
+        "role": "Sprecherin A / Kollegin",
+        "roleEn": "Colleague A",
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Händler B",
+        "labelEn": "Merchant B",
+        "role": "Markthändler",
+        "roleEn": "Market Merchant",
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Kollege C",
+        "labelEn": "Colleague C",
+        "role": "Kollege C",
+        "roleEn": "Colleague C",
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 14
+  },
+  {
+    "id": "zh:d:Dialogue9_1",
+    "domain": "CHINESE",
+    "chapter": 9,
+    "titleEn": "Dialogue 9.1: Weekend Shift & Sunday Lunch Invitation",
+    "titleDe": "Dialog 9.1: Wochenendschicht & Einladung zum Sonntags-Lunch",
+    "nativeTitle": "第9课 对话一：这个周末我想请你去吃午饭",
+    "topicEn": "Weekend duty shifts, scheduling conflicts & Sunday lunch invitation",
+    "topicDe": "Wochenendschicht & Einladung zum Sonntags-Lunch",
+    "descriptionEn": "Speaker A invites colleagues B and C to a Saturday Sichuan lunch. Because colleague B has morning duty until noon and afternoon commitments, they reschedule their gathering to Sunday at 12:00 PM.",
+    "descriptionDe": "Sprecherin A möchte ihre beiden Kollegen (B und C) am Samstagmittag ins Sichuan-Restaurant einladen. Da Kollege B am Samstag bis mittags Dienst hat und nachmittags bereits verabredet ist, verlegen sie das Treffen auf Sonntagmittag um 12 Uhr.",
+    "audioRef": "media/zh/dialogues/Dialogue9_1.mp3",
+    "durationMs": 41470,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": "Speaker A",
+        "role": "Sprecherin A / Kollegin",
+        "roleEn": "Colleague A",
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Kollege B",
+        "labelEn": "Colleague B",
+        "role": "Kollege B",
+        "roleEn": "Colleague B",
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Kollege C",
+        "labelEn": "Colleague C",
+        "role": "Kollege C",
+        "roleEn": "Colleague C",
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 15
+  },
+  {
+    "id": "zh:d:Dialogue9_2",
+    "domain": "CHINESE",
+    "chapter": 9,
+    "titleEn": "Dialogue 9.2: After-Hours Plans & Cinema Outing",
+    "titleDe": "Dialog 9.2: Feierabendpläne & Gemeinsamer Kinobesuch",
+    "nativeTitle": "第9课 对话二：你今天晚上有什么安排",
+    "topicEn": "Ongoing activities, evening plans, Jackie Chan movie & cinema meet-up",
+    "topicDe": "Feierabendpläne & Gemeinsamer Kinobesuch",
+    "descriptionEn": "Following Chinese class, Speaker A inquires about what colleagues B and C are currently engaged with and joins them for the evening screening of the newly released Jackie Chan feature.",
+    "descriptionDe": "Nach dem Chinesischkurs fragt Sprecherin A ihre beiden Kollegen (B und C), womit sie gerade beschäftigt sind, und schließt sich ihrem Kinobesuch für den neuen Jackie-Chan-Film an.",
+    "audioRef": "media/zh/dialogues/Dialogue9_2.mp3",
+    "durationMs": 36860,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": "Speaker A",
+        "role": "Sprecherin A / Kollegin",
+        "roleEn": "Colleague A",
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Kollege B",
+        "labelEn": "Colleague B",
+        "role": "Kollege B",
+        "roleEn": "Colleague B",
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Kollege C",
+        "labelEn": "Colleague C",
+        "role": "Kollege C",
+        "roleEn": "Colleague C",
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 16
+  },
+  {
+    "id": "zh:d:Dialogue10_1",
+    "domain": "CHINESE",
+    "chapter": 10,
+    "titleEn": "Dialogue 10.1: Table Selection, Menu Consultation & Ordering",
+    "titleDe": "Dialog 10.1: Platzwahl, Speisekarten-Beratung & Bestellung",
+    "nativeTitle": "第10课 对话一：我们坐这儿吧，这儿比那边安静",
+    "topicEn": "Restaurant table seating, handwritten menu comprehension & ordering Sichuan specialties",
+    "topicDe": "Platzwahl, Speisekarten-Beratung & Bestellung",
+    "descriptionEn": "Two colleagues (A and B) choose a quiet window table for lunch. Because colleague B cannot fully read the handwritten culinary board, they consult the waiter (C) for vegetarian recommendations, mild hot-and-sour soup, and Sichuan Dandan noodles.",
+    "descriptionDe": "Zwei Kollegen (A und B) suchen sich zur Mittagszeit einen ruhigen Tisch am Fenster. Da Kollege B die handgeschriebene Spezialitätenkarte nicht vollständig lesen kann, lassen sie sich vom Kellner (C) vegetarische Gerichte, eine mild gewürzte Sauer-Scharf-Suppe und Sichuan-Dandan-Nudeln empfehlen.",
+    "audioRef": "media/zh/dialogues/Dialogue10_1.mp3",
+    "durationMs": 54110,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": "Speaker A",
+        "role": "Sprecherin A / Kollegin",
+        "roleEn": "Colleague A",
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Kollege B",
+        "labelEn": "Colleague B",
+        "role": "Kollege B",
+        "roleEn": "Colleague B",
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Kellner C",
+        "labelEn": "Waiter C",
+        "role": "Restaurant-Kellner",
+        "roleEn": "Restaurant Waiter",
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 17
+  },
+  {
+    "id": "zh:d:Dialogue10_2",
+    "domain": "CHINESE",
+    "chapter": 10,
+    "titleEn": "Dialogue 10.2: Beverage Pairing, Maotai Toast & Settling the Bill",
+    "titleDe": "Dialog 10.2: Getränkeauswahl, Maotai-Toast & Rechnungsbegleichung",
+    "nativeTitle": "第10课 对话二：为我们的友好合作干杯",
+    "topicEn": "Beverage selection, comparative tastes, toasting with Maotai & settling the bill",
+    "topicDe": "Getränkeauswahl, Maotai-Toast & Rechnungsbegleichung",
+    "descriptionEn": "Following dinner, the three colleagues discuss Tsingtao beer, dry red wine, and premium Maotai liquor, toast to successful cooperation and good health, and settle the invoice (*mǎidān*).",
+    "descriptionDe": "Nach dem Essen unterhalten sich die drei Kollegen (A, B und C) über Tsingtao-Bier, Rotwein und Maotai-Schnaps, stoßen auf die Zusammenarbeit und Gesundheit an und klären die Bezahlung der Rechnung (*mǎidān*).",
+    "audioRef": "media/zh/dialogues/Dialogue10_2.mp3",
+    "durationMs": 41330,
+    "speakers": {
+      "A": {
+        "label": "Sprecherin A",
+        "labelEn": "Speaker A",
+        "role": "Sprecherin A / Kollegin",
+        "roleEn": "Colleague A",
+        "voice": "female_v4",
+        "gender": "female",
+        "colorHex": "#ec4899"
+      },
+      "B": {
+        "label": "Kollege B",
+        "labelEn": "Colleague B",
+        "role": "Kollege B",
+        "roleEn": "Colleague B",
+        "voice": "male_v1",
+        "gender": "male",
+        "colorHex": "#3b82f6"
+      },
+      "C": {
+        "label": "Kollege C",
+        "labelEn": "Colleague C",
+        "role": "Kollege C",
+        "roleEn": "Colleague C",
+        "voice": "male_zs",
+        "gender": "male",
+        "colorHex": "#10b981"
+      }
+    },
+    "sortOrder": 18
+  }
+]
