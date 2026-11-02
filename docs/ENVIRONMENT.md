@@ -13,5 +13,12 @@ Generated and updated as part of Phase 0 (`T0.1`).
 ## Environment Details
 - **OS**: Windows 11 / Windows_NT (x86_64)
 - **Workspace Path**: `d:\.D Dokuments\Uni Stuff\Knowledge_App`
-- **Android SDK Path**: `C:\Users\nickb\AppData\Local\Android\Sdk` (build-tools 30.0.3, 33.0.2, 34.0.0, 36.1.0)
+- **Android SDK Path**: `C:\Users\nickb\AppData\Local\Android\Sdk` (build-tools 30.0.3, 33.0.2, 34.0.0, 36.0.0, 36.1.0)
 - **Android Studio Path**: `D:\Program Files (x86)\Android\Android Studio` (Version 2023.1)
+
+## Project Stack Versions (from T1.1 Scaffold)
+- **Android Gradle Plugin (AGP)**: `9.0.1`
+- **Kotlin**: `2.3.20`
+- **Compose BOM**: `2026.03.01`
+- **compileSdk / targetSdk**: `36`
+- **minSdk**: `26`

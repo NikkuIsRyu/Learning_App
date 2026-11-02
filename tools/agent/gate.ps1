@@ -15,7 +15,7 @@ New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 $log = Join-Path $logDir ("{0}-{1}-{2}.log" -f $Ticket, $Gate, (Get-Date -Format 'yyyyMMdd-HHmmss'))
 $gradlew = if ($env:OS -eq 'Windows_NT') { Join-Path $root 'gradlew.bat' } else { Join-Path $root 'gradlew' }
 if (-not (Test-Path -LiteralPath $gradlew)) { Write-Output "GATE $Gate FAIL ($Ticket) gradle wrapper missing"; exit 1 }
-$taskList = if ($Tasks) { $Tasks -split '\s+' } else {
+[string[]]$taskList = if ($Tasks) { @($Tasks -split '\s+') } else {
     switch ($Gate) {
         'G1' { @('assembleDebug') }
         'G2' { @('testDebugUnitTest', ':core:domain:test') }
@@ -23,7 +23,7 @@ $taskList = if ($Tasks) { $Tasks -split '\s+' } else {
     }
 }
 $start = Get-Date
-& $gradlew @taskList --console=plain *> $log
+& $gradlew $taskList --console=plain *> $log
 $code = $LASTEXITCODE
 if ($code -eq 0) { Write-Output "GATE $Gate PASS ($Ticket) log=$log"; exit 0 }
 
