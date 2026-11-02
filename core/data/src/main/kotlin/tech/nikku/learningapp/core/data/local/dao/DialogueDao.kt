@@ -25,6 +25,10 @@ interface DialogueDao {
   @Query("SELECT * FROM dialogues WHERE id = :id")
   fun observeWithTurns(id: String): Flow<DialogueWithTurns?>
 
+  @Transaction
+  @Query("SELECT * FROM dialogues WHERE id = :id")
+  suspend fun getWithTurns(id: String): DialogueWithTurns?
+
   @Query("DELETE FROM dialogues WHERE contentVersion < :version")
   suspend fun deleteStale(version: Int): Int
 }

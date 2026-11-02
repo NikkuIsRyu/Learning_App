@@ -47,4 +47,12 @@ abstract class RepositoryModule {
   @Binds
   @Singleton
   abstract fun bindExerciseRepository(impl: tech.nikku.learningapp.core.data.repository.ExerciseRepositoryImpl): tech.nikku.learningapp.core.domain.repository.ExerciseRepository
+
+  @Binds
+  @Singleton
+  abstract fun bindMediaRepository(impl: tech.nikku.learningapp.core.data.repository.MediaRepositoryImpl): tech.nikku.learningapp.core.domain.repository.MediaRepository
+
+  @Binds
+  @Singleton
+  abstract fun bindDialogueRepository(impl: tech.nikku.learningapp.core.data.repository.DialogueRepositoryImpl): tech.nikku.learningapp.core.domain.repository.DialogueRepository
 }

@@ -108,3 +108,14 @@ interface SettingsRepository {
   fun observeResetAt(): Flow<Long>
   suspend fun setResetAt(timestamp: Long)
 }
+
+sealed interface MediaResolution {
+  data class FilePath(val absolutePath: String) : MediaResolution
+  data class AssetPath(val assetPath: String) : MediaResolution
+  data class NotDownloaded(val packId: String) : MediaResolution
+  data object NotFound : MediaResolution
+}
+
+interface MediaRepository {
+  suspend fun resolve(ref: String): MediaResolution
+}

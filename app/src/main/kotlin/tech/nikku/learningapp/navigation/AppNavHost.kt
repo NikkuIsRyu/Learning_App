@@ -12,6 +12,7 @@ import tech.nikku.learningapp.feature.japanese.conjugation.ConjugationDrillRoute
 import tech.nikku.learningapp.feature.japanese.conjugation.ConjugationMatrixRoute as ConjugationMatrixDestination
 import tech.nikku.learningapp.feature.japanese.particle.ParticleClozeRoute as ParticleClozeDestination
 import tech.nikku.learningapp.feature.japanese.scramble.SentenceBuilderRoute as SentenceBuilderDestination
+import tech.nikku.learningapp.feature.japanese.listening.ListeningRoute as ListeningDestination
 import tech.nikku.learningapp.feature.japanese.hub.JapaneseHubRoute
 import tech.nikku.learningapp.feature.today.TodayRoute
 import tech.nikku.learningapp.feature.vault.VaultRoute
@@ -64,6 +65,11 @@ fun AppNavHost(
     }
     composable<SentenceBuilderRoute> {
       SentenceBuilderDestination(
+        onBackClick = { navController.popBackStack() }
+      )
+    }
+    composable<ListeningPlayerRoute> {
+      ListeningDestination(
         onBackClick = { navController.popBackStack() }
       )
     }

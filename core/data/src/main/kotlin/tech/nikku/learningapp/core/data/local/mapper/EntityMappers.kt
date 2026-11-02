@@ -125,6 +125,9 @@ fun DialogueEntity.toDomain(turns: List<DialogueTurn> = emptyList()): Dialogue =
   contentVersion = contentVersion
 )
 
+fun tech.nikku.learningapp.core.data.local.relation.DialogueWithTurns.toDomain(): Dialogue =
+  dialogue.toDomain(turns = turns.map { it.toDomain() })
+
 fun UserProgressEntity.toDomain(): UserProgress = UserProgress(
   itemKey = itemKey,
   itemType = itemType,

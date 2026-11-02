@@ -405,3 +405,39 @@ ContentValidationTest.kt:294:74 Unresolved reference 'SENTENCE_SCRAMBLE'.
 - **(b) Faulty Assumption:** Assumed the enum value was `SENTENCE_SCRAMBLE` based on the ticket name without checking `Enums.kt`.
 - **(c) Corrective Code Strategy:** Update `ContentValidationTest.kt` and `gen_scramble.py` to use `ExerciseType.SCRAMBLE` (matching `"type": "SCRAMBLE"`).
 - **Outcome:** PASS (GATE G2 PASS)
+
+
+### [R-0029] T3.6 · G1 · attempt 1/3 · 2026-11-02T18:01:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+TurnRow.kt:69:22 Try catch is not supported around composable function invocations.
+```
+- **(a) Root Cause:** In `TurnRow.kt`, `try { ... MaterialTheme.colorScheme.primary } catch { MaterialTheme.colorScheme.primary }` wraps `@Composable` property calls inside a `try/catch` block, which the Compose compiler disallows.
+- **(b) Faulty Assumption:** Assumed `MaterialTheme.colorScheme.primary` could be called inside a `try/catch` block for fallback color calculation.
+- **(c) Corrective Code Strategy:** Extract the fallback color `val fallbackColor = MaterialTheme.colorScheme.primary` before the `try/catch` or parse the color integer first outside `@Composable` calls: `val parsed = runCatching { speakerInfo?.colorHex?.let { android.graphics.Color.parseColor(it) } }.getOrNull()` then `val speakerColor = if (parsed != null) Color(parsed) else MaterialTheme.colorScheme.primary`.
+- **Outcome:** PASS (GATE G1 PASS)
+
+
+### [R-0030] T3.6 · G1 · attempt 2/3 · 2026-11-02T18:02:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+LearningApplication_HiltComponents.java: error: [Dagger/MissingBinding] tech.nikku.learningapp.core.domain.repository.DialogueRepository cannot be provided without an @Provides-annotated method.
+```
+- **(a) Root Cause:** `DialogueRepository` was injected into `ListeningViewModel`, but `DialogueRepositoryImpl` had not yet been created in `:core:data` and bound in `RepositoryModule.kt`.
+- **(b) Faulty Assumption:** Assumed `DialogueRepository` was already implemented and bound during Phase 2.
+- **(c) Corrective Code Strategy:** Create `DialogueRepositoryImpl.kt` in `core/data/src/main/kotlin/tech/nikku/learningapp/core/data/repository/`, implement `observeDialogues` and `getDialogueById` using `dialogueDao`, and bind `DialogueRepository` in `RepositoryModule.kt`.
+- **Outcome:** PASS (GATE G1 PASS)
+
+
+### [R-0031] T3.6 · G2 · attempt 1/3 · 2026-11-02T18:06:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ListeningViewModelTest.kt: Unresolved reference 'test'.
+ListeningViewModelTest.kt: Unresolved reference 'robolectric'.
+ListeningViewModelTest.kt: Unresolved reference 'RobolectricTestRunner'.
+ListeningViewModelTest.kt: Unresolved reference 'ApplicationProvider'.
+```
+- **(a) Root Cause:** `app/build.gradle.kts` had `robolectric` and `androidx.test.core` under `androidTestImplementation` instead of `testImplementation`.
+- **(b) Faulty Assumption:** Assumed `testImplementation(libs.robolectric)` and `testImplementation(libs.androidx.test.core)` were configured in `:app` just like in `:core:data`.
+- **(c) Corrective Code Strategy:** Add `testImplementation(libs.robolectric)` and `testImplementation(libs.androidx.test.core)` to `app/build.gradle.kts`.
+- **Outcome:** PASS (GATE G2 PASS)
