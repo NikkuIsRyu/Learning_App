@@ -296,3 +296,15 @@ java.lang.AssertionError: Chapter 26 must have words > 0
 - **(b) Faulty Assumption:** Assumed `stateIn` with an already-populated `StateFlow` would immediately emit the transformed upstream value on the first `awaitItem()` call without emitting `initialValue`.
 - **(c) Corrective Code Strategy:** In `JapaneseHubViewModelTest`, skip or check the initial loading state (`if (state.isLoading) state = awaitItem()`) or use `SharingStarted.Eagerly` / `advanceUntilIdle()` so Turbine asserts on the active state.
 - **Outcome:** PASS (GATE G2 PASS)
+
+
+### [R-0020] T3.2 · G2 · attempt 1/3 · 2026-11-02T17:03:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ConjugatorGoldenTest > testIchidanVerbsAcrossAllForms FAILED
+tech.nikku.learningapp.core.domain.engine.conjugation.ConjugatorGoldenTest.testIchidanVerbsAcrossAllForms: org.junit.ComparisonFailure: expected:<食[]ます> but was:<食[べ]ます>
+```
+- **(a) Root Cause:** In `ConjugatorGoldenTest.kt`, the test helper constructed expected ichidan surfaces using a hardcoded kanji prefix (`"食"`) instead of the true lemma stem `lemma.dropLast(1)` (`"食べ"`).
+- **(b) Faulty Assumption:** Assumed the test prefix for `食べる` was just the kanji `食`, omitting the okurigana `べ`.
+- **(c) Corrective Code Strategy:** In `ConjugatorGoldenTest.kt`, use `lemma.dropLast(1)` as `stem` (matching `rStem = reading.dropLast(1)`) so `食べる` conjugates to `食べます`, `食べた`, etc.
+- **Outcome:** PASS (GATE G2 PASS)
