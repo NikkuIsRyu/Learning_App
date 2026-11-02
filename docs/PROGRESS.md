@@ -1,0 +1,42 @@
+# Implementation Progress Ledger
+
+Track every ticket from [`02_HANDOFF_ROADMAP.md`](02_HANDOFF_ROADMAP.md). Allowed statuses: `TODO`, `IN_PROGRESS`, `VERIFYING`, `BLOCKED`, `DONE`.
+
+| Ticket | Phase | Title | Gates | Status | Gate Evidence / Log Path | Commit |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `T0.1` | 0 | Toolchain probe | G0 | `DONE` | `docs/ENVIRONMENT.md` generated & verified (G0 PASS) | — |
+| `T0.2` | 0 | Git wiring | G0 | `TODO` | — | — |
+| `T0.3` | 0 | Evaluator harness (`gate.ps1`, `preview.ps1`) | G0 | `TODO` | — | — |
+| `T1.1` | 1 | Generate Android project (`android create`) | G1 | `TODO` | — | — |
+| `T1.2` | 1 | 4-module split & dependency stack | G1, G2 | `TODO` | — | — |
+| `T1.3` | 1 | Design system & CJK primitives (`FuriganaText`, `PinyinText`) | G2, G3 | `TODO` | — | — |
+| `T1.4` | 1 | App shell & adaptive top-level navigation | G1, G3, G4 | `TODO` | — | — |
+| `T1.5` | 1 | Vault "Work in Progress" screen | G2, G3 | `TODO` | — | — |
+| `T2.1` | 2 | Domain models & repository interfaces | G1, G2 | `TODO` | — | — |
+| `T2.2` | 2 | Room schema (entities, relations, converters, DAOs) | G0, G1 | `TODO` | — | — |
+| `T2.3` | 2 | DAO tests (Robolectric JVM) | G2 | `TODO` | — | — |
+| `T2.4` | 2 | Content ETL & seed JSON + errata validation | G0, G2 | `TODO` | — | — |
+| `T2.5` | 2 | `ContentSeeder` & DataStore settings | G2, G4 | `TODO` | — | — |
+| `T2.6` | 2 | Deterministic SRS scheduler & review use cases | G2 | `TODO` | — | — |
+| `T3.1` | 3 | Japanese Chapter Hub (1–50, 26–32 verified) & detail | G2, G3 | `TODO` | — | — |
+| `T3.2` | 3 | Rule-based Conjugation Engine & golden tests | G2 | `TODO` | — | — |
+| `T3.3` | 3 | Conjugation Matrix & Drill UI | G2, G3 | `TODO` | — | — |
+| `T3.4` | 3 | Particle Cloze engine & UI | G0, G2, G3 | `TODO` | — | — |
+| `T3.5` | 3 | Sentence Builder (Scramble) engine & UI | G2, G3 | `TODO` | — | — |
+| `T3.6` | 3 | Shared Media3 Audio Player & Japanese Listening | G2, G3, G4 | `TODO` | — | — |
+| `T3.7` | 3 | Master Lexicon (hybrid FTS4/LIKE + filter chips) | G2, G3 | `TODO` | — | — |
+| `T3.8` | 3 | Chapter Kanji & animated KanjiVG stroke order | G2, G3 | `TODO` | — | — |
+| `T3.9` | 3 | Review Session host & Today dashboard | G2, G3, G4 | `TODO` | — | — |
+| `T4.1` | 4 | Chinese content verification & Pinyin utilities | G2 | `TODO` | — | — |
+| `T4.2` | 4 | Chinese Grammar Explorer (formula pills + tone colors) | G2, G3 | `TODO` | — | — |
+| `T4.3` | 4 | Chinese Grammar Cards (flip + SRS) | G2, G3 | `TODO` | — | — |
+| `T4.4` | 4 | Confusable Pairs cards & quiz | G2, G3 | `TODO` | — | — |
+| `T4.5` | 4 | Chinese Dialogue Player (timestamp sentence replay) | G2, G3, G4 | `TODO` | — | — |
+| `T5.1` | 5 | Firebase project wiring *(User Gate)* | G1 | `TODO` | — | — |
+| `T5.2` | 5 | Firebase Authentication (Credential Manager) | G2, G3 | `TODO` | — | — |
+| `T5.3` | 5 | Firestore security rules *(Delegated: `firestore-rules-author`)* | Emulator | `TODO` | — | — |
+| `T5.4` | 5 | Event-sourced `SyncWorker` & convergence tests | G2, G4 | `TODO` | — | — |
+| `T5.5` | 5 | On-demand Media Packs (Tier B) | G2 | `TODO` | — | — |
+| `T5.6` | 5 | User Feedback module (offline queue + Firestore sync) | G2, G3 | `TODO` | — | — |
+| `T5.7` | 5 | Accessibility, font-scale & attribution pass | G3, G5 | `TODO` | — | — |
+| `T5.8` | 5 | Release R8 build & end-to-end smoke journey | G1, G4 | `TODO` | — | — |

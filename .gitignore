@@ -1,0 +1,26 @@
+# Built binaries and Gradle
+build/
+.gradle/
+captures/
+.kotlin/
+
+# Android Studio and IDE
+.idea/
+*.iml
+local.properties
+.DS_Store
+
+# Keystores & sensitive config
+*.keystore
+*.jks
+app/google-services.json
+
+# Tooling and caches
+tools/content-etl/node_modules/
+tools/content-etl/.venv/
+tools/content-etl/.cache/
+content-private/
+
+# Keep reflections and progress tracked
+!.system_generated/
+!.system_generated/reflections.md
