@@ -85,3 +85,15 @@ org.junit.ComparisonFailure: expected:<{窓|まど}が[ ]{開|あ}きます> but
 - **(b) Faulty Assumption:** Assumed consuming the optional leading space was necessary to handle Anki's leading space convention.
 - **(c) Corrective Code Strategy:** Remove `(?: )?` from the regex match so whitespace outside the kanji-bracket pair is naturally preserved by `substring(lastIndex, match.range.first)`.
 - **Outcome:** PASS (GATE G2 PASS)
+
+### [R-0006] T1.4 · G1 · attempt 1/3 · 2026-11-02T15:26:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+TopLevelDestination.kt:4:34 Unresolved reference 'icons'.
+TopLevelDestination.kt:22:12 Unresolved reference 'Icons'.
+> Task :app:compileDebugKotlin FAILED
+```
+- **(a) Root Cause:** `androidx.compose.material:material-icons-core` was not declared in the dependencies of `:app` or `:core:designsystem`, so `androidx.compose.material.icons.Icons` is not visible on the classpath.
+- **(b) Faulty Assumption:** Assumed `material3` re-exported `material-icons-core` transitively on the compile classpath for application modules.
+- **(c) Corrective Code Strategy:** Add `androidx-compose-material-icons-core = { group = "androidx.compose.material", name = "material-icons-core" }` to `gradle/libs.versions.toml` (managed by compose-bom) and add `implementation(libs.androidx.compose.material.icons.core)` to `app/build.gradle.kts`.
+- **Outcome:** PASS (GATE G1 PASS)

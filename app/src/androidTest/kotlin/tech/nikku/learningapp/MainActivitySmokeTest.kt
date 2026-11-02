@@ -10,6 +10,6 @@ class MainActivitySmokeTest {
 
   @Test
   fun appStartsAndDisplaysTitle() {
-    composeTestRule.onNodeWithText("Learning App").assertExists()
+    composeTestRule.onNodeWithText("Today").assertExists()
   }
 }

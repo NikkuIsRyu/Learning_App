@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Learning App</string>
+    <string name="nav_today">Today</string>
+    <string name="nav_japanese">日本語</string>
+    <string name="nav_chinese">中文</string>
+    <string name="nav_vault">Vault</string>
+
+    <string name="today_title">Today</string>
+    <string name="japanese_hub_title">日本語 — Japanese</string>
+    <string name="chinese_hub_title">中文 — Chinese</string>
+    <string name="vault_title">Computer Science Vault</string>
+    <string name="vault_subtitle">Academic Knowledge Vault (Work in Progress)</string>
+    <string name="vault_badge_planned">Planned</string>
+    <string name="vault_badge_drafting">Drafting</string>
+    <string name="vault_badge_next_up">Next up</string>
+    <string name="vault_notify_me">Notify me</string>
 </resources>
