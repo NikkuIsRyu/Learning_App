@@ -296,3 +296,30 @@ data class DialogueTurnDto(
     endMs = endMs
   )
 }
+
+@Serializable
+data class ExerciseDto(
+  val id: String,
+  val domain: Domain,
+  val chapter: Int? = null,
+  val type: ExerciseType,
+  val grammarRuleId: String? = null,
+  val difficulty: Int = 1,
+  val payload: ExercisePayload,
+  val verified: Boolean = false,
+  val sortOrder: Int,
+  val contentVersion: Int = 1
+) {
+  fun toEntity(version: Int = contentVersion) = ExerciseEntity(
+    id = id,
+    domain = domain,
+    chapter = chapter,
+    type = type,
+    grammarRuleId = grammarRuleId,
+    difficulty = difficulty,
+    payload = payload,
+    verified = verified,
+    sortOrder = sortOrder,
+    contentVersion = version
+  )
+}

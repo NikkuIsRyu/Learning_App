@@ -87,6 +87,21 @@ org.junit.ComparisonFailure: expected:<{窓|まど}が[ ]{開|あ}きます> but
 - **(c) Corrective Code Strategy:** Remove `(?: )?` from the regex match so whitespace outside the kanji-bracket pair is naturally preserved by `substring(lastIndex, match.range.first)`.
 - **Outcome:** PASS (GATE G2 PASS)
 
+### [R-0016] T2.5 · G2 · attempt 1/3 · 2026-11-02T16:34:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ContentSeederTest.kt:158:30 Unresolved reference 'MINNA_SHOKYU'.
+ContentSeederTest.kt:169:29 Unresolved reference 'GODAN_MU'.
+ContentSeederTest.kt:253:9 No parameter with name 'explanation' found.
+ContentSeederTest.kt:357:27 Unresolved reference 'VOCAB'.
+ContentSeederTest.kt:393:46 Unresolved reference 'observeProgress'.
+```
+- **(a) Root Cause:** `ContentSeederTest.kt` constructed test fixtures with out-of-sync identifiers: `ContentSource.MINNA_SHOKYU` instead of `ContentSource.MINNA`, `VerbGroup.GODAN_MU` instead of `VerbGroup.GODAN`, `ItemType.VOCAB` instead of `ItemType.WORD`, `ProgressDao.observeProgress` instead of `ProgressDao.observe`, and incomplete `ConfusableSide` constructor parameters (`term`, `romanization`, `conceptEn`, `formula`, `ruleEn`, `correct`, `incorrect`).
+- **(b) Faulty Assumption:** Assumed domain enums and DAO method names matched legacy draft naming without checking the exact signatures in `Enums.kt`, `ExercisePayload.kt`, and `ProgressDao.kt`.
+- **(c) Corrective Code Strategy:** Fix `ContentSeederTest.kt` to use `ContentSource.MINNA`, `VerbGroup.GODAN`, `ItemType.WORD`, `ProgressDao.observe`, and proper `ConfusableSide` instantiation with `SentenceSample` and `WrongSample`. Then re-run Gate G2.
+- **Outcome:** PASS (GATE G2 PASS)
+
+
 ### [R-0006] T1.4 · G1 · attempt 1/3 · 2026-11-02T15:26:00+01:00
 - **Signal (≤5 lines, verbatim):**
 ```
@@ -110,6 +125,21 @@ java.lang.UnsupportedOperationException: Failed to create a Robolectric sandbox:
 - **(b) Faulty Assumption:** Assumed Robolectric without `@Config(sdk = ...)` would run on Java 17 for `compileSdk = 36`.
 - **(c) Corrective Code Strategy:** Add `@Config(sdk = [34])` to Robolectric test classes (and promote as lesson **L-05**: all Robolectric tests must specify `@Config(sdk = [34])` to run within Java 17 JBR sandbox limits).
 - **Outcome:** PASS (GATE G2 PASS)
+
+### [R-0016] T2.5 · G2 · attempt 1/3 · 2026-11-02T16:34:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ContentSeederTest.kt:158:30 Unresolved reference 'MINNA_SHOKYU'.
+ContentSeederTest.kt:169:29 Unresolved reference 'GODAN_MU'.
+ContentSeederTest.kt:253:9 No parameter with name 'explanation' found.
+ContentSeederTest.kt:357:27 Unresolved reference 'VOCAB'.
+ContentSeederTest.kt:393:46 Unresolved reference 'observeProgress'.
+```
+- **(a) Root Cause:** `ContentSeederTest.kt` constructed test fixtures with out-of-sync identifiers: `ContentSource.MINNA_SHOKYU` instead of `ContentSource.MINNA`, `VerbGroup.GODAN_MU` instead of `VerbGroup.GODAN`, `ItemType.VOCAB` instead of `ItemType.WORD`, `ProgressDao.observeProgress` instead of `ProgressDao.observe`, and incomplete `ConfusableSide` constructor parameters (`term`, `romanization`, `conceptEn`, `formula`, `ruleEn`, `correct`, `incorrect`).
+- **(b) Faulty Assumption:** Assumed domain enums and DAO method names matched legacy draft naming without checking the exact signatures in `Enums.kt`, `ExercisePayload.kt`, and `ProgressDao.kt`.
+- **(c) Corrective Code Strategy:** Fix `ContentSeederTest.kt` to use `ContentSource.MINNA`, `VerbGroup.GODAN`, `ItemType.WORD`, `ProgressDao.observe`, and proper `ConfusableSide` instantiation with `SentenceSample` and `WrongSample`. Then re-run Gate G2.
+- **Outcome:** PASS (GATE G2 PASS)
+
 
 ### [R-0008] T2.1 · G1 · attempt 1/3 · 2026-11-02T15:38:00+01:00
 - **Signal (≤5 lines, verbatim):**
@@ -158,7 +188,7 @@ kotlinx.serialization.SerializationException: tech.nikku.learningapp.core.domain
 - **(a) Root Cause:** `mdx_vocab.py` mapped i-adjectives to `"ADJECTIVE_I"`, whereas `PartOfSpeech` enum in `:core:domain` defines `I_ADJECTIVE` and `NA_ADJECTIVE`. During `ContentValidationTest`, `Json.decodeFromString` failed when deserializing `WordDto.pos`.
 - **(b) Faulty Assumption:** Assumed the enum constant name was `ADJECTIVE_I` without cross-referencing `tech.nikku.learningapp.core.domain.model.PartOfSpeech` in `Enums.kt`.
 - **(c) Corrective Code Strategy:** Update `map_pos` in `tools/content-etl/mdx_vocab.py` to emit `"I_ADJECTIVE"` and `"NA_ADJECTIVE"`. Re-generate `words_mnn_26_32.json` and `manifest.json`, then re-execute Gate G2.
-- **Outcome:** Pending
+- **Outcome:** PASS (GATE G2 PASS)
 
 ### [R-0012] T2.4 · G2 · attempt 2/3 · 2026-11-02T16:15:00+01:00
 - **Signal (≤5 lines, verbatim):**
@@ -170,7 +200,7 @@ kotlinx.serialization.MissingFieldException: Fields [text, romanization] are req
 - **(a) Root Cause:** `export-zh.mts` serialized raw `ConfusableSide` objects directly from TypeScript data which uses `pinyin` and `hanzi`. Kotlin domain models `ConfusableSide`, `SentenceSample`, and `WrongSample` require `romanization` and `text`.
 - **(b) Faulty Assumption:** Assumed TypeScript Astro model field names (`hanzi`, `pinyin`) matched Kotlin domain model properties (`text`, `romanization`) verbatim.
 - **(c) Corrective Code Strategy:** In `export-zh.mts`, explicitly map `ConfusableSide` mapping `side.pinyin -> romanization`, `side.correct.hanzi -> text`, `side.correct.pinyin -> romanization`, `side.incorrect.hanzi -> text`, `side.incorrect.pinyin -> romanization`. Re-run `export-zh.mts`, `generate_manifest.py`, and re-execute Gate G2.
-- **Outcome:** Pending
+- **Outcome:** PASS (GATE G2 PASS)
 
 ### [R-0013] T2.4 · G2 · attempt 3/3 · 2026-11-02T16:16:00+01:00
 - **Signal (≤5 lines, verbatim):**
@@ -182,7 +212,7 @@ kotlinx.serialization.MissingFieldException: Field 'colorHex' is required for ty
 - **(a) Root Cause:** `chineseDialogues.ts` defines speaker colors under property `color`, whereas Kotlin domain model `SpeakerInfo` requires `colorHex`.
 - **(b) Faulty Assumption:** Assumed speaker object keys in Astro matched Kotlin domain model property names verbatim without checking `colorHex` vs `color`.
 - **(c) Corrective Code Strategy:** In `export-zh.mts`, map `speakers` entries to ensure `colorHex: sp.color || sp.colorHex`. Re-run `export-zh.mts`, `generate_manifest.py`, and Gate G2.
-- **Outcome:** Pending
+- **Outcome:** PASS (GATE G2 PASS)
 
 ### [R-0014] T2.4 · G2 · attempt 4/3 · 2026-11-02T16:18:00+01:00
 - **Signal (≤5 lines, verbatim):**
@@ -202,7 +232,7 @@ tech.nikku.learningapp.core.data.content.ContentValidationTest.validateVerbInvar
   2. In `export-zh.mts`, load turns and timestamps from authoritative `_timestamps.json` when present.
   3. In `mdx_vocab.py`, check `adverb` / `副詞` before `verb`.
   Re-run ETL, regenerate manifest, and re-execute Gate G2.
-- **Outcome:** Pending
+- **Outcome:** PASS (GATE G2 PASS)
 
 ### [R-0015] T2.4 · G2 · attempt 5/3 · 2026-11-02T16:21:00+01:00
 - **Signal (≤5 lines, verbatim):**
@@ -215,3 +245,18 @@ java.lang.AssertionError: Verb ja:mnn:28:w046 (うーん) must have verbGroup
 - **(b) Faulty Assumption:** Assumed substring `"動詞"` uniquely identified verbs, overlooking compound kanji terms like `感動詞` (interjection).
 - **(c) Corrective Code Strategy:** Define `VERB` strictly via `(lesson, item) in VERB_META` and check `interjection` / `感動詞` before any fallback verb check. Re-run `mdx_vocab.py`, `generate_manifest.py`, and Gate G2.
 - **Outcome:** PASS (GATE G2 PASS)
+
+### [R-0016] T2.5 · G2 · attempt 1/3 · 2026-11-02T16:34:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ContentSeederTest.kt:158:30 Unresolved reference 'MINNA_SHOKYU'.
+ContentSeederTest.kt:169:29 Unresolved reference 'GODAN_MU'.
+ContentSeederTest.kt:253:9 No parameter with name 'explanation' found.
+ContentSeederTest.kt:357:27 Unresolved reference 'VOCAB'.
+ContentSeederTest.kt:393:46 Unresolved reference 'observeProgress'.
+```
+- **(a) Root Cause:** `ContentSeederTest.kt` constructed test fixtures with out-of-sync identifiers: `ContentSource.MINNA_SHOKYU` instead of `ContentSource.MINNA`, `VerbGroup.GODAN_MU` instead of `VerbGroup.GODAN`, `ItemType.VOCAB` instead of `ItemType.WORD`, `ProgressDao.observeProgress` instead of `ProgressDao.observe`, and incomplete `ConfusableSide` constructor parameters (`term`, `romanization`, `conceptEn`, `formula`, `ruleEn`, `correct`, `incorrect`).
+- **(b) Faulty Assumption:** Assumed domain enums and DAO method names matched legacy draft naming without checking the exact signatures in `Enums.kt`, `ExercisePayload.kt`, and `ProgressDao.kt`.
+- **(c) Corrective Code Strategy:** Fix `ContentSeederTest.kt` to use `ContentSource.MINNA`, `VerbGroup.GODAN`, `ItemType.WORD`, `ProgressDao.observe`, and proper `ConfusableSide` instantiation with `SentenceSample` and `WrongSample`. Then re-run Gate G2.
+- **Outcome:** PASS (GATE G2 PASS)
+

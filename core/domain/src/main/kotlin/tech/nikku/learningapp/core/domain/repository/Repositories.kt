@@ -88,4 +88,22 @@ interface SettingsRepository {
 
   fun observeDarkTheme(): Flow<Boolean?>
   suspend fun setDarkTheme(darkTheme: Boolean?)
+
+  fun observeUiLanguage(): Flow<String>
+  suspend fun setUiLanguage(language: String)
+
+  fun observeDailyNewLimit(): Flow<Int>
+  suspend fun setDailyNewLimit(limit: Int)
+
+  fun observeActiveChapters(): Flow<Set<Int>>
+  suspend fun setActiveChapters(chapters: Set<Int>)
+
+  fun observePlaybackSpeed(): Flow<Float>
+  suspend fun setPlaybackSpeed(speed: Float)
+
+  fun observeContentVersion(): Flow<Int>
+  suspend fun setContentVersion(version: Int)
+
+  fun observeResetAt(): Flow<Long>
+  suspend fun setResetAt(timestamp: Long)
 }
