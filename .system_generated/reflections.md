@@ -394,3 +394,14 @@ ParticleClozeScreen.kt:399:42 Unresolved reference 'MenuBook'.
 - **(b) Faulty Assumption:** Assumed `MenuBook` was available in core Material 3 icons.
 - **(c) Corrective Code Strategy:** Replace `Icons.AutoMirrored.Filled.MenuBook` with `Icons.Default.Info` in `ParticleClozeScreen.kt`.
 - **Outcome:** PASS (GATE G1 PASS)
+
+
+### [R-0028] T3.5 · G2 · attempt 1/3 · 2026-11-02T17:47:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ContentValidationTest.kt:294:74 Unresolved reference 'SENTENCE_SCRAMBLE'.
+```
+- **(a) Root Cause:** `ContentValidationTest.kt` referenced `ExerciseType.SENTENCE_SCRAMBLE`, but the enum defined in `Enums.kt` is `ExerciseType.SCRAMBLE`.
+- **(b) Faulty Assumption:** Assumed the enum value was `SENTENCE_SCRAMBLE` based on the ticket name without checking `Enums.kt`.
+- **(c) Corrective Code Strategy:** Update `ContentValidationTest.kt` and `gen_scramble.py` to use `ExerciseType.SCRAMBLE` (matching `"type": "SCRAMBLE"`).
+- **Outcome:** PASS (GATE G2 PASS)

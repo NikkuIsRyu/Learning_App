@@ -1,0 +1,2765 @@
+[
+  {
+    "id": "ja:ex:scramble:26:01",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "明日",
+        "病院で",
+        "先生に",
+        "喉を",
+        "見てもらいます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          0,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Tomorrow I will have the doctor examine my throat at the hospital.",
+      "translationDe": "Morgen lasse ich mir im Krankenhaus vom Arzt den Hals untersuchen."
+    },
+    "verified": false,
+    "sortOrder": 1
+  },
+  {
+    "id": "ja:ex:scramble:26:02",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "駅の近くで",
+        "新しいアパートを",
+        "探しています。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I am looking for a new apartment near the station.",
+      "translationDe": "Ich suche eine neue Wohnung in der Nähe des Bahnhofs."
+    },
+    "verified": false,
+    "sortOrder": 2
+  },
+  {
+    "id": "ja:ex:scramble:26:03",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "バスが",
+        "来なかったので、",
+        "約束の時間に",
+        "遅れました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because the bus didn't come, I was late for the appointment.",
+      "translationDe": "Da der Bus nicht kam, habe ich mich zum Termin verspätet."
+    },
+    "verified": false,
+    "sortOrder": 3
+  },
+  {
+    "id": "ja:ex:scramble:26:04",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "走れば、九時の新幹線に",
+        "間に",
+        "合いますよ。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "If you run, you will be in time for the 9 o'clock Shinkansen.",
+      "translationDe": "Wenn du rennst, schaffst du den Shinkansen um neun Uhr noch rechtzeitig."
+    },
+    "verified": false,
+    "sortOrder": 4
+  },
+  {
+    "id": "ja:ex:scramble:26:05",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "今週の金曜日に",
+        "家で",
+        "ホームパーティーを",
+        "やります。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I am holding a house party at home this Friday.",
+      "translationDe": "Diesen Freitag mache ich zu Hause eine Hausparty."
+    },
+    "verified": false,
+    "sortOrder": 5
+  },
+  {
+    "id": "ja:ex:scramble:26:06",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "公園のベンチの下で",
+        "誰かの財布を",
+        "拾いました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I picked up someone's wallet under the park bench.",
+      "translationDe": "Ich habe unter der Parkbank jemandes Geldbeutel aufgehoben."
+    },
+    "verified": false,
+    "sortOrder": 6
+  },
+  {
+    "id": "ja:ex:scramble:26:07",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "会議に",
+        "遅れる時は、",
+        "すぐ事務所に",
+        "連絡してください。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "When you are late for a meeting, please contact the office immediately.",
+      "translationDe": "Wenn Sie sich zur Besprechung verspäten, benachrichtigen Sie bitte sofort das Büro."
+    },
+    "verified": false,
+    "sortOrder": 7
+  },
+  {
+    "id": "ja:ex:scramble:26:08",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "昨日",
+        "から熱が",
+        "あって、少し気分が",
+        "悪いで",
+        "す。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          0,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I have had a fever since yesterday and feel a little unwell.",
+      "translationDe": "Ich habe seit gestern Fieber und fühle mich etwas unwohl."
+    },
+    "verified": false,
+    "sortOrder": 8
+  },
+  {
+    "id": "ja:ex:scramble:26:09",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "日曜日に",
+        "小学校の運動会を",
+        "見に",
+        "行きました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "On Sunday I went to watch the elementary school sports day.",
+      "translationDe": "Am Sonntag bin ich zum Sportfest der Grundschule gegangen."
+    },
+    "verified": false,
+    "sortOrder": 9
+  },
+  {
+    "id": "ja:ex:scramble:26:10",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "夏祭りで",
+        "浴衣を",
+        "着て、みんなで",
+        "盆踊りを",
+        "踊りました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          1,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "At the summer festival, we wore yukata and danced the Bon dance together.",
+      "translationDe": "Beim Sommerfest haben wir Yukata getragen und zusammen den Bon-Tanz getanzt."
+    },
+    "verified": false,
+    "sortOrder": 10
+  },
+  {
+    "id": "ja:ex:scramble:26:11",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "週末のフリーマーケットで",
+        "安い時計を",
+        "買いました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I bought a cheap watch at the weekend flea market.",
+      "translationDe": "Ich habe auf dem Wochenend-Flohmarkt eine günstige Uhr gekauft."
+    },
+    "verified": false,
+    "sortOrder": 11
+  },
+  {
+    "id": "ja:ex:scramble:26:12",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "休みの日は",
+        "町の図書館で",
+        "ボランティアを",
+        "しています。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "On my days off, I work as a volunteer at the town library.",
+      "translationDe": "An meinen freien Tagen arbeite ich ehrenamtlich in der Stadtbibliothek."
+    },
+    "verified": false,
+    "sortOrder": 12
+  },
+  {
+    "id": "ja:ex:scramble:27:01",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "私のマンションで",
+        "は小さい犬や猫が",
+        "飼えます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "In my apartment building, you can keep small dogs and cats.",
+      "translationDe": "In meinem Apartmenthaus darf man kleine Hunde und Katzen halten."
+    },
+    "verified": false,
+    "sortOrder": 1
+  },
+  {
+    "id": "ja:ex:scramble:27:02",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "毎朝",
+        "、川の近くの道を",
+        "三十分ぐらい走ります。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Every morning, I run along the road near the river for about thirty minutes.",
+      "translationDe": "Jeden Morgen laufe ich etwa dreißig Minuten auf dem Weg am Fluss entlang."
+    },
+    "verified": false,
+    "sortOrder": 2
+  },
+  {
+    "id": "ja:ex:scramble:27:03",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "天気が",
+        "いい日は、",
+        "この窓から",
+        "富士山が",
+        "見えます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "On days with fine weather, Mount Fuji can be seen from this window.",
+      "translationDe": "An Tagen mit gutem Wetter kann man von diesem Fenster aus den Berg Fuji sehen."
+    },
+    "verified": false,
+    "sortOrder": 3
+  },
+  {
+    "id": "ja:ex:scramble:27:04",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "隣の部屋から",
+        "きれいなピアノの音が",
+        "聞こえます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "The beautiful sound of a piano can be heard from the next room.",
+      "translationDe": "Aus dem Nebenzimmer ist schöner Klavierklang zu hören."
+    },
+    "verified": false,
+    "sortOrder": 4
+  },
+  {
+    "id": "ja:ex:scramble:27:05",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "来年の春、駅の前に",
+        "大きいスーパーが",
+        "できます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Next spring, a large supermarket will be completed in front of the station.",
+      "translationDe": "Nächsten Frühling entsteht vor dem Bahnhof ein großer Supermarkt."
+    },
+    "verified": false,
+    "sortOrder": 5
+  },
+  {
+    "id": "ja:ex:scramble:27:06",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "市民センターで",
+        "外国人のための料理教室を",
+        "開きます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "We will hold a cooking class for foreigners at the community center.",
+      "translationDe": "Im Bürgerzentrum veranstalten wir einen Kochkurs für Ausländer."
+    },
+    "verified": false,
+    "sortOrder": 6
+  },
+  {
+    "id": "ja:ex:scramble:27:07",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "明日の試験が",
+        "うまくいくかどうか心配で",
+        "す。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I am worried about whether tomorrow's exam will go well.",
+      "translationDe": "Ich mache mir Sorgen, ob die Prüfung morgen gut klappt."
+    },
+    "verified": false,
+    "sortOrder": 7
+  },
+  {
+    "id": "ja:ex:scramble:27:08",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "最近は",
+        "ペットと",
+        "一緒に",
+        "泊まれるホテルが",
+        "増えています。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          0,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Recently, hotels where you can stay with pets are increasing.",
+      "translationDe": "In letzter Zeit gibt es immer mehr Hotels, in denen man mit Haustieren übernachten kann."
+    },
+    "verified": false,
+    "sortOrder": 8
+  },
+  {
+    "id": "ja:ex:scramble:27:09",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "庭の木に",
+        "きれいな青い鳥が",
+        "止まっています。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "A pretty blue bird is perched on the tree in the garden.",
+      "translationDe": "Auf dem Baum im Garten sitzt ein schöner blauer Vogel."
+    },
+    "verified": false,
+    "sortOrder": 9
+  },
+  {
+    "id": "ja:ex:scramble:27:10",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "風邪を",
+        "ひいたので、",
+        "今日は",
+        "あまり声が",
+        "出ません。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because I caught a cold, my voice won't come out much today.",
+      "translationDe": "Da ich mich erkältet habe, habe ich heute kaum Stimme."
+    },
+    "verified": false,
+    "sortOrder": 10
+  },
+  {
+    "id": "ja:ex:scramble:27:11",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "今日は",
+        "風が",
+        "強くて、海の波が",
+        "とても",
+        "高いで",
+        "す。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "The wind is strong today, and the ocean waves are very high.",
+      "translationDe": "Heute ist der Wind stark, und die Meereswellen sind sehr hoch."
+    },
+    "verified": false,
+    "sortOrder": 11
+  },
+  {
+    "id": "ja:ex:scramble:27:12",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "夏の夜、川の近くで",
+        "たくさんの花火が",
+        "上が",
+        "りました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "On a summer night, many fireworks went up near the river.",
+      "translationDe": "In einer Sommernacht stieg am Fluss ein großes Feuerwerk auf."
+    },
+    "verified": false,
+    "sortOrder": 12
+  },
+  {
+    "id": "ja:ex:scramble:28:01",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "音楽に",
+        "合わせて、ステージの上で",
+        "楽しく踊りました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Matching the music, we danced joyfully on the stage.",
+      "translationDe": "Passend zur Musik haben wir fröhlich auf der Bühne getanzt."
+    },
+    "verified": false,
+    "sortOrder": 1
+  },
+  {
+    "id": "ja:ex:scramble:28:02",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "食事の時は、",
+        "食べ物を",
+        "よくかんで",
+        "食べてください。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "At meal times, please chew your food well before eating.",
+      "translationDe": "Kauen Sie das Essen bei den Mahlzeiten bitte gründlich."
+    },
+    "verified": false,
+    "sortOrder": 2
+  },
+  {
+    "id": "ja:ex:scramble:28:03",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "母の誕生日のプレゼントに",
+        "きれいな花を",
+        "選びました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I chose beautiful flowers as a birthday present for my mother.",
+      "translationDe": "Ich habe schöne Blumen als Geburtstagsgeschenk für meine Mutter ausgewählt."
+    },
+    "verified": false,
+    "sortOrder": 3
+  },
+  {
+    "id": "ja:ex:scramble:28:04",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "毎日",
+        "電車で",
+        "一時間かけて大学に",
+        "通っています。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Every day I commute to university taking one hour by train.",
+      "translationDe": "Jeden Tag pendle ich eine Stunde lang mit dem Zug zur Universität."
+    },
+    "verified": false,
+    "sortOrder": 4
+  },
+  {
+    "id": "ja:ex:scramble:28:05",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "忘れないように、",
+        "先生の話を",
+        "ノートに",
+        "メモしました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "So as not to forget, I took notes of the teacher's talk in my notebook.",
+      "translationDe": "Um es nicht zu vergessen, habe ich mir die Worte des Lehrers im Heft notiert."
+    },
+    "verified": false,
+    "sortOrder": 5
+  },
+  {
+    "id": "ja:ex:scramble:28:06",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "彼は",
+        "いつも",
+        "まじめに",
+        "日本語の宿題を",
+        "やっています。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "He always does his Japanese homework seriously.",
+      "translationDe": "Er macht seine Japanisch-Hausaufgaben immer sehr gewissenhaft."
+    },
+    "verified": false,
+    "sortOrder": 6
+  },
+  {
+    "id": "ja:ex:scramble:28:07",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "学生たちは",
+        "先生の講義を",
+        "熱心に",
+        "聞いていました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "The students were earnestly listening to the professor's lecture.",
+      "translationDe": "Die Studenten hörten der Vorlesung des Professors eifrig zu."
+    },
+    "verified": false,
+    "sortOrder": 7
+  },
+  {
+    "id": "ja:ex:scramble:28:08",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "働きなが",
+        "ら夜間の大学に",
+        "通うのは",
+        "本当に",
+        "偉いで",
+        "すね。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Attending night university while working is truly admirable.",
+      "translationDe": "Neben der Arbeit eine Abenduniversität zu besuchen, ist wirklich bewundernswert."
+    },
+    "verified": false,
+    "sortOrder": 8
+  },
+  {
+    "id": "ja:ex:scramble:28:09",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "このセーターは",
+        "大きすぎず小さすぎず、ちょうどいいで",
+        "す。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "This sweater is neither too big nor too small; it is just right.",
+      "translationDe": "Dieser Pullover ist weder zu groß noch zu klein, er passt genau richtig."
+    },
+    "verified": false,
+    "sortOrder": 9
+  },
+  {
+    "id": "ja:ex:scramble:28:10",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "電車の窓から",
+        "見える山の景色が",
+        "とても",
+        "きれいで",
+        "した。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "The mountain scenery visible from the train window was very beautiful.",
+      "translationDe": "Die Berglandschaft, die man aus dem Zugfenster sah, war sehr schön."
+    },
+    "verified": false,
+    "sortOrder": 10
+  },
+  {
+    "id": "ja:ex:scramble:28:11",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "日曜日に",
+        "駅前の美容院へ",
+        "行って髪を",
+        "切りました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "On Sunday I went to the hair salon in front of the station and had my hair cut.",
+      "translationDe": "Am Sonntag bin ich zum Friseursalon vor dem Bahnhof gegangen und habe mir die Haare schneiden lassen."
+    },
+    "verified": false,
+    "sortOrder": 11
+  },
+  {
+    "id": "ja:ex:scramble:28:12",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "母は",
+        "台所で",
+        "晩ご飯のカレーを",
+        "作っています。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "My mother is making curry for dinner in the kitchen.",
+      "translationDe": "Meine Mutter kocht in der Küche gerade Curry zum Abendessen."
+    },
+    "verified": false,
+    "sortOrder": 12
+  },
+  {
+    "id": "ja:ex:scramble:29:01",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "ボタンを",
+        "押すと、",
+        "エレベーターのドアが",
+        "自動で",
+        "開きます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "When you press the button, the elevator door opens automatically.",
+      "translationDe": "Wenn man den Knopf drückt, öffnet sich die Aufzugstür automatisch."
+    },
+    "verified": false,
+    "sortOrder": 1
+  },
+  {
+    "id": "ja:ex:scramble:29:02",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "九時に",
+        "なると、",
+        "このデパートの入り口が",
+        "閉まります。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "When nine o'clock comes, the entrance of this department store closes.",
+      "translationDe": "Um neun Uhr schließt sich der Eingang dieses Kaufhauses."
+    },
+    "verified": false,
+    "sortOrder": 2
+  },
+  {
+    "id": "ja:ex:scramble:29:03",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "部屋に",
+        "入ると、",
+        "自動で",
+        "天井の電気が",
+        "つきます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "When you enter the room, the ceiling light comes on automatically.",
+      "translationDe": "Wenn man den Raum betritt, geht das Deckenlicht automatisch an."
+    },
+    "verified": false,
+    "sortOrder": 3
+  },
+  {
+    "id": "ja:ex:scramble:29:04",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "強い風が",
+        "吹いて、ろうそくの火が",
+        "消えてしまいました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "A strong wind blew, and the candle flame went out completely.",
+      "translationDe": "Ein starker Wind wehte, und die Kerzenflamme ist erloschen."
+    },
+    "verified": false,
+    "sortOrder": 4
+  },
+  {
+    "id": "ja:ex:scramble:29:05",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "古い洗濯機が",
+        "壊れてしまったので、",
+        "新しいのを",
+        "買います。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because the old washing machine broke down, I will buy a new one.",
+      "translationDe": "Da die alte Waschmaschine kaputtgegangen ist, kaufe ich eine neue."
+    },
+    "verified": false,
+    "sortOrder": 5
+  },
+  {
+    "id": "ja:ex:scramble:29:06",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "テーブルから",
+        "落ちて、大切なワインのコップが",
+        "割れました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Falling from the table, the precious wine glass shattered.",
+      "translationDe": "Das wertvolle Weinglas ist vom Tisch gefallen und zerbrochen."
+    },
+    "verified": false,
+    "sortOrder": 6
+  },
+  {
+    "id": "ja:ex:scramble:29:07",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "昨日の台風で、",
+        "庭の桜の木の枝が",
+        "折れました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "In yesterday's typhoon, a branch of the cherry tree in the garden snapped.",
+      "translationDe": "Durch den Taifun gestern ist ein Ast des Kirschbaums im Garten abgebrochen."
+    },
+    "verified": false,
+    "sortOrder": 7
+  },
+  {
+    "id": "ja:ex:scramble:29:08",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "荷物が",
+        "重すぎて、紙の袋が",
+        "破れてしまいました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because the items were too heavy, the paper bag tore completely.",
+      "translationDe": "Weil die Sachen zu schwer waren, ist die Papiertüte gerissen."
+    },
+    "verified": false,
+    "sortOrder": 8
+  },
+  {
+    "id": "ja:ex:scramble:29:09",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "雨の日に",
+        "外で",
+        "遊んだので、",
+        "白い靴が",
+        "汚れました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because I played outside on a rainy day, my white shoes got dirty.",
+      "translationDe": "Da ich an einem Regentag draußen gespielt habe, sind meine weißen Schuhe schmutzig geworden."
+    },
+    "verified": false,
+    "sortOrder": 9
+  },
+  {
+    "id": "ja:ex:scramble:29:10",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "このシャツに",
+        "は胸に",
+        "小さいポケットが",
+        "付いています。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "This shirt has a small pocket attached to the chest.",
+      "translationDe": "An diesem Hemd ist auf der Brust eine kleine Tasche angebracht."
+    },
+    "verified": false,
+    "sortOrder": 10
+  },
+  {
+    "id": "ja:ex:scramble:29:11",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "事故が",
+        "あったので、",
+        "電車が",
+        "駅の途中で",
+        "止まりました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because there was an accident, the train stopped midway between stations.",
+      "translationDe": "Wegen eines Unfalls ist der Zug auf halber Strecke stehen geblieben."
+    },
+    "verified": false,
+    "sortOrder": 11
+  },
+  {
+    "id": "ja:ex:scramble:29:12",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "急いで",
+        "いたので、",
+        "電話番号を",
+        "まちが",
+        "えてしまいました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because I was in a hurry, I dialed the wrong phone number by mistake.",
+      "translationDe": "Da ich es eilig hatte, habe ich aus Versehen die falsche Telefonnummer gewählt."
+    },
+    "verified": false,
+    "sortOrder": 12
+  },
+  {
+    "id": "ja:ex:scramble:30:01",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "封筒に",
+        "切手を",
+        "はって、駅前のポストに",
+        "入れました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I stuck a stamp on the envelope and put it into the postbox in front of the station.",
+      "translationDe": "Ich habe eine Briefmarke auf den Umschlag geklebt und ihn in den Briefkasten vor dem Bahnhof geworfen."
+    },
+    "verified": false,
+    "sortOrder": 1
+  },
+  {
+    "id": "ja:ex:scramble:30:02",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "洗ったシャツを",
+        "ハンガーに",
+        "掛けて干しておきました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I hung the washed shirt on a hanger to dry.",
+      "translationDe": "Ich habe das gewaschene Hemd zum Trocknen auf einen Kleiderbügel gehängt."
+    },
+    "verified": false,
+    "sortOrder": 2
+  },
+  {
+    "id": "ja:ex:scramble:30:03",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "クリスマスの前に、",
+        "部屋に",
+        "きれいなツリーを",
+        "飾ります。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Before Christmas, we decorate the room with a pretty tree.",
+      "translationDe": "Vor Weihnachten schmücken wir das Zimmer mit einem schönen Weihnachtsbaum."
+    },
+    "verified": false,
+    "sortOrder": 3
+  },
+  {
+    "id": "ja:ex:scramble:30:04",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "テーブルの上に",
+        "ナイフと",
+        "フォークを",
+        "きれいに",
+        "並べました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I neatly lined up the knives and forks on the table.",
+      "translationDe": "Ich habe Messer und Gabeln ordentlich auf dem Tisch nebeneinandergelegt."
+    },
+    "verified": false,
+    "sortOrder": 4
+  },
+  {
+    "id": "ja:ex:scramble:30:05",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "春に",
+        "なったので、",
+        "庭に",
+        "トマトと",
+        "花の種を",
+        "植えました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because spring came, I planted tomato and flower seeds in the garden.",
+      "translationDe": "Da es Frühling geworden ist, habe ich im Garten Tomaten- und Blumensamen eingepflanzt."
+    },
+    "verified": false,
+    "sortOrder": 5
+  },
+  {
+    "id": "ja:ex:scramble:30:06",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "読み終わった本は、",
+        "必ず元の本棚に",
+        "戻してください。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Please always return books you have finished reading to their original bookcase.",
+      "translationDe": "Stellen Sie ausgelesene Bücher bitte unbedingt wieder in das ursprüngliche Bücherregal zurück."
+    },
+    "verified": false,
+    "sortOrder": 6
+  },
+  {
+    "id": "ja:ex:scramble:30:07",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "会議の前に、",
+        "みんなの意見を",
+        "レポートに",
+        "まと",
+        "めておきます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          1,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Before the meeting, I will summarize everyone's opinions into a report.",
+      "translationDe": "Vor der Besprechung fasse ich die Meinungen aller in einem Bericht zusammen."
+    },
+    "verified": false,
+    "sortOrder": 7
+  },
+  {
+    "id": "ja:ex:scramble:30:08",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "夏が",
+        "終わったので、",
+        "扇風機を",
+        "押入れの中に",
+        "しまいました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because summer ended, I put the electric fan away inside the closet.",
+      "translationDe": "Da der Sommer vorbei ist, habe ich den Ventilator im Wandschrank verstaut."
+    },
+    "verified": false,
+    "sortOrder": 8
+  },
+  {
+    "id": "ja:ex:scramble:30:09",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "夏休みに",
+        "どこへ",
+        "旅行に",
+        "行くか、まだ決めていません。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I have not yet decided where to go traveling during summer vacation.",
+      "translationDe": "Ich habe noch nicht entschieden, wohin ich in den Sommerferien verreisen werde."
+    },
+    "verified": false,
+    "sortOrder": 9
+  },
+  {
+    "id": "ja:ex:scramble:30:10",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "授業の前に、",
+        "いつも",
+        "新しい単語を",
+        "予習しておきます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Before class, I always prepare the new vocabulary in advance.",
+      "translationDe": "Vor dem Unterricht bereite ich immer schon die neuen Vokabeln vor."
+    },
+    "verified": false,
+    "sortOrder": 10
+  },
+  {
+    "id": "ja:ex:scramble:30:11",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "今日",
+        "習った文法は、",
+        "家に",
+        "帰ってから",
+        "しっかり復習します。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I will thoroughly review the grammar learned today after returning home.",
+      "translationDe": "Die heute gelernte Grammatik wiederhole ich gründlich, nachdem ich nach Hause gekommen bin."
+    },
+    "verified": false,
+    "sortOrder": 11
+  },
+  {
+    "id": "ja:ex:scramble:30:12",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "まだ使いますから、",
+        "会議室の机は",
+        "そのままに",
+        "してください。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because we will still use them, please leave the conference room desks as they are.",
+      "translationDe": "Da wir sie noch benutzen, lassen Sie die Tische im Konferenzraum bitte so stehen, wie sie sind."
+    },
+    "verified": false,
+    "sortOrder": 12
+  },
+  {
+    "id": "ja:ex:scramble:31:01",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "これから",
+        "も毎日少しずつ日本語の勉強を",
+        "続けようと",
+        "思います。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "From now on too, I intend to continue studying Japanese little by little every day.",
+      "translationDe": "Auch weiterhin möchte ich jeden Tag ein wenig mit dem Japanischlernen weitermachen."
+    },
+    "verified": false,
+    "sortOrder": 1
+  },
+  {
+    "id": "ja:ex:scramble:31:02",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "インターネットで",
+        "やっと",
+        "安くていい部屋を",
+        "見つけました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "On the internet, I finally found a cheap and good apartment.",
+      "translationDe": "Im Internet habe ich endlich eine günstige und gute Wohnung gefunden."
+    },
+    "verified": false,
+    "sortOrder": 2
+  },
+  {
+    "id": "ja:ex:scramble:31:03",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "今年の十二月に",
+        "日本語能力試験を",
+        "受けようと",
+        "思っています。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I am thinking of taking the Japanese Language Proficiency Test this December.",
+      "translationDe": "Ich denke darüber nach, diesen Dezember die Japanisch-Sprachprüfung abzulegen."
+    },
+    "verified": false,
+    "sortOrder": 3
+  },
+  {
+    "id": "ja:ex:scramble:31:04",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "来週まで",
+        "にスピーチコンテストに",
+        "申し込まなければなりません。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I must apply for the speech contest by next week.",
+      "translationDe": "Bis nächste Woche muss ich mich für den Redewettbewerb anmelden."
+    },
+    "verified": false,
+    "sortOrder": 4
+  },
+  {
+    "id": "ja:ex:scramble:31:05",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "二時間ぐらい運転したので、",
+        "サービスエリアで",
+        "少し休憩しましょう。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Since we have driven for about two hours, let's take a short break at the service area.",
+      "translationDe": "Da wir etwa zwei Stunden gefahren sind, lass uns an der Raststätte eine kleine Pause machen."
+    },
+    "verified": false,
+    "sortOrder": 5
+  },
+  {
+    "id": "ja:ex:scramble:31:06",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "五月の連休に",
+        "は、友達と",
+        "一緒に",
+        "京都へ",
+        "行く予定で",
+        "す。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "During the consecutive holidays in May, I plan to go to Kyoto with my friends.",
+      "translationDe": "Über die Feiertage im Mai plane ich, zusammen mit Freunden nach Kyoto zu fahren."
+    },
+    "verified": false,
+    "sortOrder": 6
+  },
+  {
+    "id": "ja:ex:scramble:31:07",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "授業で",
+        "『私の将来の夢』と",
+        "いうテーマで",
+        "作文を",
+        "書きました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "In class, I wrote an essay on the theme of 'My Future Dream'.",
+      "translationDe": "Im Unterricht habe ich einen Aufsatz zum Thema ‚Mein Traum für die Zukunft‘ geschrieben."
+    },
+    "verified": false,
+    "sortOrder": 7
+  },
+  {
+    "id": "ja:ex:scramble:31:08",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "来週のゼミで",
+        "自分の研究に",
+        "ついて発表します。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "At next week's seminar, I will give a presentation about my research.",
+      "translationDe": "Im Seminar nächste Woche halte ich einen Vortrag über meine Forschung."
+    },
+    "verified": false,
+    "sortOrder": 8
+  },
+  {
+    "id": "ja:ex:scramble:31:09",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "日曜日に",
+        "市立美術館へ",
+        "新しい絵の展覧会を",
+        "見に",
+        "行きました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          1,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "On Sunday I went to the city art museum to see an exhibition of new paintings.",
+      "translationDe": "Am Sonntag bin ich ins städtische Kunstmuseum gegangen, um mir eine Gemäldeausstellung anzusehen."
+    },
+    "verified": false,
+    "sortOrder": 9
+  },
+  {
+    "id": "ja:ex:scramble:31:10",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "来月、大学の友達の結婚式に",
+        "出席するため東京へ",
+        "行きます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Next month, I will go to Tokyo to attend my university friend's wedding ceremony.",
+      "translationDe": "Nächsten Monat fahre ich nach Tokio, um an der Hochzeit eines Studienfreundes teilzunehmen."
+    },
+    "verified": false,
+    "sortOrder": 10
+  },
+  {
+    "id": "ja:ex:scramble:31:11",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "日本で",
+        "はお葬式の時に",
+        "黒い服を",
+        "着るのが",
+        "普通で",
+        "す。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          1,
+          3,
+          4,
+          5
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "In Japan, it is customary to wear black clothes at a funeral.",
+      "translationDe": "In Japan ist es üblich, bei einer Beerdigung schwarze Kleidung zu tragen."
+    },
+    "verified": false,
+    "sortOrder": 11
+  },
+  {
+    "id": "ja:ex:scramble:31:12",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "四月の初めに",
+        "大学の体育館で",
+        "入学式が",
+        "行われます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "At the beginning of April, the entrance ceremony is held in the university gymnasium.",
+      "translationDe": "Anfang April findet in der Sporthalle der Universität die Immatrikulationsfeier statt."
+    },
+    "verified": false,
+    "sortOrder": 12
+  },
+  {
+    "id": "ja:ex:scramble:32:01",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "健康のために、",
+        "毎週二回ジムで",
+        "運動しています。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "For my health, I exercise at the gym twice every week.",
+      "translationDe": "Für meine Gesundheit treibe ich zweimal pro Woche im Fitnessstudio Sport."
+    },
+    "verified": false,
+    "sortOrder": 1
+  },
+  {
+    "id": "ja:ex:scramble:32:02",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "みんなで",
+        "一生懸命準備したので、",
+        "イベントは",
+        "成功しました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because everyone prepared hard together, the event succeeded.",
+      "translationDe": "Da alle gemeinsam fleißig vorbereitet haben, war die Veranstaltung ein Erfolg."
+    },
+    "verified": false,
+    "sortOrder": 2
+  },
+  {
+    "id": "ja:ex:scramble:32:03",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "ケーキを",
+        "作りましたが、",
+        "砂糖を",
+        "入れ忘れて失敗しました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I made a cake, but I forgot to put in sugar and failed.",
+      "translationDe": "Ich habe einen Kuchen gebacken, aber den Zucker vergessen, sodass er misslungen ist."
+    },
+    "verified": false,
+    "sortOrder": 3
+  },
+  {
+    "id": "ja:ex:scramble:32:04",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "毎日",
+        "頑張ったおかげで、",
+        "日本語の試験に",
+        "合格しました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Thanks to working hard every day, I passed the Japanese examination.",
+      "translationDe": "Dank meiner täglichen Mühe habe ich die Japanischprüfung bestanden."
+    },
+    "verified": false,
+    "sortOrder": 4
+  },
+  {
+    "id": "ja:ex:scramble:32:05",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "午後に",
+        "は雨が",
+        "やむそうで",
+        "すから、",
+        "傘は",
+        "いらないでしょう。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "I hear the rain will stop in the afternoon, so you probably won't need an umbrella.",
+      "translationDe": "Am Nachmittag soll der Regen aufhören, daher wirst du wohl keinen Schirm brauchen."
+    },
+    "verified": false,
+    "sortOrder": 5
+  },
+  {
+    "id": "ja:ex:scramble:32:06",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "朝は",
+        "曇っていましたが、",
+        "昼から",
+        "きれいに",
+        "晴れました。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "It was cloudy in the morning, but it cleared up nicely from noon.",
+      "translationDe": "Am Morgen war es bewölkt, aber ab Mittag hat es schön aufgeklart."
+    },
+    "verified": false,
+    "sortOrder": 6
+  },
+  {
+    "id": "ja:ex:scramble:32:07",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "だんだん空が",
+        "曇ってきたので、",
+        "もうすぐ雨が",
+        "降りそうで",
+        "す。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because the sky has gradually gotten cloudy, it looks like it will rain soon.",
+      "translationDe": "Da sich der Himmel allmählich bewölkt hat, sieht es so aus, als würde es bald regnen."
+    },
+    "verified": false,
+    "sortOrder": 7
+  },
+  {
+    "id": "ja:ex:scramble:32:08",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "高い熱が",
+        "三日も",
+        "続いているので、",
+        "今日病院へ",
+        "行きます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because a high fever has continued for three days, I am going to the hospital today.",
+      "translationDe": "Da das hohe Fieber schon drei Tage anhält, gehe ich heute ins Krankenhaus."
+    },
+    "verified": false,
+    "sortOrder": 8
+  },
+  {
+    "id": "ja:ex:scramble:32:09",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "風邪を",
+        "ひかないように、",
+        "外から",
+        "帰ったら",
+        "よく手を",
+        "洗います。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "So as not to catch a cold, I wash my hands thoroughly when returning from outside.",
+      "translationDe": "Um mich nicht zu erkälten, wasche ich mir gründlich die Hände, wenn ich von draußen nach Hause komme."
+    },
+    "verified": false,
+    "sortOrder": 9
+  },
+  {
+    "id": "ja:ex:scramble:32:10",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "すいかは",
+        "食べる前に",
+        "冷蔵庫で",
+        "よく冷やしたほうが",
+        "美味しいで",
+        "す。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Watermelon tastes better if you chill it well in the refrigerator before eating.",
+      "translationDe": "Wassermelone schmeckt besser, wenn man sie vor dem Essen gut im Kühlschrank kühlt."
+    },
+    "verified": false,
+    "sortOrder": 10
+  },
+  {
+    "id": "ja:ex:scramble:32:11",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "朝八時ごろは",
+        "道が",
+        "込みますから、",
+        "電車で",
+        "行ったほうがいいですよ。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          0,
+          2,
+          3,
+          4
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "Because the roads get crowded around 8 a.m., you had better go by train.",
+      "translationDe": "Da die Straßen gegen acht Uhr morgens voll sind, sollten Sie lieber mit dem Zug fahren."
+    },
+    "verified": false,
+    "sortOrder": 11
+  },
+  {
+    "id": "ja:ex:scramble:32:12",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "SCRAMBLE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "scramble",
+      "chunks": [
+        "平日の昼間は",
+        "電車が",
+        "すいているので、",
+        "ゆっくり座れます。"
+      ],
+      "acceptedOrders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ]
+      ],
+      "distractors": [],
+      "translationEn": "During the daytime on weekdays, the train is uncrowded, so you can sit comfortably.",
+      "translationDe": "Werktags tagsüber ist der Zug leerer, sodass man bequem sitzen kann."
+    },
+    "verified": false,
+    "sortOrder": 12
+  }
+]

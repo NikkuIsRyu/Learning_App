@@ -7,6 +7,11 @@
       "sha256": "66ceb9d5f17ce24433147d65a4c3bb3397a41ca0a0d787eabb2aa37d2c58208e"
     },
     {
+      "path": "ja/exercises_scramble_26_32.json",
+      "entity": "exercise",
+      "sha256": "8191757c2c91c265f1a24db7c7d34a113eab6cee1b78b2275898d5b902acceb4"
+    },
+    {
       "path": "ja/grammar_26_32.json",
       "entity": "grammar_rule",
       "sha256": "85a5a12762025b16249cce8ebcc9d6348cbadc598e329992a84925041418609f"

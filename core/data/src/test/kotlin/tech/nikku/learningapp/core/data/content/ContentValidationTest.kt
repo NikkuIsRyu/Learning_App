@@ -28,6 +28,7 @@ class ContentValidationTest {
   private lateinit var dialoguesZh: List<DialogueDto>
   private lateinit var turnsZh: List<DialogueTurnDto>
   private lateinit var exercisesCloze: List<ExerciseDto>
+  private lateinit var exercisesScramble: List<ExerciseDto>
   private lateinit var manifest: ManifestDto
 
   @Before
@@ -45,6 +46,7 @@ class ContentValidationTest {
     compoundsList = json.decodeFromString(File(contentDir, "ja/kanji_compounds.json").readText())
     grammarJa = json.decodeFromString(File(contentDir, "ja/grammar_26_32.json").readText())
     exercisesCloze = json.decodeFromString(File(contentDir, "ja/exercises_cloze_26_32.json").readText())
+    exercisesScramble = json.decodeFromString(File(contentDir, "ja/exercises_scramble_26_32.json").readText())
 
     grammarZh = json.decodeFromString(File(contentDir, "zh/grammar_rules.json").readText())
     examplesZh = json.decodeFromString(File(contentDir, "zh/grammar_examples.json").readText())
@@ -74,6 +76,7 @@ class ContentValidationTest {
     confusablesZh.forEach { checkId(it.id, "zh:c:") }
     dialoguesZh.forEach { checkId(it.id, "zh:d:") }
     exercisesCloze.forEach { checkId(it.id, "ja:ex:cloze:") }
+    exercisesScramble.forEach { checkId(it.id, "ja:ex:scramble:") }
 
     // Dialogue turns must have unique (dialogueId, idx)
     val turnKeys = turnsZh.map { "${it.dialogueId}#${it.idx}" }.toSet()
@@ -267,6 +270,35 @@ class ContentValidationTest {
         assertTrue("Blank must have answers: ${ex.id}", b.answers.isNotEmpty())
         assertEquals(4, b.options.size)
         assertTrue("Answers must be in options: ${ex.id}", b.options.containsAll(b.answers))
+      }
+      val jsonStr = json.encodeToString(ExerciseDto.serializer(), ex)
+      for (f in forbidden) {
+        assertFalse("Forbidden errata '$f' found in ${ex.id}", jsonStr.contains(f))
+      }
+    }
+  }
+
+  // Invariant 11: Sentence scramble exercises validation (>= 70 exercises, >= 10 per chapter, no errata)
+  @Test
+  fun validateScrambleExercises() {
+    assertTrue("Scramble exercises count must be >= 70: ${exercisesScramble.size}", exercisesScramble.size >= 70)
+    val byChapter = exercisesScramble.groupBy { it.chapter }
+    for (ch in 26..32) {
+      val chList = byChapter[ch] ?: emptyList()
+      assertTrue("Chapter $ch must have >= 10 scramble exercises: ${chList.size}", chList.size >= 10)
+    }
+
+    val forbidden = listOf("しめって あります", "つかたら", "とかいの しゅうり", "あたらしー")
+    for (ex in exercisesScramble) {
+      assertEquals(tech.nikku.learningapp.core.domain.model.Domain.JAPANESE, ex.domain)
+      assertEquals(tech.nikku.learningapp.core.domain.model.ExerciseType.SCRAMBLE, ex.type)
+      val payload = ex.payload as? tech.nikku.learningapp.core.domain.model.ExercisePayload.Scramble
+      assertNotNull("Payload must be Scramble for ${ex.id}", payload)
+      assertTrue("Chunks count must be >= 3 in ${ex.id}", payload!!.chunks.size >= 3)
+      assertTrue("Accepted orders must not be empty in ${ex.id}", payload.acceptedOrders.isNotEmpty())
+      for (order in payload.acceptedOrders) {
+        assertEquals("Accepted order must cover all chunks in ${ex.id}", payload.chunks.size, order.size)
+        assertTrue("Accepted order must contain valid indices in ${ex.id}", order.all { it in payload.chunks.indices })
       }
       val jsonStr = json.encodeToString(ExerciseDto.serializer(), ex)
       for (f in forbidden) {
