@@ -10,6 +10,7 @@ import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 import tech.nikku.learningapp.core.data.content.dto.*
 import tech.nikku.learningapp.core.data.local.LearningDatabase
+import tech.nikku.learningapp.core.data.local.converter.ContentJson
 import tech.nikku.learningapp.core.data.local.entity.*
 import tech.nikku.learningapp.core.domain.repository.SettingsRepository
 import java.io.InputStream
@@ -42,11 +43,7 @@ class ContentSeeder @Inject constructor(
   private val settingsRepository: SettingsRepository
 ) {
 
-  private val json = Json {
-    ignoreUnknownKeys = true
-    isLenient = true
-    coerceInputValues = true
-  }
+  private val json = ContentJson
 
   suspend fun seed(
     manifestPath: String = "content/manifest.json",

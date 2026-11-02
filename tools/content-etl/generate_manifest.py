@@ -27,6 +27,7 @@ ENTITY_MAP = {
     "dialogues.json": "dialogue",
     "dialogue_turns.json": "dialogue_turn",
     "roadmap.json": "vault_roadmap",
+    "exercises_cloze_26_32.json": "exercise",
 }
 
 def sha256_file(path: Path) -> str:

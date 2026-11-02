@@ -2,6 +2,11 @@
   "contentVersion": 1,
   "files": [
     {
+      "path": "ja/exercises_cloze_26_32.json",
+      "entity": "exercise",
+      "sha256": "66ceb9d5f17ce24433147d65a4c3bb3397a41ca0a0d787eabb2aa37d2c58208e"
+    },
+    {
       "path": "ja/grammar_26_32.json",
       "entity": "grammar_rule",
       "sha256": "85a5a12762025b16249cce8ebcc9d6348cbadc598e329992a84925041418609f"

@@ -10,6 +10,7 @@ import tech.nikku.learningapp.feature.chinese.ChineseHubRoute
 import tech.nikku.learningapp.feature.japanese.chapter.ChapterRoute
 import tech.nikku.learningapp.feature.japanese.conjugation.ConjugationDrillRoute as ConjugationDrillDestination
 import tech.nikku.learningapp.feature.japanese.conjugation.ConjugationMatrixRoute as ConjugationMatrixDestination
+import tech.nikku.learningapp.feature.japanese.particle.ParticleClozeRoute as ParticleClozeDestination
 import tech.nikku.learningapp.feature.japanese.hub.JapaneseHubRoute
 import tech.nikku.learningapp.feature.today.TodayRoute
 import tech.nikku.learningapp.feature.vault.VaultRoute
@@ -52,6 +53,11 @@ fun AppNavHost(
     }
     composable<ConjugationDrillRoute> {
       ConjugationDrillDestination(
+        onBackClick = { navController.popBackStack() }
+      )
+    }
+    composable<ParticleClozeRoute> {
+      ParticleClozeDestination(
         onBackClick = { navController.popBackStack() }
       )
     }

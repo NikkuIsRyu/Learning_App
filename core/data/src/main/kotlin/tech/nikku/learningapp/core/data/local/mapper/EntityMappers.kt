@@ -149,3 +149,16 @@ fun ReviewLogEntity.toDomain(): ReviewLog = ReviewLog(
   timestampMs = reviewedAt,
   reviewDurationMs = responseMs
 )
+
+fun ExerciseEntity.toDomain(): Exercise = Exercise(
+  id = id,
+  domain = domain,
+  chapter = chapter,
+  type = type,
+  grammarRuleId = grammarRuleId,
+  difficulty = difficulty,
+  payload = payload,
+  verified = verified,
+  sortOrder = sortOrder,
+  contentVersion = contentVersion
+)

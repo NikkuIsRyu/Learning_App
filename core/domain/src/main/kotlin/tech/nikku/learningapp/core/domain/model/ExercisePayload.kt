@@ -1,7 +1,9 @@
 package tech.nikku.learningapp.core.domain.model
 
+import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.JsonClassDiscriminator
 
 @Serializable
 data class PatternToken(
@@ -59,6 +61,8 @@ data class ConfusableSide(
 )
 
 /** Polymorphic exercise payloads. JSON discriminator key = "kind". */
+@OptIn(ExperimentalSerializationApi::class)
+@JsonClassDiscriminator("kind")
 @Serializable
 sealed interface ExercisePayload {
   @Serializable
@@ -100,6 +104,8 @@ sealed interface ExercisePayload {
   ) : ExercisePayload
 }
 
+@OptIn(ExperimentalSerializationApi::class)
+@JsonClassDiscriminator("kind")
 @Serializable
 sealed interface ClozeSegment {
   /** `ruby` uses canonical ruby markup, e.g. "{窓|まど}" */

@@ -370,3 +370,27 @@ suspend fun setPlaybackSpeed(speed: Float): Unit
 - **(b) Faulty Assumption:** Assumed `SettingsRepository` did not contain audio playback speed methods.
 - **(c) Corrective Code Strategy:** Implement `observePlaybackSpeed(): Flow<Float> = flowOf(1.0f)` and `suspend fun setPlaybackSpeed(speed: Float) {}` in `FakeSettingsRepository`.
 - **Outcome:** PASS (GATE G2 PASS)
+
+
+### [R-0026] T3.4 · G2 · attempt 1/3 · 2026-11-02T17:30:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ContentSeederTest.seedRealAssets_allCountsMatchAndNoFkViolations: java.lang.AssertionError: Seeding real assets should succeed, was: Error(message=Class discriminator was missing and no default serializers were registered in the polymorphic scope of 'ExercisePayload' at path: $[0].payload
+ContentValidationTest.validateClozeExercises: kotlinx.serialization.json.JsonDecodingException: Class discriminator was missing and no default serializers were registered in the polymorphic scope of 'ExercisePayload' at path: $[0].payload
+```
+- **(a) Root Cause:** `ExercisePayload` and `ClozeSegment` are sealed polymorphic interfaces serialized with discriminator key `"kind"`, but lacked the `@JsonClassDiscriminator("kind")` annotation, and `ContentSeeder.kt` and `ContentValidationTest.kt` created `Json` instances without setting `classDiscriminator = "kind"`.
+- **(b) Faulty Assumption:** Assumed `kotlinx.serialization` would use `"kind"` as discriminator without explicit annotation or configuration.
+- **(c) Corrective Code Strategy:** Add `@OptIn(ExperimentalSerializationApi::class) @JsonClassDiscriminator("kind")` to `ExercisePayload` and `ClozeSegment` in `ExercisePayload.kt`, and use `ContentJson` (which sets `classDiscriminator = "kind"`) in `ContentSeeder.kt` and `ContentValidationTest.kt`.
+- **Outcome:** PASS (GATE G2 PASS)
+
+
+### [R-0027] T3.4 · G1 · attempt 1/3 · 2026-11-02T17:36:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ParticleClozeScreen.kt:24:60 Unresolved reference 'MenuBook'.
+ParticleClozeScreen.kt:399:42 Unresolved reference 'MenuBook'.
+```
+- **(a) Root Cause:** `Icons.AutoMirrored.Filled.MenuBook` is an extended material icon not present in core material icons.
+- **(b) Faulty Assumption:** Assumed `MenuBook` was available in core Material 3 icons.
+- **(c) Corrective Code Strategy:** Replace `Icons.AutoMirrored.Filled.MenuBook` with `Icons.Default.Info` in `ParticleClozeScreen.kt`.
+- **Outcome:** PASS (GATE G1 PASS)

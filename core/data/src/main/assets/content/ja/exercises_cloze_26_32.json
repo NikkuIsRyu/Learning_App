@@ -1,0 +1,3698 @@
+[
+  {
+    "id": "ja:ex:cloze:26:01",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "明日病院で先生に喉"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "は",
+            "が",
+            "を",
+            "から"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected を.",
+            "は": "は would topicalize the noun, but here it is a direct object marked by を.",
+            "が": "が marks the subject or state, whereas を marks the direct object of a transitive action."
+          },
+          "ruleRef": "ja:mnn:26.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "見てもらいます。"
+        }
+      ],
+      "translationEn": "Tomorrow I will have the doctor examine my throat at the hospital.",
+      "translationDe": "Morgen lasse ich mir im Krankenhaus vom Arzt den Hals untersuchen."
+    },
+    "verified": false,
+    "sortOrder": 1,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:26:02",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "駅の近くで新しいアパート"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "を",
+            "に",
+            "へ",
+            "が"
+          ],
+          "feedback": {
+            "に": "に marks target, direction, or time, not the direct object being acted upon.",
+            "が": "が marks the subject or state, whereas を marks the direct object of a transitive action.",
+            "へ": "Particle へ does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:26.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "探しています。"
+        }
+      ],
+      "translationEn": "I am looking for a new apartment near the station.",
+      "translationDe": "Ich suche eine neue Wohnung in der Nähe des Bahnhofs."
+    },
+    "verified": false,
+    "sortOrder": 2,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:26:03",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "バス"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "から",
+            "も",
+            "が",
+            "まで"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected が.",
+            "まで": "Particle まで does not fit here. Expected が.",
+            "も": "Particle も does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:26.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "来なかったので、約束の時間に遅れました。"
+        }
+      ],
+      "translationEn": "Because the bus didn't come, I was late for the appointment.",
+      "translationDe": "Da der Bus nicht kam, habe ich mich zum Termin verspätet."
+    },
+    "verified": false,
+    "sortOrder": 3,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:26:04",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "走れば、九時の新幹線"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "に",
+            "と",
+            "は",
+            "が"
+          ],
+          "feedback": {
+            "が": "が marks the subject, not the target, time, or indirect object.",
+            "は": "Particle は does not fit here. Expected に.",
+            "と": "Particle と does not fit here. Expected に."
+          },
+          "ruleRef": "ja:mnn:26.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "間に合いますよ。"
+        }
+      ],
+      "translationEn": "If you run, you will be in time for the 9 o'clock Shinkansen.",
+      "translationDe": "Wenn du rennst, schaffst du den Shinkansen um neun Uhr noch rechtzeitig."
+    },
+    "verified": false,
+    "sortOrder": 4,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:26:05",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "今週の金曜日"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "へ",
+            "が",
+            "に",
+            "まで"
+          ],
+          "feedback": {
+            "が": "が marks the subject, not the target, time, or indirect object.",
+            "まで": "Particle まで does not fit here. Expected に.",
+            "へ": "へ emphasizes physical direction, but に is the standard destination/target particle."
+          },
+          "ruleRef": "ja:mnn:26.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "家でホームパーティーをやります。"
+        }
+      ],
+      "translationEn": "I am holding a house party at home this Friday.",
+      "translationDe": "Diesen Freitag mache ich zu Hause eine Hausparty."
+    },
+    "verified": false,
+    "sortOrder": 5,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:26:06",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "公園のベンチの下で誰かの財布"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "が",
+            "は",
+            "まで",
+            "を"
+          ],
+          "feedback": {
+            "は": "は would topicalize the noun, but here it is a direct object marked by を.",
+            "が": "が marks the subject or state, whereas を marks the direct object of a transitive action.",
+            "まで": "Particle まで does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:26.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "拾いました。"
+        }
+      ],
+      "translationEn": "I picked up someone's wallet under the park bench.",
+      "translationDe": "Ich habe unter der Parkbank jemandes Geldbeutel aufgehoben."
+    },
+    "verified": false,
+    "sortOrder": 6,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:26:07",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "会議"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "を",
+            "から",
+            "で",
+            "に"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected に.",
+            "で": "で marks the location where an action occurs; に marks arrival, destination, time, or static existence.",
+            "を": "を marks a direct object, not a destination or point in time."
+          },
+          "ruleRef": "ja:mnn:26.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "遅れる時は、すぐ事務所に連絡してください。"
+        }
+      ],
+      "translationEn": "When you are late for a meeting, please contact the office immediately.",
+      "translationDe": "Wenn Sie sich zur Besprechung verspäten, benachrichtigen Sie bitte sofort das Büro."
+    },
+    "verified": false,
+    "sortOrder": 7,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:26:08",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "今朝は天気"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "が",
+            "に",
+            "を",
+            "も"
+          ],
+          "feedback": {
+            "を": "Direct object marker を is used with transitive actions, not with intransitive verbs or states.",
+            "に": "に marks target, indirect object, or static location, not the subject/attribute.",
+            "も": "Particle も does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:26.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "よくて、とても気分がいいです。"
+        }
+      ],
+      "translationEn": "The weather is nice this morning, and I feel very well.",
+      "translationDe": "Heute Morgen ist das Wetter schön, und ich fühle mich sehr wohl."
+    },
+    "verified": false,
+    "sortOrder": 8,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:26:09",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "昨日から熱"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "が",
+            "を",
+            "も",
+            "まで"
+          ],
+          "feedback": {
+            "まで": "Particle まで does not fit here. Expected が.",
+            "も": "Particle も does not fit here. Expected が.",
+            "を": "Direct object marker を is used with transitive actions, not with intransitive verbs or states."
+          },
+          "ruleRef": "ja:mnn:26.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "あって、少し気分が悪いです。"
+        }
+      ],
+      "translationEn": "I have had a fever since yesterday and feel a little unwell.",
+      "translationDe": "Ich habe seit gestern Fieber und fühle mich etwas unwohl."
+    },
+    "verified": false,
+    "sortOrder": 9,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:26:10",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "日曜日に小学校の運動会"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "に",
+            "を",
+            "も",
+            "は"
+          ],
+          "feedback": {
+            "に": "に marks target, direction, or time, not the direct object being acted upon.",
+            "も": "Particle も does not fit here. Expected を.",
+            "は": "は would topicalize the noun, but here it is a direct object marked by を."
+          },
+          "ruleRef": "ja:mnn:26.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "見に行きました。"
+        }
+      ],
+      "translationEn": "On Sunday I went to watch the elementary school sports day.",
+      "translationDe": "Am Sonntag bin ich zum Sportfest der Grundschule gegangen."
+    },
+    "verified": false,
+    "sortOrder": 10,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:26:11",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "夏祭りで浴衣"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "へ",
+            "から",
+            "は",
+            "を"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected を.",
+            "は": "は would topicalize the noun, but here it is a direct object marked by を.",
+            "へ": "Particle へ does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:26.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "着て、みんなで盆踊りを踊りました。"
+        }
+      ],
+      "translationEn": "At the summer festival, we wore yukata and danced the Bon dance together.",
+      "translationDe": "Beim Sommerfest haben wir Yukata getragen und zusammen den Bon-Tanz getanzt."
+    },
+    "verified": false,
+    "sortOrder": 11,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:26:12",
+    "domain": "JAPANESE",
+    "chapter": 26,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:26.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "週末のフリーマーケットで安い時計"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "も",
+            "が",
+            "を",
+            "に"
+          ],
+          "feedback": {
+            "に": "に marks target, direction, or time, not the direct object being acted upon.",
+            "が": "が marks the subject or state, whereas を marks the direct object of a transitive action.",
+            "も": "Particle も does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:26.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "買いました。"
+        }
+      ],
+      "translationEn": "I bought a cheap watch at the weekend flea market.",
+      "translationDe": "Ich habe auf dem Wochenend-Flohmarkt eine günstige Uhr gekauft."
+    },
+    "verified": false,
+    "sortOrder": 12,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:27:01",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "私のマンションでは小さい犬や猫"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "は",
+            "も",
+            "が",
+            "へ"
+          ],
+          "feedback": {
+            "は": "は marks the global topic, whereas が marks the specific subject, agent, or potential object.",
+            "へ": "Particle へ does not fit here. Expected が.",
+            "も": "Particle も does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:27.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "飼えます。"
+        }
+      ],
+      "translationEn": "In my apartment building, you can keep small dogs and cats.",
+      "translationDe": "In meinem Apartmenthaus darf man kleine Hunde und Katzen halten."
+    },
+    "verified": false,
+    "sortOrder": 1,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:27:02",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "毎朝、川の近くの道"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "を",
+            "へ",
+            "から",
+            "が"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected を.",
+            "へ": "Particle へ does not fit here. Expected を.",
+            "が": "が marks the subject or state, whereas を marks the direct object of a transitive action."
+          },
+          "ruleRef": "ja:mnn:27.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "三十分ぐらい走ります。"
+        }
+      ],
+      "translationEn": "Every morning, I run along the road near the river for about thirty minutes.",
+      "translationDe": "Jeden Morgen laufe ich etwa dreißig Minuten auf dem Weg am Fluss entlang."
+    },
+    "verified": false,
+    "sortOrder": 2,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:27:03",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "天気"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "を",
+            "が",
+            "から",
+            "まで"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected が.",
+            "まで": "Particle まで does not fit here. Expected が.",
+            "を": "Direct object marker を is used with transitive actions, not with intransitive verbs or states."
+          },
+          "ruleRef": "ja:mnn:27.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "いい日は、この窓から富士山が見えます。"
+        }
+      ],
+      "translationEn": "On days with fine weather, Mount Fuji can be seen from this window.",
+      "translationDe": "An Tagen mit gutem Wetter kann man von diesem Fenster aus den Berg Fuji sehen."
+    },
+    "verified": false,
+    "sortOrder": 3,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:27:04",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "隣の部屋からきれいなピアノの音"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "が",
+            "を",
+            "は",
+            "から"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected が.",
+            "は": "は marks the global topic, whereas が marks the specific subject, agent, or potential object.",
+            "を": "Direct object marker を is used with transitive actions, not with intransitive verbs or states."
+          },
+          "ruleRef": "ja:mnn:27.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "聞こえます。"
+        }
+      ],
+      "translationEn": "The beautiful sound of a piano can be heard from the next room.",
+      "translationDe": "Aus dem Nebenzimmer ist schöner Klavierklang zu hören."
+    },
+    "verified": false,
+    "sortOrder": 4,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:27:05",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "来年の春、駅の前"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "に",
+            "が",
+            "で",
+            "から"
+          ],
+          "feedback": {
+            "で": "で marks the location where an action occurs; に marks arrival, destination, time, or static existence.",
+            "が": "が marks the subject, not the target, time, or indirect object.",
+            "から": "Particle から does not fit here. Expected に."
+          },
+          "ruleRef": "ja:mnn:27.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "大きいスーパーができます。"
+        }
+      ],
+      "translationEn": "Next spring, a large supermarket will be completed in front of the station.",
+      "translationDe": "Nächsten Frühling entsteht vor dem Bahnhof ein großer Supermarkt."
+    },
+    "verified": false,
+    "sortOrder": 5,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:27:06",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "市民センターで外国人のための料理教室"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "へ",
+            "まで",
+            "に",
+            "を"
+          ],
+          "feedback": {
+            "へ": "Particle へ does not fit here. Expected を.",
+            "まで": "Particle まで does not fit here. Expected を.",
+            "に": "に marks target, direction, or time, not the direct object being acted upon."
+          },
+          "ruleRef": "ja:mnn:27.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "開きます。"
+        }
+      ],
+      "translationEn": "We will hold a cooking class for foreigners at the community center.",
+      "translationDe": "Im Bürgerzentrum veranstalten wir einen Kochkurs für Ausländer."
+    },
+    "verified": false,
+    "sortOrder": 6,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:27:07",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "明日の試験"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "が",
+            "に",
+            "から",
+            "と"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected が.",
+            "と": "Particle と does not fit here. Expected が.",
+            "に": "に marks target, indirect object, or static location, not the subject/attribute."
+          },
+          "ruleRef": "ja:mnn:27.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "うまくいくかどうか心配です。"
+        }
+      ],
+      "translationEn": "I am worried about whether tomorrow's exam will go well.",
+      "translationDe": "Ich mache mir Sorgen, ob die Prüfung morgen gut klappt."
+    },
+    "verified": false,
+    "sortOrder": 7,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:27:08",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "最近はペットと一緒に泊まれるホテル"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "まで",
+            "で",
+            "も",
+            "が"
+          ],
+          "feedback": {
+            "まで": "Particle まで does not fit here. Expected が.",
+            "も": "Particle も does not fit here. Expected が.",
+            "で": "で marks means, instrument, or location of action, not the subject."
+          },
+          "ruleRef": "ja:mnn:27.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "増えています。"
+        }
+      ],
+      "translationEn": "Recently, hotels where you can stay with pets are increasing.",
+      "translationDe": "In letzter Zeit gibt es immer mehr Hotels, in denen man mit Haustieren übernachten kann."
+    },
+    "verified": false,
+    "sortOrder": 8,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:27:09",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "庭の木にきれいな青い鳥"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "も",
+            "は",
+            "が",
+            "から"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected が.",
+            "は": "は marks the global topic, whereas が marks the specific subject, agent, or potential object.",
+            "も": "Particle も does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:27.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "止まっています。"
+        }
+      ],
+      "translationEn": "A pretty blue bird is perched on the tree in the garden.",
+      "translationDe": "Auf dem Baum im Garten sitzt ein schöner blauer Vogel."
+    },
+    "verified": false,
+    "sortOrder": 9,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:27:10",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "風邪"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "を",
+            "から",
+            "が",
+            "と"
+          ],
+          "feedback": {
+            "と": "Particle と does not fit here. Expected を.",
+            "から": "Particle から does not fit here. Expected を.",
+            "が": "が marks the subject or state, whereas を marks the direct object of a transitive action."
+          },
+          "ruleRef": "ja:mnn:27.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "ひいたので、今日はあまり声が出ません。"
+        }
+      ],
+      "translationEn": "Because I caught a cold, my voice won't come out much today.",
+      "translationDe": "Da ich mich erkältet habe, habe ich heute kaum Stimme."
+    },
+    "verified": false,
+    "sortOrder": 10,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:27:11",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "今日は風"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "を",
+            "に",
+            "が",
+            "へ"
+          ],
+          "feedback": {
+            "へ": "Particle へ does not fit here. Expected が.",
+            "を": "Direct object marker を is used with transitive actions, not with intransitive verbs or states.",
+            "に": "に marks target, indirect object, or static location, not the subject/attribute."
+          },
+          "ruleRef": "ja:mnn:27.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "強くて、海の波がとても高いです。"
+        }
+      ],
+      "translationEn": "The wind is strong today, and the ocean waves are very high.",
+      "translationDe": "Heute ist der Wind stark, und die Meereswellen sind sehr hoch."
+    },
+    "verified": false,
+    "sortOrder": 11,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:27:12",
+    "domain": "JAPANESE",
+    "chapter": 27,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:27.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "夏の夜、川の近くでたくさんの花火"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "へ",
+            "が",
+            "と",
+            "で"
+          ],
+          "feedback": {
+            "で": "で marks means, instrument, or location of action, not the subject.",
+            "へ": "Particle へ does not fit here. Expected が.",
+            "と": "Particle と does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:27.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "上がりました。"
+        }
+      ],
+      "translationEn": "On a summer night, many fireworks went up near the river.",
+      "translationDe": "In einer Sommernacht stieg am Fluss ein großes Feuerwerk auf."
+    },
+    "verified": false,
+    "sortOrder": 12,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:28:01",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "あの店の新しいパン"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "は"
+          ],
+          "options": [
+            "は",
+            "が",
+            "へ",
+            "を"
+          ],
+          "feedback": {
+            "へ": "Particle へ does not fit here. Expected は.",
+            "を": "を marks a direct object, not the thematic topic.",
+            "が": "が highlights new specific subject information, whereas は establishes the thematic topic or contrast."
+          },
+          "ruleRef": "ja:mnn:28.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "美味しくてよく売れています。"
+        }
+      ],
+      "translationEn": "That shop's new bread is delicious and sells very well.",
+      "translationDe": "Das neue Brot jenes Ladens ist lecker und verkauft sich sehr gut."
+    },
+    "verified": false,
+    "sortOrder": 1,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:28:02",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "音楽"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "に",
+            "は",
+            "で",
+            "まで"
+          ],
+          "feedback": {
+            "で": "で marks the location where an action occurs; に marks arrival, destination, time, or static existence.",
+            "まで": "Particle まで does not fit here. Expected に.",
+            "は": "Particle は does not fit here. Expected に."
+          },
+          "ruleRef": "ja:mnn:28.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "合わせて、ステージの上で楽しく踊りました。"
+        }
+      ],
+      "translationEn": "Matching the music, we danced joyfully on the stage.",
+      "translationDe": "Passend zur Musik haben wir fröhlich auf der Bühne getanzt."
+    },
+    "verified": false,
+    "sortOrder": 2,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:28:03",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "食事の時は、食べ物"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "は",
+            "も",
+            "を",
+            "まで"
+          ],
+          "feedback": {
+            "も": "Particle も does not fit here. Expected を.",
+            "まで": "Particle まで does not fit here. Expected を.",
+            "は": "は would topicalize the noun, but here it is a direct object marked by を."
+          },
+          "ruleRef": "ja:mnn:28.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "よくかんで食べてください。"
+        }
+      ],
+      "translationEn": "At meal times, please chew your food well before eating.",
+      "translationDe": "Kauen Sie das Essen bei den Mahlzeiten bitte gründlich."
+    },
+    "verified": false,
+    "sortOrder": 3,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:28:04",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "母の誕生日のプレゼントにきれいな花"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "も",
+            "を",
+            "で",
+            "は"
+          ],
+          "feedback": {
+            "で": "で marks means or place of action, not the object of the verb.",
+            "は": "は would topicalize the noun, but here it is a direct object marked by を.",
+            "も": "Particle も does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:28.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "選びました。"
+        }
+      ],
+      "translationEn": "I chose beautiful flowers as a birthday present for my mother.",
+      "translationDe": "Ich habe schöne Blumen als Geburtstagsgeschenk für meine Mutter ausgewählt."
+    },
+    "verified": false,
+    "sortOrder": 4,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:28:05",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "毎日電車で一時間かけて大学"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "に",
+            "と",
+            "を",
+            "へ"
+          ],
+          "feedback": {
+            "を": "を marks a direct object, not a destination or point in time.",
+            "へ": "へ emphasizes physical direction, but に is the standard destination/target particle.",
+            "と": "Particle と does not fit here. Expected に."
+          },
+          "ruleRef": "ja:mnn:28.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "通っています。"
+        }
+      ],
+      "translationEn": "Every day I commute to university taking one hour by train.",
+      "translationDe": "Jeden Tag pendle ich eine Stunde lang mit dem Zug zur Universität."
+    },
+    "verified": false,
+    "sortOrder": 5,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:28:06",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "忘れないように、先生の話"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "を",
+            "まで",
+            "も",
+            "と"
+          ],
+          "feedback": {
+            "まで": "Particle まで does not fit here. Expected を.",
+            "と": "Particle と does not fit here. Expected を.",
+            "も": "Particle も does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:28.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "ノートにメモしました。"
+        }
+      ],
+      "translationEn": "So as not to forget, I took notes of the teacher's talk in my notebook.",
+      "translationDe": "Um es nicht zu vergessen, habe ich mir die Worte des Lehrers im Heft notiert."
+    },
+    "verified": false,
+    "sortOrder": 6,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:28:07",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "彼はいつもまじめに日本語の宿題"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "を",
+            "と",
+            "も",
+            "から"
+          ],
+          "feedback": {
+            "と": "Particle と does not fit here. Expected を.",
+            "から": "Particle から does not fit here. Expected を.",
+            "も": "Particle も does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:28.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "やっています。"
+        }
+      ],
+      "translationEn": "He always does his Japanese homework seriously.",
+      "translationDe": "Er macht seine Japanisch-Hausaufgaben immer sehr gewissenhaft."
+    },
+    "verified": false,
+    "sortOrder": 7,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:28:08",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "学生たちは先生の講義"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "で",
+            "が",
+            "に",
+            "を"
+          ],
+          "feedback": {
+            "が": "が marks the subject or state, whereas を marks the direct object of a transitive action.",
+            "に": "に marks target, direction, or time, not the direct object being acted upon.",
+            "で": "で marks means or place of action, not the object of the verb."
+          },
+          "ruleRef": "ja:mnn:28.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "熱心に聞いていました。"
+        }
+      ],
+      "translationEn": "The students were earnestly listening to the professor's lecture.",
+      "translationDe": "Die Studenten hörten der Vorlesung des Professors eifrig zu."
+    },
+    "verified": false,
+    "sortOrder": 8,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:28:09",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "働きながら夜間の大学"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "に",
+            "へ",
+            "を",
+            "から"
+          ],
+          "feedback": {
+            "を": "を marks a direct object, not a destination or point in time.",
+            "から": "Particle から does not fit here. Expected に.",
+            "へ": "へ emphasizes physical direction, but に is the standard destination/target particle."
+          },
+          "ruleRef": "ja:mnn:28.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "通うのは本当に偉いですね。"
+        }
+      ],
+      "translationEn": "Attending night university while working is truly admirable.",
+      "translationDe": "Neben der Arbeit eine Abenduniversität zu besuchen, ist wirklich bewundernswert."
+    },
+    "verified": false,
+    "sortOrder": 9,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:28:10",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "このセーターは大きすぎず小さすぎず、ちょうどいい"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "で"
+          ],
+          "options": [
+            "は",
+            "も",
+            "で",
+            "が"
+          ],
+          "feedback": {
+            "が": "が marks the grammatical subject, not the method or venue.",
+            "は": "は marks the topic, not the tool or place of action.",
+            "も": "Particle も does not fit here. Expected で."
+          },
+          "ruleRef": "ja:mnn:28.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "す。"
+        }
+      ],
+      "translationEn": "This sweater is neither too big nor too small; it is just right.",
+      "translationDe": "Dieser Pullover ist weder zu groß noch zu klein, er passt genau richtig."
+    },
+    "verified": false,
+    "sortOrder": 10,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:28:11",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "電車の窓から見える山の景色"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "で",
+            "が",
+            "を",
+            "から"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected が.",
+            "で": "で marks means, instrument, or location of action, not the subject.",
+            "を": "Direct object marker を is used with transitive actions, not with intransitive verbs or states."
+          },
+          "ruleRef": "ja:mnn:28.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "とてもきれいでした。"
+        }
+      ],
+      "translationEn": "The mountain scenery visible from the train window was very beautiful.",
+      "translationDe": "Die Berglandschaft, die man aus dem Zugfenster sah, war sehr schön."
+    },
+    "verified": false,
+    "sortOrder": 11,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:28:12",
+    "domain": "JAPANESE",
+    "chapter": 28,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:28.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "日曜日に駅前の美容院へ行って髪"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "へ",
+            "を",
+            "が",
+            "で"
+          ],
+          "feedback": {
+            "で": "で marks means or place of action, not the object of the verb.",
+            "が": "が marks the subject or state, whereas を marks the direct object of a transitive action.",
+            "へ": "Particle へ does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:28.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "切りました。"
+        }
+      ],
+      "translationEn": "On Sunday I went to the hair salon in front of the station and had my hair cut.",
+      "translationDe": "Am Sonntag bin ich zum Friseursalon vor dem Bahnhof gegangen und habe mir die Haare schneiden lassen."
+    },
+    "verified": false,
+    "sortOrder": 12,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:29:01",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "ボタン"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "を",
+            "へ",
+            "も",
+            "で"
+          ],
+          "feedback": {
+            "も": "Particle も does not fit here. Expected を.",
+            "で": "で marks means or place of action, not the object of the verb.",
+            "へ": "Particle へ does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:29.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "押すと、エレベーターのドアが自動で開きます。"
+        }
+      ],
+      "translationEn": "When you press the button, the elevator door opens automatically.",
+      "translationDe": "Wenn man den Knopf drückt, öffnet sich die Aufzugstür automatisch."
+    },
+    "verified": false,
+    "sortOrder": 1,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:29:02",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "九時になると、このデパートの入り口"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "は",
+            "が",
+            "で",
+            "を"
+          ],
+          "feedback": {
+            "は": "は marks the global topic, whereas が marks the specific subject, agent, or potential object.",
+            "で": "で marks means, instrument, or location of action, not the subject.",
+            "を": "Direct object marker を is used with transitive actions, not with intransitive verbs or states."
+          },
+          "ruleRef": "ja:mnn:29.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "閉まります。"
+        }
+      ],
+      "translationEn": "When nine o'clock comes, the entrance of this department store closes.",
+      "translationDe": "Um neun Uhr schließt sich der Eingang dieses Kaufhauses."
+    },
+    "verified": false,
+    "sortOrder": 2,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:29:03",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "部屋に入ると、自動で天井の電気"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "へ",
+            "が",
+            "で",
+            "と"
+          ],
+          "feedback": {
+            "と": "Particle と does not fit here. Expected が.",
+            "へ": "Particle へ does not fit here. Expected が.",
+            "で": "で marks means, instrument, or location of action, not the subject."
+          },
+          "ruleRef": "ja:mnn:29.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "つきます。"
+        }
+      ],
+      "translationEn": "When you enter the room, the ceiling light comes on automatically.",
+      "translationDe": "Wenn man den Raum betritt, geht das Deckenlicht automatisch an."
+    },
+    "verified": false,
+    "sortOrder": 3,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:29:04",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "強い風"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "を",
+            "から",
+            "が",
+            "へ"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected が.",
+            "を": "Direct object marker を is used with transitive actions, not with intransitive verbs or states.",
+            "へ": "Particle へ does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:29.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "吹いて、ろうそくの火が消えてしまいました。"
+        }
+      ],
+      "translationEn": "A strong wind blew, and the candle flame went out completely.",
+      "translationDe": "Ein starker Wind wehte, und die Kerzenflamme ist erloschen."
+    },
+    "verified": false,
+    "sortOrder": 4,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:29:05",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "古い洗濯機が壊れてしまったので、新しいの"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "へ",
+            "から",
+            "で",
+            "を"
+          ],
+          "feedback": {
+            "へ": "Particle へ does not fit here. Expected を.",
+            "から": "Particle から does not fit here. Expected を.",
+            "で": "で marks means or place of action, not the object of the verb."
+          },
+          "ruleRef": "ja:mnn:29.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "買います。"
+        }
+      ],
+      "translationEn": "Because the old washing machine broke down, I will buy a new one.",
+      "translationDe": "Da die alte Waschmaschine kaputtgegangen ist, kaufe ich eine neue."
+    },
+    "verified": false,
+    "sortOrder": 5,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:29:06",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "テーブルから落ちて、大切なワインのコップ"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "は",
+            "から",
+            "が",
+            "に"
+          ],
+          "feedback": {
+            "は": "は marks the global topic, whereas が marks the specific subject, agent, or potential object.",
+            "から": "Particle から does not fit here. Expected が.",
+            "に": "に marks target, indirect object, or static location, not the subject/attribute."
+          },
+          "ruleRef": "ja:mnn:29.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "割れました。"
+        }
+      ],
+      "translationEn": "Falling from the table, the precious wine glass shattered.",
+      "translationDe": "Das wertvolle Weinglas ist vom Tisch gefallen und zerbrochen."
+    },
+    "verified": false,
+    "sortOrder": 6,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:29:07",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "昨日の台風で、庭の桜の木の枝"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "と",
+            "が",
+            "は",
+            "から"
+          ],
+          "feedback": {
+            "は": "は marks the global topic, whereas が marks the specific subject, agent, or potential object.",
+            "から": "Particle から does not fit here. Expected が.",
+            "と": "Particle と does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:29.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "折れました。"
+        }
+      ],
+      "translationEn": "In yesterday's typhoon, a branch of the cherry tree in the garden snapped.",
+      "translationDe": "Durch den Taifun gestern ist ein Ast des Kirschbaums im Garten abgebrochen."
+    },
+    "verified": false,
+    "sortOrder": 7,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:29:08",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "荷物"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "へ",
+            "が",
+            "に",
+            "と"
+          ],
+          "feedback": {
+            "に": "に marks target, indirect object, or static location, not the subject/attribute.",
+            "へ": "Particle へ does not fit here. Expected が.",
+            "と": "Particle と does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:29.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "重すぎて、紙の袋が破れてしまいました。"
+        }
+      ],
+      "translationEn": "Because the items were too heavy, the paper bag tore completely.",
+      "translationDe": "Weil die Sachen zu schwer waren, ist die Papiertüte gerissen."
+    },
+    "verified": false,
+    "sortOrder": 8,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:29:09",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "雨の日に外で遊んだので、白い靴"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "で",
+            "を",
+            "が",
+            "は"
+          ],
+          "feedback": {
+            "は": "は marks the global topic, whereas が marks the specific subject, agent, or potential object.",
+            "で": "で marks means, instrument, or location of action, not the subject.",
+            "を": "Direct object marker を is used with transitive actions, not with intransitive verbs or states."
+          },
+          "ruleRef": "ja:mnn:29.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "汚れました。"
+        }
+      ],
+      "translationEn": "Because I played outside on a rainy day, my white shoes got dirty.",
+      "translationDe": "Da ich an einem Regentag draußen gespielt habe, sind meine weißen Schuhe schmutzig geworden."
+    },
+    "verified": false,
+    "sortOrder": 9,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:29:10",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "このシャツには胸に小さいポケット"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "が",
+            "を",
+            "まで",
+            "と"
+          ],
+          "feedback": {
+            "まで": "Particle まで does not fit here. Expected が.",
+            "を": "Direct object marker を is used with transitive actions, not with intransitive verbs or states.",
+            "と": "Particle と does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:29.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "付いています。"
+        }
+      ],
+      "translationEn": "This shirt has a small pocket attached to the chest.",
+      "translationDe": "An diesem Hemd ist auf der Brust eine kleine Tasche angebracht."
+    },
+    "verified": false,
+    "sortOrder": 10,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:29:11",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "コートの一番上のボタン"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "から",
+            "が",
+            "まで",
+            "に"
+          ],
+          "feedback": {
+            "まで": "Particle まで does not fit here. Expected が.",
+            "から": "Particle から does not fit here. Expected が.",
+            "に": "に marks target, indirect object, or static location, not the subject/attribute."
+          },
+          "ruleRef": "ja:mnn:29.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "外れていますよ。"
+        }
+      ],
+      "translationEn": "The top button of your coat has come undone.",
+      "translationDe": "Der oberste Knopf deines Mantels hat sich gelöst."
+    },
+    "verified": false,
+    "sortOrder": 11,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:29:12",
+    "domain": "JAPANESE",
+    "chapter": 29,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:29.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "事故"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "を",
+            "と",
+            "が",
+            "で"
+          ],
+          "feedback": {
+            "を": "Direct object marker を is used with transitive actions, not with intransitive verbs or states.",
+            "で": "で marks means, instrument, or location of action, not the subject.",
+            "と": "Particle と does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:29.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "あったので、電車が駅の途中で止まりました。"
+        }
+      ],
+      "translationEn": "Because there was an accident, the train stopped midway between stations.",
+      "translationDe": "Wegen eines Unfalls ist der Zug auf halber Strecke stehen geblieben."
+    },
+    "verified": false,
+    "sortOrder": 12,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:30:01",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "封筒に切手"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "を",
+            "が",
+            "に",
+            "へ"
+          ],
+          "feedback": {
+            "へ": "Particle へ does not fit here. Expected を.",
+            "に": "に marks target, direction, or time, not the direct object being acted upon.",
+            "が": "が marks the subject or state, whereas を marks the direct object of a transitive action."
+          },
+          "ruleRef": "ja:mnn:30.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "はって、駅前のポストに入れました。"
+        }
+      ],
+      "translationEn": "I stuck a stamp on the envelope and put it into the postbox in front of the station.",
+      "translationDe": "Ich habe eine Briefmarke auf den Umschlag geklebt und ihn in den Briefkasten vor dem Bahnhof geworfen."
+    },
+    "verified": false,
+    "sortOrder": 1,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:30:02",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "洗ったシャツ"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "と",
+            "まで",
+            "が",
+            "を"
+          ],
+          "feedback": {
+            "まで": "Particle まで does not fit here. Expected を.",
+            "が": "が marks the subject or state, whereas を marks the direct object of a transitive action.",
+            "と": "Particle と does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:30.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "ハンガーに掛けて干しておきました。"
+        }
+      ],
+      "translationEn": "I hung the washed shirt on a hanger to dry.",
+      "translationDe": "Ich habe das gewaschene Hemd zum Trocknen auf einen Kleiderbügel gehängt."
+    },
+    "verified": false,
+    "sortOrder": 2,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:30:03",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "クリスマスの前"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "が",
+            "から",
+            "を",
+            "に"
+          ],
+          "feedback": {
+            "が": "が marks the subject, not the target, time, or indirect object.",
+            "を": "を marks a direct object, not a destination or point in time.",
+            "から": "Particle から does not fit here. Expected に."
+          },
+          "ruleRef": "ja:mnn:30.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "、部屋にきれいなツリーを飾ります。"
+        }
+      ],
+      "translationEn": "Before Christmas, we decorate the room with a pretty tree.",
+      "translationDe": "Vor Weihnachten schmücken wir das Zimmer mit einem schönen Weihnachtsbaum."
+    },
+    "verified": false,
+    "sortOrder": 3,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:30:04",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "テーブルの上にナイフとフォーク"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "は",
+            "で",
+            "を",
+            "と"
+          ],
+          "feedback": {
+            "で": "で marks means or place of action, not the object of the verb.",
+            "は": "は would topicalize the noun, but here it is a direct object marked by を.",
+            "と": "Particle と does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:30.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "きれいに並べました。"
+        }
+      ],
+      "translationEn": "I neatly lined up the knives and forks on the table.",
+      "translationDe": "Ich habe Messer und Gabeln ordentlich auf dem Tisch nebeneinandergelegt."
+    },
+    "verified": false,
+    "sortOrder": 4,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:30:05",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "春になったので、庭にトマトと花の種"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "へ",
+            "に",
+            "を",
+            "と"
+          ],
+          "feedback": {
+            "と": "Particle と does not fit here. Expected を.",
+            "へ": "Particle へ does not fit here. Expected を.",
+            "に": "に marks target, direction, or time, not the direct object being acted upon."
+          },
+          "ruleRef": "ja:mnn:30.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "植えました。"
+        }
+      ],
+      "translationEn": "Because spring came, I planted tomato and flower seeds in the garden.",
+      "translationDe": "Da es Frühling geworden ist, habe ich im Garten Tomaten- und Blumensamen eingepflanzt."
+    },
+    "verified": false,
+    "sortOrder": 5,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:30:06",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "読み終わった本は、必ず元の本棚"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "が",
+            "に",
+            "を",
+            "は"
+          ],
+          "feedback": {
+            "は": "Particle は does not fit here. Expected に.",
+            "を": "を marks a direct object, not a destination or point in time.",
+            "が": "が marks the subject, not the target, time, or indirect object."
+          },
+          "ruleRef": "ja:mnn:30.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "戻してください。"
+        }
+      ],
+      "translationEn": "Please always return books you have finished reading to their original bookcase.",
+      "translationDe": "Stellen Sie ausgelesene Bücher bitte unbedingt wieder in das ursprüngliche Bücherregal zurück."
+    },
+    "verified": false,
+    "sortOrder": 6,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:30:07",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "会議の前に、みんなの意見"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "は",
+            "まで",
+            "も",
+            "を"
+          ],
+          "feedback": {
+            "は": "は would topicalize the noun, but here it is a direct object marked by を.",
+            "も": "Particle も does not fit here. Expected を.",
+            "まで": "Particle まで does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:30.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "レポートにまとめておきます。"
+        }
+      ],
+      "translationEn": "Before the meeting, I will summarize everyone's opinions into a report.",
+      "translationDe": "Vor der Besprechung fasse ich die Meinungen aller in einem Bericht zusammen."
+    },
+    "verified": false,
+    "sortOrder": 7,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:30:08",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "夏が終わったので、扇風機"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "まで",
+            "を",
+            "も",
+            "から"
+          ],
+          "feedback": {
+            "まで": "Particle まで does not fit here. Expected を.",
+            "も": "Particle も does not fit here. Expected を.",
+            "から": "Particle から does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:30.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "押入れの中にしまいました。"
+        }
+      ],
+      "translationEn": "Because summer ended, I put the electric fan away inside the closet.",
+      "translationDe": "Da der Sommer vorbei ist, habe ich den Ventilator im Wandschrank verstaut."
+    },
+    "verified": false,
+    "sortOrder": 8,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:30:09",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "夏休み"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "に",
+            "まで",
+            "は",
+            "へ"
+          ],
+          "feedback": {
+            "は": "Particle は does not fit here. Expected に.",
+            "へ": "へ emphasizes physical direction, but に is the standard destination/target particle.",
+            "まで": "Particle まで does not fit here. Expected に."
+          },
+          "ruleRef": "ja:mnn:30.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "どこへ旅行に行くか、まだ決めていません。"
+        }
+      ],
+      "translationEn": "I have not yet decided where to go traveling during summer vacation.",
+      "translationDe": "Ich habe noch nicht entschieden, wohin ich in den Sommerferien verreisen werde."
+    },
+    "verified": false,
+    "sortOrder": 9,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:30:10",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "授業の前に、いつも新しい単語"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "も",
+            "へ",
+            "まで",
+            "を"
+          ],
+          "feedback": {
+            "まで": "Particle まで does not fit here. Expected を.",
+            "も": "Particle も does not fit here. Expected を.",
+            "へ": "Particle へ does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:30.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "予習しておきます。"
+        }
+      ],
+      "translationEn": "Before class, I always prepare the new vocabulary in advance.",
+      "translationDe": "Vor dem Unterricht bereite ich immer schon die neuen Vokabeln vor."
+    },
+    "verified": false,
+    "sortOrder": 10,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:30:11",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "今日習った文法は、家"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "まで",
+            "に",
+            "へ",
+            "と"
+          ],
+          "feedback": {
+            "まで": "Particle まで does not fit here. Expected に.",
+            "と": "Particle と does not fit here. Expected に.",
+            "へ": "へ emphasizes physical direction, but に is the standard destination/target particle."
+          },
+          "ruleRef": "ja:mnn:30.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "帰ってからしっかり復習します。"
+        }
+      ],
+      "translationEn": "I will thoroughly review the grammar learned today after returning home.",
+      "translationDe": "Die heute gelernte Grammatik wiederhole ich gründlich, nachdem ich nach Hause gekommen bin."
+    },
+    "verified": false,
+    "sortOrder": 11,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:30:12",
+    "domain": "JAPANESE",
+    "chapter": 30,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:30.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "まだ使いますから、会議室の机はそのまま"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "で",
+            "が",
+            "と",
+            "に"
+          ],
+          "feedback": {
+            "と": "Particle と does not fit here. Expected に.",
+            "が": "が marks the subject, not the target, time, or indirect object.",
+            "で": "で marks the location where an action occurs; に marks arrival, destination, time, or static existence."
+          },
+          "ruleRef": "ja:mnn:30.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "してください。"
+        }
+      ],
+      "translationEn": "Because we will still use them, please leave the conference room desks as they are.",
+      "translationDe": "Da wir sie noch benutzen, lassen Sie die Tische im Konferenzraum bitte so stehen, wie sie sind."
+    },
+    "verified": false,
+    "sortOrder": 12,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:31:01",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "これからも毎日少しずつ日本語の勉強"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "まで",
+            "から",
+            "と",
+            "を"
+          ],
+          "feedback": {
+            "まで": "Particle まで does not fit here. Expected を.",
+            "と": "Particle と does not fit here. Expected を.",
+            "から": "Particle から does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:31.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "続けようと思います。"
+        }
+      ],
+      "translationEn": "From now on too, I intend to continue studying Japanese little by little every day.",
+      "translationDe": "Auch weiterhin möchte ich jeden Tag ein wenig mit dem Japanischlernen weitermachen."
+    },
+    "verified": false,
+    "sortOrder": 1,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:31:02",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "インターネットでやっと安くていい部屋"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "も",
+            "に",
+            "まで",
+            "を"
+          ],
+          "feedback": {
+            "まで": "Particle まで does not fit here. Expected を.",
+            "も": "Particle も does not fit here. Expected を.",
+            "に": "に marks target, direction, or time, not the direct object being acted upon."
+          },
+          "ruleRef": "ja:mnn:31.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "見つけました。"
+        }
+      ],
+      "translationEn": "On the internet, I finally found a cheap and good apartment.",
+      "translationDe": "Im Internet habe ich endlich eine günstige und gute Wohnung gefunden."
+    },
+    "verified": false,
+    "sortOrder": 2,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:31:03",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "来月は三日間休み"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "へ",
+            "は",
+            "に",
+            "を"
+          ],
+          "feedback": {
+            "へ": "Particle へ does not fit here. Expected を.",
+            "に": "に marks target, direction, or time, not the direct object being acted upon.",
+            "は": "は would topicalize the noun, but here it is a direct object marked by を."
+          },
+          "ruleRef": "ja:mnn:31.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "取って、家族と旅行に行くつもりです。"
+        }
+      ],
+      "translationEn": "Next month I plan to take a three-day holiday and go on a trip with my family.",
+      "translationDe": "Nächsten Monat habe ich vor, mir drei Tage Urlaub zu nehmen und mit meiner Familie zu verreisen."
+    },
+    "verified": false,
+    "sortOrder": 3,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:31:04",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "今年の十二月に日本語能力試験"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "まで",
+            "は",
+            "を",
+            "で"
+          ],
+          "feedback": {
+            "で": "で marks means or place of action, not the object of the verb.",
+            "は": "は would topicalize the noun, but here it is a direct object marked by を.",
+            "まで": "Particle まで does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:31.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "受けようと思っています。"
+        }
+      ],
+      "translationEn": "I am thinking of taking the Japanese Language Proficiency Test this December.",
+      "translationDe": "Ich denke darüber nach, diesen Dezember die Japanisch-Sprachprüfung abzulegen."
+    },
+    "verified": false,
+    "sortOrder": 4,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:31:05",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "来週まで"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "を",
+            "に",
+            "は",
+            "まで"
+          ],
+          "feedback": {
+            "を": "を marks a direct object, not a destination or point in time.",
+            "は": "Particle は does not fit here. Expected に.",
+            "まで": "Particle まで does not fit here. Expected に."
+          },
+          "ruleRef": "ja:mnn:31.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "スピーチコンテストに申し込まなければなりません。"
+        }
+      ],
+      "translationEn": "I must apply for the speech contest by next week.",
+      "translationDe": "Bis nächste Woche muss ich mich für den Redewettbewerb anmelden."
+    },
+    "verified": false,
+    "sortOrder": 5,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:31:06",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "二時間ぐらい運転したので、サービスエリア"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "で"
+          ],
+          "options": [
+            "から",
+            "を",
+            "に",
+            "で"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected で.",
+            "を": "を marks the patient/object of the verb, not the means or location.",
+            "に": "に marks static existence (います/あります) or destination; で marks active event location or tool/means."
+          },
+          "ruleRef": "ja:mnn:31.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "少し休憩しましょう。"
+        }
+      ],
+      "translationEn": "Since we have driven for about two hours, let's take a short break at the service area.",
+      "translationDe": "Da wir etwa zwei Stunden gefahren sind, lass uns an der Raststätte eine kleine Pause machen."
+    },
+    "verified": false,
+    "sortOrder": 6,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:31:07",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "五月の連休"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "へ",
+            "に",
+            "まで",
+            "と"
+          ],
+          "feedback": {
+            "へ": "へ emphasizes physical direction, but に is the standard destination/target particle.",
+            "と": "Particle と does not fit here. Expected に.",
+            "まで": "Particle まで does not fit here. Expected に."
+          },
+          "ruleRef": "ja:mnn:31.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "は、友達と一緒に京都へ行く予定です。"
+        }
+      ],
+      "translationEn": "During the consecutive holidays in May, I plan to go to Kyoto with my friends.",
+      "translationDe": "Über die Feiertage im Mai plane ich, zusammen mit Freunden nach Kyoto zu fahren."
+    },
+    "verified": false,
+    "sortOrder": 7,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:31:08",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "授業で『私の将来の夢』というテーマで作文"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "は",
+            "へ",
+            "まで",
+            "を"
+          ],
+          "feedback": {
+            "へ": "Particle へ does not fit here. Expected を.",
+            "まで": "Particle まで does not fit here. Expected を.",
+            "は": "は would topicalize the noun, but here it is a direct object marked by を."
+          },
+          "ruleRef": "ja:mnn:31.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "書きました。"
+        }
+      ],
+      "translationEn": "In class, I wrote an essay on the theme of 'My Future Dream'.",
+      "translationDe": "Im Unterricht habe ich einen Aufsatz zum Thema ‚Mein Traum für die Zukunft‘ geschrieben."
+    },
+    "verified": false,
+    "sortOrder": 8,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:31:09",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "来週のゼミで自分の研究"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "が",
+            "で",
+            "へ",
+            "に"
+          ],
+          "feedback": {
+            "へ": "へ emphasizes physical direction, but に is the standard destination/target particle.",
+            "が": "が marks the subject, not the target, time, or indirect object.",
+            "で": "で marks the location where an action occurs; に marks arrival, destination, time, or static existence."
+          },
+          "ruleRef": "ja:mnn:31.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "ついて発表します。"
+        }
+      ],
+      "translationEn": "At next week's seminar, I will give a presentation about my research.",
+      "translationDe": "Im Seminar nächste Woche halte ich einen Vortrag über meine Forschung."
+    },
+    "verified": false,
+    "sortOrder": 9,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:31:10",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "日曜日に市立美術館へ新しい絵の展覧会"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "は",
+            "へ",
+            "を",
+            "と"
+          ],
+          "feedback": {
+            "は": "は would topicalize the noun, but here it is a direct object marked by を.",
+            "へ": "Particle へ does not fit here. Expected を.",
+            "と": "Particle と does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:31.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "見に行きました。"
+        }
+      ],
+      "translationEn": "On Sunday I went to the city art museum to see an exhibition of new paintings.",
+      "translationDe": "Am Sonntag bin ich ins städtische Kunstmuseum gegangen, um mir eine Gemäldeausstellung anzusehen."
+    },
+    "verified": false,
+    "sortOrder": 10,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:31:11",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "来月、大学の友達の結婚式"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "に",
+            "で",
+            "は",
+            "が"
+          ],
+          "feedback": {
+            "は": "Particle は does not fit here. Expected に.",
+            "が": "が marks the subject, not the target, time, or indirect object.",
+            "で": "で marks the location where an action occurs; に marks arrival, destination, time, or static existence."
+          },
+          "ruleRef": "ja:mnn:31.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "出席するため東京へ行きます。"
+        }
+      ],
+      "translationEn": "Next month, I will go to Tokyo to attend my university friend's wedding ceremony.",
+      "translationDe": "Nächsten Monat fahre ich nach Tokio, um an der Hochzeit eines Studienfreundes teilzunehmen."
+    },
+    "verified": false,
+    "sortOrder": 11,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:31:12",
+    "domain": "JAPANESE",
+    "chapter": 31,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:31.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "日本ではお葬式の時に黒い服"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "が",
+            "へ",
+            "と",
+            "を"
+          ],
+          "feedback": {
+            "が": "が marks the subject or state, whereas を marks the direct object of a transitive action.",
+            "と": "Particle と does not fit here. Expected を.",
+            "へ": "Particle へ does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:31.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "着るのが普通です。"
+        }
+      ],
+      "translationEn": "In Japan, it is customary to wear black clothes at a funeral.",
+      "translationDe": "In Japan ist es üblich, bei einer Beerdigung schwarze Kleidung zu tragen."
+    },
+    "verified": false,
+    "sortOrder": 12,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:32:01",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "健康のため"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "に",
+            "と",
+            "から",
+            "まで"
+          ],
+          "feedback": {
+            "と": "Particle と does not fit here. Expected に.",
+            "から": "Particle から does not fit here. Expected に.",
+            "まで": "Particle まで does not fit here. Expected に."
+          },
+          "ruleRef": "ja:mnn:32.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "、毎週二回ジムで運動しています。"
+        }
+      ],
+      "translationEn": "For my health, I exercise at the gym twice every week.",
+      "translationDe": "Für meine Gesundheit treibe ich zweimal pro Woche im Fitnessstudio Sport."
+    },
+    "verified": false,
+    "sortOrder": 1,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:32:02",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "みんな"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "で"
+          ],
+          "options": [
+            "も",
+            "と",
+            "を",
+            "で"
+          ],
+          "feedback": {
+            "を": "を marks the patient/object of the verb, not the means or location.",
+            "も": "Particle も does not fit here. Expected で.",
+            "と": "Particle と does not fit here. Expected で."
+          },
+          "ruleRef": "ja:mnn:32.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "一生懸命準備したので、イベントは成功しました。"
+        }
+      ],
+      "translationEn": "Because everyone prepared hard together, the event succeeded.",
+      "translationDe": "Da alle gemeinsam fleißig vorbereitet haben, war die Veranstaltung ein Erfolg."
+    },
+    "verified": false,
+    "sortOrder": 2,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:32:03",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "ケーキ"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "へ",
+            "まで",
+            "も",
+            "を"
+          ],
+          "feedback": {
+            "も": "Particle も does not fit here. Expected を.",
+            "まで": "Particle まで does not fit here. Expected を.",
+            "へ": "Particle へ does not fit here. Expected を."
+          },
+          "ruleRef": "ja:mnn:32.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "作りましたが、砂糖を入れ忘れて失敗しました。"
+        }
+      ],
+      "translationEn": "I made a cake, but I forgot to put in sugar and failed.",
+      "translationDe": "Ich habe einen Kuchen gebacken, aber den Zucker vergessen, sodass er misslungen ist."
+    },
+    "verified": false,
+    "sortOrder": 3,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:32:04",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "毎日頑張ったおかげで、日本語の試験"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "に"
+          ],
+          "options": [
+            "に",
+            "は",
+            "まで",
+            "も"
+          ],
+          "feedback": {
+            "も": "Particle も does not fit here. Expected に.",
+            "は": "Particle は does not fit here. Expected に.",
+            "まで": "Particle まで does not fit here. Expected に."
+          },
+          "ruleRef": "ja:mnn:32.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "合格しました。"
+        }
+      ],
+      "translationEn": "Thanks to working hard every day, I passed the Japanese examination.",
+      "translationDe": "Dank meiner täglichen Mühe habe ich die Japanischprüfung bestanden."
+    },
+    "verified": false,
+    "sortOrder": 4,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:32:05",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "午後には雨"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "が",
+            "は",
+            "と",
+            "に"
+          ],
+          "feedback": {
+            "は": "は marks the global topic, whereas が marks the specific subject, agent, or potential object.",
+            "に": "に marks target, indirect object, or static location, not the subject/attribute.",
+            "と": "Particle と does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:32.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "やむそうですから、傘はいらないでしょう。"
+        }
+      ],
+      "translationEn": "I hear the rain will stop in the afternoon, so you probably won't need an umbrella.",
+      "translationDe": "Am Nachmittag soll der Regen aufhören, daher wirst du wohl keinen Schirm brauchen."
+    },
+    "verified": false,
+    "sortOrder": 5,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:32:06",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "朝は曇っていました"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "へ",
+            "に",
+            "まで",
+            "が"
+          ],
+          "feedback": {
+            "へ": "Particle へ does not fit here. Expected が.",
+            "に": "に marks target, indirect object, or static location, not the subject/attribute.",
+            "まで": "Particle まで does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:32.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "、昼からきれいに晴れました。"
+        }
+      ],
+      "translationEn": "It was cloudy in the morning, but it cleared up nicely from noon.",
+      "translationDe": "Am Morgen war es bewölkt, aber ab Mittag hat es schön aufgeklart."
+    },
+    "verified": false,
+    "sortOrder": 6,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:32:07",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "だんだん空"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "から",
+            "が",
+            "まで",
+            "で"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected が.",
+            "で": "で marks means, instrument, or location of action, not the subject.",
+            "まで": "Particle まで does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:32.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "曇ってきたので、もうすぐ雨が降りそうです。"
+        }
+      ],
+      "translationEn": "Because the sky has gradually gotten cloudy, it looks like it will rain soon.",
+      "translationDe": "Da sich der Himmel allmählich bewölkt hat, sieht es so aus, als würde es bald regnen."
+    },
+    "verified": false,
+    "sortOrder": 7,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:32:08",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "高い熱"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "で",
+            "が",
+            "は",
+            "に"
+          ],
+          "feedback": {
+            "に": "に marks target, indirect object, or static location, not the subject/attribute.",
+            "で": "で marks means, instrument, or location of action, not the subject.",
+            "は": "は marks the global topic, whereas が marks the specific subject, agent, or potential object."
+          },
+          "ruleRef": "ja:mnn:32.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "三日も続いているので、今日病院へ行きます。"
+        }
+      ],
+      "translationEn": "Because a high fever has continued for three days, I am going to the hospital today.",
+      "translationDe": "Da das hohe Fieber schon drei Tage anhält, gehe ich heute ins Krankenhaus."
+    },
+    "verified": false,
+    "sortOrder": 8,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:32:09",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "風邪"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "を"
+          ],
+          "options": [
+            "を",
+            "まで",
+            "は",
+            "から"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected を.",
+            "まで": "Particle まで does not fit here. Expected を.",
+            "は": "は would topicalize the noun, but here it is a direct object marked by を."
+          },
+          "ruleRef": "ja:mnn:32.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "ひかないように、外から帰ったらよく手を洗います。"
+        }
+      ],
+      "translationEn": "So as not to catch a cold, I wash my hands thoroughly when returning from outside.",
+      "translationDe": "Um mich nicht zu erkälten, wasche ich mir gründlich die Hände, wenn ich von draußen nach Hause komme."
+    },
+    "verified": false,
+    "sortOrder": 9,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:32:10",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "すいかは食べる前に冷蔵庫でよく冷やしたほう"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "へ",
+            "が",
+            "と",
+            "まで"
+          ],
+          "feedback": {
+            "まで": "Particle まで does not fit here. Expected が.",
+            "と": "Particle と does not fit here. Expected が.",
+            "へ": "Particle へ does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:32.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "美味しいです。"
+        }
+      ],
+      "translationEn": "Watermelon tastes better if you chill it well in the refrigerator before eating.",
+      "translationDe": "Wassermelone schmeckt besser, wenn man sie vor dem Essen gut im Kühlschrank kühlt."
+    },
+    "verified": false,
+    "sortOrder": 10,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:32:11",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "朝八時ごろは道"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "から",
+            "は",
+            "で",
+            "が"
+          ],
+          "feedback": {
+            "から": "Particle から does not fit here. Expected が.",
+            "は": "は marks the global topic, whereas が marks the specific subject, agent, or potential object.",
+            "で": "で marks means, instrument, or location of action, not the subject."
+          },
+          "ruleRef": "ja:mnn:32.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "込みますから、電車で行ったほうがいいですよ。"
+        }
+      ],
+      "translationEn": "Because the roads get crowded around 8 a.m., you had better go by train.",
+      "translationDe": "Da die Straßen gegen acht Uhr morgens voll sind, sollten Sie lieber mit dem Zug fahren."
+    },
+    "verified": false,
+    "sortOrder": 11,
+    "contentVersion": 1
+  },
+  {
+    "id": "ja:ex:cloze:32:12",
+    "domain": "JAPANESE",
+    "chapter": 32,
+    "type": "PARTICLE_CLOZE",
+    "grammarRuleId": "ja:mnn:32.1",
+    "difficulty": 2,
+    "payload": {
+      "kind": "particle_cloze",
+      "segments": [
+        {
+          "kind": "text",
+          "ruby": "平日の昼間は電車"
+        },
+        {
+          "kind": "blank",
+          "answers": [
+            "が"
+          ],
+          "options": [
+            "が",
+            "も",
+            "と",
+            "で"
+          ],
+          "feedback": {
+            "で": "で marks means, instrument, or location of action, not the subject.",
+            "と": "Particle と does not fit here. Expected が.",
+            "も": "Particle も does not fit here. Expected が."
+          },
+          "ruleRef": "ja:mnn:32.1"
+        },
+        {
+          "kind": "text",
+          "ruby": "すいているので、ゆっくり座れます。"
+        }
+      ],
+      "translationEn": "During the daytime on weekdays, the train is uncrowded, so you can sit comfortably.",
+      "translationDe": "Werktags tagsüber ist der Zug leerer, sodass man bequem sitzen kann."
+    },
+    "verified": false,
+    "sortOrder": 12,
+    "contentVersion": 1
+  }
+]

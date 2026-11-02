@@ -8,16 +8,14 @@ import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
 import tech.nikku.learningapp.core.data.content.dto.*
+import tech.nikku.learningapp.core.data.local.converter.ContentJson
 import tech.nikku.learningapp.core.domain.model.PartOfSpeech
 import java.io.File
 import java.security.MessageDigest
 
 class ContentValidationTest {
 
-  private val json = Json {
-    ignoreUnknownKeys = true
-    isLenient = true
-  }
+  private val json = ContentJson
 
   private lateinit var contentDir: File
   private lateinit var wordsMnn: List<WordDto>
@@ -29,6 +27,7 @@ class ContentValidationTest {
   private lateinit var confusablesZh: List<ConfusablePairDto>
   private lateinit var dialoguesZh: List<DialogueDto>
   private lateinit var turnsZh: List<DialogueTurnDto>
+  private lateinit var exercisesCloze: List<ExerciseDto>
   private lateinit var manifest: ManifestDto
 
   @Before
@@ -45,6 +44,7 @@ class ContentValidationTest {
     kanjiList = json.decodeFromString(File(contentDir, "ja/kanji.json").readText())
     compoundsList = json.decodeFromString(File(contentDir, "ja/kanji_compounds.json").readText())
     grammarJa = json.decodeFromString(File(contentDir, "ja/grammar_26_32.json").readText())
+    exercisesCloze = json.decodeFromString(File(contentDir, "ja/exercises_cloze_26_32.json").readText())
 
     grammarZh = json.decodeFromString(File(contentDir, "zh/grammar_rules.json").readText())
     examplesZh = json.decodeFromString(File(contentDir, "zh/grammar_examples.json").readText())
@@ -73,6 +73,7 @@ class ContentValidationTest {
     grammarZh.forEach { checkId(it.id, "zh:g:") }
     confusablesZh.forEach { checkId(it.id, "zh:c:") }
     dialoguesZh.forEach { checkId(it.id, "zh:d:") }
+    exercisesCloze.forEach { checkId(it.id, "ja:ex:cloze:") }
 
     // Dialogue turns must have unique (dialogueId, idx)
     val turnKeys = turnsZh.map { "${it.dialogueId}#${it.idx}" }.toSet()
@@ -241,6 +242,36 @@ class ContentValidationTest {
       val computedHash = hashBytes.joinToString("") { "%02x".format(it) }
 
       assertEquals("SHA-256 mismatch for ${f.path}", f.sha256, computedHash)
+    }
+  }
+
+  // Invariant 10: Particle cloze exercises validation (>= 70 exercises, >= 10 per chapter, no errata)
+  @Test
+  fun validateClozeExercises() {
+    assertTrue("Cloze exercises count must be >= 70: ${exercisesCloze.size}", exercisesCloze.size >= 70)
+    val byChapter = exercisesCloze.groupBy { it.chapter }
+    for (ch in 26..32) {
+      val chList = byChapter[ch] ?: emptyList()
+      assertTrue("Chapter $ch must have >= 10 exercises: ${chList.size}", chList.size >= 10)
+    }
+
+    val forbidden = listOf("しめって あります", "つかたら", "とかいの しゅうり", "あたらしー")
+    for (ex in exercisesCloze) {
+      assertEquals(tech.nikku.learningapp.core.domain.model.Domain.JAPANESE, ex.domain)
+      assertEquals(tech.nikku.learningapp.core.domain.model.ExerciseType.PARTICLE_CLOZE, ex.type)
+      val payload = ex.payload as? tech.nikku.learningapp.core.domain.model.ExercisePayload.ParticleCloze
+      assertNotNull("Payload must be ParticleCloze for ${ex.id}", payload)
+      val blanks = payload!!.segments.filterIsInstance<tech.nikku.learningapp.core.domain.model.ClozeSegment.Blank>()
+      assertTrue("Must contain at least 1 blank in ${ex.id}", blanks.isNotEmpty())
+      for (b in blanks) {
+        assertTrue("Blank must have answers: ${ex.id}", b.answers.isNotEmpty())
+        assertEquals(4, b.options.size)
+        assertTrue("Answers must be in options: ${ex.id}", b.options.containsAll(b.answers))
+      }
+      val jsonStr = json.encodeToString(ExerciseDto.serializer(), ex)
+      for (f in forbidden) {
+        assertFalse("Forbidden errata '$f' found in ${ex.id}", jsonStr.contains(f))
+      }
     }
   }
 }
