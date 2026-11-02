@@ -38,6 +38,10 @@ interface WordDao {
   @RawQuery(observedEntities = [WordEntity::class])
   fun searchPaged(query: SupportSQLiteQuery): PagingSource<Int, WordEntity>
 
+  /** Non-paged raw query for tests and bulk operations. */
+  @RawQuery
+  suspend fun searchList(query: SupportSQLiteQuery): List<WordEntity>
+
   @Query("DELETE FROM words WHERE contentVersion < :version AND source != 'USER'")
   suspend fun deleteStale(version: Int): Int
 
