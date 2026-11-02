@@ -122,3 +122,27 @@ ExercisePayload.kt:98:43 Syntax error: Expecting an element.
 - **(b) Faulty Assumption:** Typographical error during manual transcription of ExercisePayload fields.
 - **(c) Corrective Code Strategy:** Correct default argument to `emptyList()`.
 - **Outcome:** PASS (GATE G1 PASS)
+
+### [R-0009] T2.2 · G1 · attempt 1/3 · 2026-11-02T15:45:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+e: [ksp] .../Entities.kt:242: [MissingType]: Element '...UserProgressEntity' references a type that is not present
+e: [ksp] .../Entities.kt:270: [MissingType]: Element '...ReviewLogEntity' references a type that is not present
+> Task :core:data:kspDebugKotlin FAILED
+```
+- **(a) Root Cause:** `import tech.nikku.learningapp.core.domain.model.ItemType` was omitted from individual imports in `Entities.kt`, causing KSP Room annotation processing to fail on `UserProgressEntity` and `ReviewLogEntity`.
+- **(b) Faulty Assumption:** Assumed all referenced enums had been explicitly imported when listing them individually.
+- **(c) Corrective Code Strategy:** Use wildcard `import tech.nikku.learningapp.core.domain.model.*` in `Entities.kt` (and all DAO/Entity files) to guarantee all domain enums and types are visible to Room KSP.
+- **Outcome:** FAIL → R-0010
+
+### [R-0010] T2.2 · G1 · attempt 2/3 · 2026-11-02T15:47:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+e: .../LexiconQueryBuilder.kt:29:7 'val' cannot be reassigned.
+e: .../LexiconQueryBuilder.kt:29:12 Assignment type mismatch: actual type is 'List<Any>', but 'MutableList<Any>' was expected.
+> Task :core:data:compileDebugKotlin FAILED
+```
+- **(a) Root Cause:** In `LexiconQueryBuilder`, `args += values.map(map)` resolved as `args = args.plus(...)` reassignment instead of in-place mutation because `args` is a `val MutableList<Any>`.
+- **(b) Faulty Assumption:** Assumed Kotlin's `+=` operator on `val MutableList<T>` would unambiguously invoke `addAll(elements)`.
+- **(c) Corrective Code Strategy:** Replace `args += values.map(map)` with explicit `args.addAll(values.map(map))`.
+- **Outcome:** PASS (GATE G1 PASS)

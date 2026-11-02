@@ -1,0 +1,1474 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "265e240a2b1ae7d81786db962f6d108b",
+    "entities": [
+      {
+        "tableName": "words",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `domain` TEXT NOT NULL, `headword` TEXT NOT NULL, `reading` TEXT NOT NULL, `rubyMarkup` TEXT, `romanization` TEXT, `searchText` TEXT NOT NULL, `meaningEn` TEXT NOT NULL, `meaningDe` TEXT, `pos` TEXT NOT NULL, `verbGroup` TEXT, `transitivity` TEXT, `pairWordId` TEXT, `dictionaryForm` TEXT, `dictionaryReading` TEXT, `chapter` INTEGER, `orderInChapter` INTEGER, `jlpt` TEXT, `hskLevel` INTEGER, `tags` TEXT NOT NULL, `source` TEXT NOT NULL, `verified` INTEGER NOT NULL, `errataNote` TEXT, `audioRef` TEXT, `contentVersion` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "domain",
+            "columnName": "domain",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "headword",
+            "columnName": "headword",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reading",
+            "columnName": "reading",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rubyMarkup",
+            "columnName": "rubyMarkup",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "romanization",
+            "columnName": "romanization",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "searchText",
+            "columnName": "searchText",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "meaningEn",
+            "columnName": "meaningEn",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "meaningDe",
+            "columnName": "meaningDe",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "pos",
+            "columnName": "pos",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "verbGroup",
+            "columnName": "verbGroup",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "transitivity",
+            "columnName": "transitivity",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "pairWordId",
+            "columnName": "pairWordId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "dictionaryForm",
+            "columnName": "dictionaryForm",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "dictionaryReading",
+            "columnName": "dictionaryReading",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "chapter",
+            "columnName": "chapter",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "orderInChapter",
+            "columnName": "orderInChapter",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "jlpt",
+            "columnName": "jlpt",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "hskLevel",
+            "columnName": "hskLevel",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "tags",
+            "columnName": "tags",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "source",
+            "columnName": "source",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "verified",
+            "columnName": "verified",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "errataNote",
+            "columnName": "errataNote",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "audioRef",
+            "columnName": "audioRef",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "contentVersion",
+            "columnName": "contentVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_words_domain_chapter_orderInChapter",
+            "unique": false,
+            "columnNames": [
+              "domain",
+              "chapter",
+              "orderInChapter"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_words_domain_chapter_orderInChapter` ON `${TABLE_NAME}` (`domain`, `chapter`, `orderInChapter`)"
+          },
+          {
+            "name": "index_words_domain_jlpt",
+            "unique": false,
+            "columnNames": [
+              "domain",
+              "jlpt"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_words_domain_jlpt` ON `${TABLE_NAME}` (`domain`, `jlpt`)"
+          },
+          {
+            "name": "index_words_domain_pos",
+            "unique": false,
+            "columnNames": [
+              "domain",
+              "pos"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_words_domain_pos` ON `${TABLE_NAME}` (`domain`, `pos`)"
+          },
+          {
+            "name": "index_words_reading",
+            "unique": false,
+            "columnNames": [
+              "reading"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_words_reading` ON `${TABLE_NAME}` (`reading`)"
+          },
+          {
+            "name": "index_words_pairWordId",
+            "unique": false,
+            "columnNames": [
+              "pairWordId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_words_pairWordId` ON `${TABLE_NAME}` (`pairWordId`)"
+          }
+        ]
+      },
+      {
+        "tableName": "words_fts",
+        "createSql": "CREATE VIRTUAL TABLE IF NOT EXISTS `${TABLE_NAME}` USING FTS4(`headword` TEXT NOT NULL, `reading` TEXT NOT NULL, `searchText` TEXT NOT NULL, `meaningEn` TEXT NOT NULL, `meaningDe` TEXT, tokenize=unicode61 `remove_diacritics=1`, content=`words`)",
+        "fields": [
+          {
+            "fieldPath": "headword",
+            "columnName": "headword",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reading",
+            "columnName": "reading",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "searchText",
+            "columnName": "searchText",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "meaningEn",
+            "columnName": "meaningEn",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "meaningDe",
+            "columnName": "meaningDe",
+            "affinity": "TEXT"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": []
+        },
+        "ftsVersion": "FTS4",
+        "ftsOptions": {
+          "tokenizer": "unicode61",
+          "tokenizerArgs": [
+            "remove_diacritics=1"
+          ],
+          "contentTable": "words",
+          "languageIdColumnName": "",
+          "matchInfo": "FTS4",
+          "notIndexedColumns": [],
+          "prefixSizes": [],
+          "preferredOrder": "ASC"
+        },
+        "contentSyncTriggers": [
+          "CREATE TRIGGER IF NOT EXISTS room_fts_content_sync_words_fts_BEFORE_UPDATE BEFORE UPDATE ON `words` BEGIN DELETE FROM `words_fts` WHERE `docid`=OLD.`rowid`; END",
+          "CREATE TRIGGER IF NOT EXISTS room_fts_content_sync_words_fts_BEFORE_DELETE BEFORE DELETE ON `words` BEGIN DELETE FROM `words_fts` WHERE `docid`=OLD.`rowid`; END",
+          "CREATE TRIGGER IF NOT EXISTS room_fts_content_sync_words_fts_AFTER_UPDATE AFTER UPDATE ON `words` BEGIN INSERT INTO `words_fts`(`docid`, `headword`, `reading`, `searchText`, `meaningEn`, `meaningDe`) VALUES (NEW.`rowid`, NEW.`headword`, NEW.`reading`, NEW.`searchText`, NEW.`meaningEn`, NEW.`meaningDe`); END",
+          "CREATE TRIGGER IF NOT EXISTS room_fts_content_sync_words_fts_AFTER_INSERT AFTER INSERT ON `words` BEGIN INSERT INTO `words_fts`(`docid`, `headword`, `reading`, `searchText`, `meaningEn`, `meaningDe`) VALUES (NEW.`rowid`, NEW.`headword`, NEW.`reading`, NEW.`searchText`, NEW.`meaningEn`, NEW.`meaningDe`); END"
+        ]
+      },
+      {
+        "tableName": "kanji",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`literal` TEXT NOT NULL, `id` TEXT NOT NULL, `strokeCount` INTEGER NOT NULL, `onReadings` TEXT NOT NULL, `kunReadings` TEXT NOT NULL, `meaningsEn` TEXT NOT NULL, `meaningsDe` TEXT NOT NULL, `radical` TEXT NOT NULL, `radicalNumber` INTEGER, `components` TEXT NOT NULL, `strokePaths` TEXT NOT NULL, `introducedChapter` INTEGER, `jlpt` TEXT, `grade` INTEGER, `frequencyRank` INTEGER, `mnemonicEn` TEXT, `contentVersion` INTEGER NOT NULL, PRIMARY KEY(`literal`))",
+        "fields": [
+          {
+            "fieldPath": "literal",
+            "columnName": "literal",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strokeCount",
+            "columnName": "strokeCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "onReadings",
+            "columnName": "onReadings",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "kunReadings",
+            "columnName": "kunReadings",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "meaningsEn",
+            "columnName": "meaningsEn",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "meaningsDe",
+            "columnName": "meaningsDe",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "radical",
+            "columnName": "radical",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "radicalNumber",
+            "columnName": "radicalNumber",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "components",
+            "columnName": "components",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strokePaths",
+            "columnName": "strokePaths",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "introducedChapter",
+            "columnName": "introducedChapter",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "jlpt",
+            "columnName": "jlpt",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "grade",
+            "columnName": "grade",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "frequencyRank",
+            "columnName": "frequencyRank",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "mnemonicEn",
+            "columnName": "mnemonicEn",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "contentVersion",
+            "columnName": "contentVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "literal"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_kanji_introducedChapter",
+            "unique": false,
+            "columnNames": [
+              "introducedChapter"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_kanji_introducedChapter` ON `${TABLE_NAME}` (`introducedChapter`)"
+          },
+          {
+            "name": "index_kanji_jlpt",
+            "unique": false,
+            "columnNames": [
+              "jlpt"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_kanji_jlpt` ON `${TABLE_NAME}` (`jlpt`)"
+          }
+        ]
+      },
+      {
+        "tableName": "kanji_compounds",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`kanji` TEXT NOT NULL, `wordId` TEXT NOT NULL, `verified` INTEGER NOT NULL, `sortOrder` INTEGER NOT NULL, PRIMARY KEY(`kanji`, `wordId`), FOREIGN KEY(`kanji`) REFERENCES `kanji`(`literal`) ON UPDATE NO ACTION ON DELETE CASCADE , FOREIGN KEY(`wordId`) REFERENCES `words`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "kanji",
+            "columnName": "kanji",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wordId",
+            "columnName": "wordId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "verified",
+            "columnName": "verified",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sortOrder",
+            "columnName": "sortOrder",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "kanji",
+            "wordId"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_kanji_compounds_wordId",
+            "unique": false,
+            "columnNames": [
+              "wordId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_kanji_compounds_wordId` ON `${TABLE_NAME}` (`wordId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "kanji",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "kanji"
+            ],
+            "referencedColumns": [
+              "literal"
+            ]
+          },
+          {
+            "table": "words",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "wordId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "grammar_rules",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `domain` TEXT NOT NULL, `chapter` INTEGER, `sectionLabel` TEXT, `category` TEXT, `part` TEXT, `titleEn` TEXT NOT NULL, `titleDe` TEXT, `pattern` TEXT NOT NULL, `patternTokens` TEXT NOT NULL, `summaryEn` TEXT NOT NULL, `summaryDe` TEXT, `nuancesEn` TEXT NOT NULL, `nuancesDe` TEXT NOT NULL, `bodyMarkdown` TEXT, `tags` TEXT NOT NULL, `verified` INTEGER NOT NULL, `sortOrder` INTEGER NOT NULL, `contentVersion` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "domain",
+            "columnName": "domain",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chapter",
+            "columnName": "chapter",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "sectionLabel",
+            "columnName": "sectionLabel",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "category",
+            "columnName": "category",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "part",
+            "columnName": "part",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "titleEn",
+            "columnName": "titleEn",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "titleDe",
+            "columnName": "titleDe",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "pattern",
+            "columnName": "pattern",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "patternTokens",
+            "columnName": "patternTokens",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "summaryEn",
+            "columnName": "summaryEn",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "summaryDe",
+            "columnName": "summaryDe",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "nuancesEn",
+            "columnName": "nuancesEn",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nuancesDe",
+            "columnName": "nuancesDe",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bodyMarkdown",
+            "columnName": "bodyMarkdown",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "tags",
+            "columnName": "tags",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "verified",
+            "columnName": "verified",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sortOrder",
+            "columnName": "sortOrder",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "contentVersion",
+            "columnName": "contentVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_grammar_rules_domain_chapter_sortOrder",
+            "unique": false,
+            "columnNames": [
+              "domain",
+              "chapter",
+              "sortOrder"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_grammar_rules_domain_chapter_sortOrder` ON `${TABLE_NAME}` (`domain`, `chapter`, `sortOrder`)"
+          },
+          {
+            "name": "index_grammar_rules_domain_category",
+            "unique": false,
+            "columnNames": [
+              "domain",
+              "category"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_grammar_rules_domain_category` ON `${TABLE_NAME}` (`domain`, `category`)"
+          }
+        ]
+      },
+      {
+        "tableName": "grammar_examples",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `ruleId` TEXT NOT NULL, `text` TEXT NOT NULL, `rubyMarkup` TEXT, `romanization` TEXT, `translationEn` TEXT NOT NULL, `translationDe` TEXT, `breakdown` TEXT NOT NULL, `note` TEXT, `sortOrder` INTEGER NOT NULL, PRIMARY KEY(`id`), FOREIGN KEY(`ruleId`) REFERENCES `grammar_rules`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ruleId",
+            "columnName": "ruleId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "text",
+            "columnName": "text",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rubyMarkup",
+            "columnName": "rubyMarkup",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "romanization",
+            "columnName": "romanization",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "translationEn",
+            "columnName": "translationEn",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "translationDe",
+            "columnName": "translationDe",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "breakdown",
+            "columnName": "breakdown",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "note",
+            "columnName": "note",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "sortOrder",
+            "columnName": "sortOrder",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_grammar_examples_ruleId_sortOrder",
+            "unique": false,
+            "columnNames": [
+              "ruleId",
+              "sortOrder"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_grammar_examples_ruleId_sortOrder` ON `${TABLE_NAME}` (`ruleId`, `sortOrder`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "grammar_rules",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "ruleId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "exercises",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `domain` TEXT NOT NULL, `chapter` INTEGER, `type` TEXT NOT NULL, `grammarRuleId` TEXT, `difficulty` INTEGER NOT NULL, `payload` TEXT NOT NULL, `verified` INTEGER NOT NULL, `sortOrder` INTEGER NOT NULL, `contentVersion` INTEGER NOT NULL, PRIMARY KEY(`id`), FOREIGN KEY(`grammarRuleId`) REFERENCES `grammar_rules`(`id`) ON UPDATE NO ACTION ON DELETE SET NULL )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "domain",
+            "columnName": "domain",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chapter",
+            "columnName": "chapter",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "type",
+            "columnName": "type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "grammarRuleId",
+            "columnName": "grammarRuleId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "difficulty",
+            "columnName": "difficulty",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "payload",
+            "columnName": "payload",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "verified",
+            "columnName": "verified",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sortOrder",
+            "columnName": "sortOrder",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "contentVersion",
+            "columnName": "contentVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_exercises_domain_chapter_type",
+            "unique": false,
+            "columnNames": [
+              "domain",
+              "chapter",
+              "type"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_exercises_domain_chapter_type` ON `${TABLE_NAME}` (`domain`, `chapter`, `type`)"
+          },
+          {
+            "name": "index_exercises_grammarRuleId",
+            "unique": false,
+            "columnNames": [
+              "grammarRuleId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_exercises_grammarRuleId` ON `${TABLE_NAME}` (`grammarRuleId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "grammar_rules",
+            "onDelete": "SET NULL",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "grammarRuleId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "dialogues",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `domain` TEXT NOT NULL, `chapter` INTEGER, `titleEn` TEXT NOT NULL, `titleDe` TEXT, `nativeTitle` TEXT NOT NULL, `topicEn` TEXT, `topicDe` TEXT, `descriptionEn` TEXT, `descriptionDe` TEXT, `audioRef` TEXT, `durationMs` INTEGER, `speakers` TEXT NOT NULL, `sortOrder` INTEGER NOT NULL, `contentVersion` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "domain",
+            "columnName": "domain",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chapter",
+            "columnName": "chapter",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "titleEn",
+            "columnName": "titleEn",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "titleDe",
+            "columnName": "titleDe",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "nativeTitle",
+            "columnName": "nativeTitle",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "topicEn",
+            "columnName": "topicEn",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "topicDe",
+            "columnName": "topicDe",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "descriptionEn",
+            "columnName": "descriptionEn",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "descriptionDe",
+            "columnName": "descriptionDe",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "audioRef",
+            "columnName": "audioRef",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "durationMs",
+            "columnName": "durationMs",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "speakers",
+            "columnName": "speakers",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sortOrder",
+            "columnName": "sortOrder",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "contentVersion",
+            "columnName": "contentVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_dialogues_domain_chapter_sortOrder",
+            "unique": false,
+            "columnNames": [
+              "domain",
+              "chapter",
+              "sortOrder"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_dialogues_domain_chapter_sortOrder` ON `${TABLE_NAME}` (`domain`, `chapter`, `sortOrder`)"
+          }
+        ]
+      },
+      {
+        "tableName": "dialogue_turns",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`dialogueId` TEXT NOT NULL, `idx` INTEGER NOT NULL, `speaker` TEXT NOT NULL, `text` TEXT NOT NULL, `rubyMarkup` TEXT, `romanization` TEXT, `translationEn` TEXT, `translationDe` TEXT, `startMs` INTEGER, `endMs` INTEGER, PRIMARY KEY(`dialogueId`, `idx`), FOREIGN KEY(`dialogueId`) REFERENCES `dialogues`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "dialogueId",
+            "columnName": "dialogueId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "idx",
+            "columnName": "idx",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "speaker",
+            "columnName": "speaker",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "text",
+            "columnName": "text",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rubyMarkup",
+            "columnName": "rubyMarkup",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "romanization",
+            "columnName": "romanization",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "translationEn",
+            "columnName": "translationEn",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "translationDe",
+            "columnName": "translationDe",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "startMs",
+            "columnName": "startMs",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "endMs",
+            "columnName": "endMs",
+            "affinity": "INTEGER"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "dialogueId",
+            "idx"
+          ]
+        },
+        "foreignKeys": [
+          {
+            "table": "dialogues",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "dialogueId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "confusable_pairs",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `domain` TEXT NOT NULL, `chapter` INTEGER, `pairLabel` TEXT NOT NULL, `topicEn` TEXT NOT NULL, `topicDe` TEXT, `left` TEXT NOT NULL, `right` TEXT NOT NULL, `mnemonicEn` TEXT NOT NULL, `mnemonicDe` TEXT, `sortOrder` INTEGER NOT NULL, `contentVersion` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "domain",
+            "columnName": "domain",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chapter",
+            "columnName": "chapter",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "pairLabel",
+            "columnName": "pairLabel",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "topicEn",
+            "columnName": "topicEn",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "topicDe",
+            "columnName": "topicDe",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "left",
+            "columnName": "left",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "right",
+            "columnName": "right",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mnemonicEn",
+            "columnName": "mnemonicEn",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mnemonicDe",
+            "columnName": "mnemonicDe",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "sortOrder",
+            "columnName": "sortOrder",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "contentVersion",
+            "columnName": "contentVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_confusable_pairs_domain_chapter_sortOrder",
+            "unique": false,
+            "columnNames": [
+              "domain",
+              "chapter",
+              "sortOrder"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_confusable_pairs_domain_chapter_sortOrder` ON `${TABLE_NAME}` (`domain`, `chapter`, `sortOrder`)"
+          }
+        ]
+      },
+      {
+        "tableName": "user_progress",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`itemKey` TEXT NOT NULL, `itemType` TEXT NOT NULL, `domain` TEXT NOT NULL, `state` TEXT NOT NULL, `easeFactor` REAL NOT NULL, `intervalDays` REAL NOT NULL, `repetitions` INTEGER NOT NULL, `lapses` INTEGER NOT NULL, `learningStep` INTEGER NOT NULL, `dueAt` INTEGER NOT NULL, `lastReviewedAt` INTEGER, `totalReviews` INTEGER NOT NULL, `correctReviews` INTEGER NOT NULL, `stability` REAL, `difficulty` REAL, `suspended` INTEGER NOT NULL, `updatedAt` INTEGER NOT NULL, `updatedByDevice` TEXT NOT NULL, `dirty` INTEGER NOT NULL, `deleted` INTEGER NOT NULL, PRIMARY KEY(`itemKey`))",
+        "fields": [
+          {
+            "fieldPath": "itemKey",
+            "columnName": "itemKey",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "itemType",
+            "columnName": "itemType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "domain",
+            "columnName": "domain",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "state",
+            "columnName": "state",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "easeFactor",
+            "columnName": "easeFactor",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "intervalDays",
+            "columnName": "intervalDays",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "repetitions",
+            "columnName": "repetitions",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lapses",
+            "columnName": "lapses",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "learningStep",
+            "columnName": "learningStep",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dueAt",
+            "columnName": "dueAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastReviewedAt",
+            "columnName": "lastReviewedAt",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "totalReviews",
+            "columnName": "totalReviews",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "correctReviews",
+            "columnName": "correctReviews",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "stability",
+            "columnName": "stability",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "difficulty",
+            "columnName": "difficulty",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "suspended",
+            "columnName": "suspended",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAt",
+            "columnName": "updatedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedByDevice",
+            "columnName": "updatedByDevice",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dirty",
+            "columnName": "dirty",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "deleted",
+            "columnName": "deleted",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "itemKey"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_user_progress_domain_state_dueAt",
+            "unique": false,
+            "columnNames": [
+              "domain",
+              "state",
+              "dueAt"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_user_progress_domain_state_dueAt` ON `${TABLE_NAME}` (`domain`, `state`, `dueAt`)"
+          },
+          {
+            "name": "index_user_progress_itemType",
+            "unique": false,
+            "columnNames": [
+              "itemType"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_user_progress_itemType` ON `${TABLE_NAME}` (`itemType`)"
+          },
+          {
+            "name": "index_user_progress_dirty",
+            "unique": false,
+            "columnNames": [
+              "dirty"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_user_progress_dirty` ON `${TABLE_NAME}` (`dirty`)"
+          }
+        ]
+      },
+      {
+        "tableName": "review_logs",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `itemKey` TEXT NOT NULL, `itemType` TEXT NOT NULL, `domain` TEXT NOT NULL, `reviewedAt` INTEGER NOT NULL, `grade` TEXT NOT NULL, `responseMs` INTEGER NOT NULL, `exerciseType` TEXT, `userAnswer` TEXT, `wasCorrect` INTEGER NOT NULL, `prevState` TEXT NOT NULL, `newState` TEXT NOT NULL, `prevIntervalDays` REAL NOT NULL, `newIntervalDays` REAL NOT NULL, `prevEase` REAL NOT NULL, `newEase` REAL NOT NULL, `deviceId` TEXT NOT NULL, `synced` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "itemKey",
+            "columnName": "itemKey",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "itemType",
+            "columnName": "itemType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "domain",
+            "columnName": "domain",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reviewedAt",
+            "columnName": "reviewedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "grade",
+            "columnName": "grade",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "responseMs",
+            "columnName": "responseMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "exerciseType",
+            "columnName": "exerciseType",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "userAnswer",
+            "columnName": "userAnswer",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "wasCorrect",
+            "columnName": "wasCorrect",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "prevState",
+            "columnName": "prevState",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "newState",
+            "columnName": "newState",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "prevIntervalDays",
+            "columnName": "prevIntervalDays",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "newIntervalDays",
+            "columnName": "newIntervalDays",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "prevEase",
+            "columnName": "prevEase",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "newEase",
+            "columnName": "newEase",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "deviceId",
+            "columnName": "deviceId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "synced",
+            "columnName": "synced",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_review_logs_itemKey_reviewedAt",
+            "unique": false,
+            "columnNames": [
+              "itemKey",
+              "reviewedAt"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_review_logs_itemKey_reviewedAt` ON `${TABLE_NAME}` (`itemKey`, `reviewedAt`)"
+          },
+          {
+            "name": "index_review_logs_reviewedAt",
+            "unique": false,
+            "columnNames": [
+              "reviewedAt"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_review_logs_reviewedAt` ON `${TABLE_NAME}` (`reviewedAt`)"
+          },
+          {
+            "name": "index_review_logs_synced",
+            "unique": false,
+            "columnNames": [
+              "synced"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_review_logs_synced` ON `${TABLE_NAME}` (`synced`)"
+          }
+        ]
+      },
+      {
+        "tableName": "feedback_queue",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `createdAt` INTEGER NOT NULL, `kind` TEXT NOT NULL, `domain` TEXT, `itemKey` TEXT, `message` TEXT NOT NULL, `appVersion` TEXT NOT NULL, `deviceModel` TEXT NOT NULL, `synced` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "kind",
+            "columnName": "kind",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "domain",
+            "columnName": "domain",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "itemKey",
+            "columnName": "itemKey",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "message",
+            "columnName": "message",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "appVersion",
+            "columnName": "appVersion",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "deviceModel",
+            "columnName": "deviceModel",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "synced",
+            "columnName": "synced",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_feedback_queue_synced",
+            "unique": false,
+            "columnNames": [
+              "synced"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_feedback_queue_synced` ON `${TABLE_NAME}` (`synced`)"
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '265e240a2b1ae7d81786db962f6d108b')"
+    ]
+  }
+}
