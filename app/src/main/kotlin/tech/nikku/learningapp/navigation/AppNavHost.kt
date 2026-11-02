@@ -13,6 +13,8 @@ import tech.nikku.learningapp.feature.japanese.conjugation.ConjugationMatrixRout
 import tech.nikku.learningapp.feature.japanese.particle.ParticleClozeRoute as ParticleClozeDestination
 import tech.nikku.learningapp.feature.japanese.scramble.SentenceBuilderRoute as SentenceBuilderDestination
 import tech.nikku.learningapp.feature.japanese.listening.ListeningRoute as ListeningDestination
+import tech.nikku.learningapp.feature.japanese.lexicon.LexiconRoute as LexiconDestination
+import tech.nikku.learningapp.feature.japanese.lexicon.WordDetailRoute as WordDetailDestination
 import tech.nikku.learningapp.feature.japanese.hub.JapaneseHubRoute
 import tech.nikku.learningapp.feature.today.TodayRoute
 import tech.nikku.learningapp.feature.vault.VaultRoute
@@ -71,6 +73,18 @@ fun AppNavHost(
     composable<ListeningPlayerRoute> {
       ListeningDestination(
         onBackClick = { navController.popBackStack() }
+      )
+    }
+    composable<MasterLexiconRoute> {
+      LexiconDestination(
+        onBackClick = { navController.popBackStack() },
+        onWordClick = { wordId -> navController.navigate(WordDetailRoute(wordId)) }
+      )
+    }
+    composable<WordDetailRoute> {
+      WordDetailDestination(
+        onBackClick = { navController.popBackStack() },
+        onPartnerClick = { partnerId -> navController.navigate(WordDetailRoute(partnerId)) }
       )
     }
     composable<ChineseRoute> {

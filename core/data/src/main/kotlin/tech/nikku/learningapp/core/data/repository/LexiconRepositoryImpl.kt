@@ -8,6 +8,7 @@ import tech.nikku.learningapp.core.data.local.LexiconFilter
 import tech.nikku.learningapp.core.data.local.LexiconQueryBuilder
 import tech.nikku.learningapp.core.data.local.dao.WordDao
 import tech.nikku.learningapp.core.data.local.mapper.toDomain
+import tech.nikku.learningapp.core.domain.engine.text.KanaNormalizer
 import tech.nikku.learningapp.core.domain.model.*
 import tech.nikku.learningapp.core.domain.repository.LexiconRepository
 import javax.inject.Inject
@@ -30,8 +31,9 @@ class LexiconRepositoryImpl @Inject constructor(
       return wordDao.observeChapter(domain, chapters.first()).map { list -> list.map { it.toDomain() } }
     }
     return flow {
+      val normalizedQuery = if (domain == Domain.JAPANESE) KanaNormalizer.katakanaToHiragana(searchQuery.trim()) else searchQuery.trim()
       val filter = LexiconFilter(
-        query = searchQuery,
+        query = normalizedQuery,
         domain = domain,
         chapters = chapters,
         pos = pos?.let { setOf(it) } ?: emptySet(),
@@ -58,8 +60,9 @@ class LexiconRepositoryImpl @Inject constructor(
   }
 
   override suspend fun searchWords(domain: Domain, query: String, limit: Int): List<Word> {
+    val normalizedQuery = if (domain == Domain.JAPANESE) KanaNormalizer.katakanaToHiragana(query.trim()) else query.trim()
     val filter = LexiconFilter(
-      query = query,
+      query = normalizedQuery,
       domain = domain
     )
     val q = LexiconQueryBuilder.build(filter)

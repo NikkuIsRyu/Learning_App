@@ -441,3 +441,30 @@ ListeningViewModelTest.kt: Unresolved reference 'ApplicationProvider'.
 - **(b) Faulty Assumption:** Assumed `testImplementation(libs.robolectric)` and `testImplementation(libs.androidx.test.core)` were configured in `:app` just like in `:core:data`.
 - **(c) Corrective Code Strategy:** Add `testImplementation(libs.robolectric)` and `testImplementation(libs.androidx.test.core)` to `app/build.gradle.kts`.
 - **Outcome:** PASS (GATE G2 PASS)
+
+
+### [R-0032] T3.7 · G1 · attempt 1/3 · 2026-11-02T18:14:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+LexiconScreen.kt:258:30 Smart cast to 'JlptLevel' is impossible, because 'jlpt' is a public API property declared in different module.
+LexiconViewModel.kt:78:5 Argument type mismatch: actual type is 'suspend (Array<Any?>, ...
+TransitivityPairCard.kt:120:8 Unresolved reference 'border'.
+```
+- **(a) Root Cause:**
+  1. `combine` with > 5 flows in Kotlin Coroutines uses the `combine(vararg flows) { array: Array<Any?> }` overload which passes an array, not 7 typed lambda parameters.
+  2. Public properties of domain objects across module boundaries cannot be smart cast; must be assigned to a local val first (`val jlpt = word.jlpt`).
+  3. `border` was missing an import in `TransitivityPairCard.kt`.
+- **(b) Faulty Assumption:** Assumed `combine` had type-safe arity-7 overloads and that `border` was already imported.
+- **(c) Corrective Code Strategy:** Unpack `Array<Any?>` in the 7-flow `combine` lambda, assign `word.jlpt` to a local `val` before null-check in `LexiconScreen.kt`, and add `import androidx.compose.foundation.border` to `TransitivityPairCard.kt`.
+- **Outcome:** PASS (GATE G1 PASS)
+
+
+### [R-0033] T3.7 · G2 · attempt 1/3 · 2026-11-02T18:18:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+LexiconViewModelTest.kt:140:32 No value passed for parameter 'collector'.
+```
+- **(a) Root Cause:** In `LexiconViewModelTest.kt`, `viewModel.uiState.collect()` was invoked without arguments, which expects a `FlowCollector<T>` unless using `launchIn(scope)` or providing a collector lambda.
+- **(b) Faulty Assumption:** Assumed calling `flow.collect()` without arguments or lambda was valid syntax to trigger collection.
+- **(c) Corrective Code Strategy:** Import `kotlinx.coroutines.flow.launchIn` and use `viewModel.uiState.launchIn(backgroundScope)` in each unit test to activate the `WhileSubscribed` StateFlow.
+- **Outcome:** PASS (GATE G2 PASS)
