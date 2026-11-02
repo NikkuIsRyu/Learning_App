@@ -74,3 +74,14 @@ e: .../ui/main/MainScreen.kt:25:17 Unresolved reference 'navigation3'.
 - **(b) Faulty Assumption:** Assumed the template's dummy navigation code could remain untouched during T1.2 module split without compiling against Navigation 3 dependencies.
 - **(c) Corrective Code Strategy:** Remove the unused template placeholder files (`Navigation.kt`, `NavigationKeys.kt`, `ui/main/*`, `data/*`), update `MainActivity.kt` with a clean `@AndroidEntryPoint` Compose entry point, and clean up unused `nav3` catalog references in `libs.versions.toml`.
 - **Outcome:** PASS (GATE G1 PASS, GATE G2 PASS)
+
+### [R-0005] T1.3 · G2 · attempt 1/3 · 2026-11-02T15:14:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+RubyParserTest > fromAnkiFormat_convertsCorrectly FAILED
+org.junit.ComparisonFailure: expected:<{窓|まど}が[ ]{開|あ}きます> but was:<{窓|まど}が[]{開|あ}きます>
+```
+- **(a) Root Cause:** In `RubyParser.fromAnkiFormat`, the regex `(?: )?([\u4e00-\u9faf...]+)\[([^\]\r\n]+)\]` matched and consumed the optional leading whitespace before the kanji block without outputting it, thereby stripping desired inter-word spaces (e.g. between `が` and `{開|あ}きます`).
+- **(b) Faulty Assumption:** Assumed consuming the optional leading space was necessary to handle Anki's leading space convention.
+- **(c) Corrective Code Strategy:** Remove `(?: )?` from the regex match so whitespace outside the kanji-bracket pair is naturally preserved by `substring(lastIndex, match.range.first)`.
+- **Outcome:** PASS (GATE G2 PASS)

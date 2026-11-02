@@ -9,7 +9,7 @@ Track every ticket from [`02_HANDOFF_ROADMAP.md`](02_HANDOFF_ROADMAP.md). Allowe
 | `T0.3` | 0 | Evaluator harness (`gate.ps1`, `preview.ps1`) | G0 | `DONE` | `gate.ps1 errors=0`, `preview.ps1 errors=0`, negative test verified | `86ffc32` |
 | `T1.1` | 1 | Generate Android project (`android create`) | G1 | `DONE` | GATE G1 PASS (`build/agent-logs/T1.1-G1-20261102-145205.log`) | `266401c` |
 | `T1.2` | 1 | 4-module split & dependency stack | G1, G2 | `DONE` | GATE G1 PASS (`build/agent-logs/T1.2-G1-20261102-150708.log`), GATE G2 PASS (`build/agent-logs/T1.2-G2-20261102-150945.log`) | `8da5c6d` |
-| `T1.3` | 1 | Design system & CJK primitives (`FuriganaText`, `PinyinText`) | G2, G3 | `TODO` | — | — |
+| `T1.3` | 1 | Design system & CJK primitives (`FuriganaText`, `PinyinText`) | G2, G3 | `DONE` | GATE G2 PASS (`build/agent-logs/T1.3-G2-20261102-151519.log`), GATE G3 PASS (FuriganaText, PinyinText, FormulaPills previews rendered & visually verified) | Pending |
 | `T1.4` | 1 | App shell & adaptive top-level navigation | G1, G3, G4 | `TODO` | — | — |
 | `T1.5` | 1 | Vault "Work in Progress" screen | G2, G3 | `TODO` | — | — |
 | `T2.1` | 2 | Domain models & repository interfaces | G1, G2 | `TODO` | — | — |
