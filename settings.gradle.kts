@@ -33,3 +33,6 @@ plugins {
 rootProject.name = "Learning App"
 
 include(":app")
+include(":core:domain")
+include(":core:data")
+include(":core:designsystem")
