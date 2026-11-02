@@ -28,6 +28,7 @@ interface LexiconRepository {
     searchQuery: String = ""
   ): Flow<List<Word>>
 
+  fun observeChapterCounts(domain: Domain): Flow<Map<Int, Int>>
   suspend fun getWordById(id: String): Word?
   suspend fun getWordsForChapter(domain: Domain, chapter: Int): List<Word>
   suspend fun searchWords(domain: Domain, query: String, limit: Int = 50): List<Word>

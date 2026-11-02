@@ -260,3 +260,39 @@ ContentSeederTest.kt:393:46 Unresolved reference 'observeProgress'.
 - **(c) Corrective Code Strategy:** Fix `ContentSeederTest.kt` to use `ContentSource.MINNA`, `VerbGroup.GODAN`, `ItemType.WORD`, `ProgressDao.observe`, and proper `ConfusableSide` instantiation with `SentenceSample` and `WrongSample`. Then re-run Gate G2.
 - **Outcome:** PASS (GATE G2 PASS)
 
+
+
+### [R-0017] T3.1 · G2 · attempt 1/3 · 2026-11-02T16:50:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+LexiconRepositoryImpl.kt:33:9 No parameter with name 'domain' found.
+LexiconRepositoryImpl.kt:38:9 No value passed for parameter 'f'.
+LexiconRepositoryImpl.kt:59:39 No parameter with name 'domain' found.
+```
+- **(a) Root Cause:** `LexiconQueryBuilder.build(f: LexiconFilter)` takes a single `LexiconFilter` parameter, but `LexiconRepositoryImpl.kt` called it with discrete named arguments (`domain`, `chapters`, `pos`, etc.).
+- **(b) Faulty Assumption:** Assumed `LexiconQueryBuilder.build` had discrete defaulted arguments rather than accepting the `LexiconFilter` data class.
+- **(c) Corrective Code Strategy:** Construct a `LexiconFilter` instance and pass it to `LexiconQueryBuilder.build(f)`. Re-run Gate G2.
+- **Outcome:** PASS (GATE G2 PASS)
+
+### [R-0018] T3.1 · G2 · attempt 2/3 · 2026-11-02T16:52:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+ChapterScreen.kt:464:33 Unresolved reference 'SyntaxColorGroup'.
+ChapterScreen.kt:465:27 Unresolved reference 'SyntaxColorGroup'.
+ChapterScreen.kt:466:29 Unresolved reference 'SyntaxColorGroup'.
+```
+- **(a) Root Cause:** `ChapterScreen.kt` referenced `SyntaxColorGroup` which does not exist; the domain enum defining pattern token roles is `SyntaxRole`.
+- **(b) Faulty Assumption:** Assumed the syntax enum was named `SyntaxColorGroup` rather than `SyntaxRole`.
+- **(c) Corrective Code Strategy:** Replace `SyntaxColorGroup` with `SyntaxRole` (`SyntaxRole.VERB`, `SyntaxRole.CONNECTOR`, `SyntaxRole.PARTICLE`) in `ChapterScreen.kt`. Re-run Gate G2.
+- **Outcome:** PASS (GATE G2 PASS)
+
+### [R-0019] T3.1 · G2 · attempt 3/3 · 2026-11-02T16:53:00+01:00
+- **Signal (≤5 lines, verbatim):**
+```
+JapaneseHubViewModelTest > chaptersOneToFiftyGeneratedWithVerifiedFlagsAndCounts FAILED
+java.lang.AssertionError: Chapter 26 must have words > 0
+```
+- **(a) Root Cause:** `stateIn(initialValue = JapaneseHubUiState(isLoading = true))` emits its initial value first upon collection. Turbine's `awaitItem()` consumed the initial loading state (where `wordCount = 0` for all chapters) rather than advancing until the repository flow value was emitted.
+- **(b) Faulty Assumption:** Assumed `stateIn` with an already-populated `StateFlow` would immediately emit the transformed upstream value on the first `awaitItem()` call without emitting `initialValue`.
+- **(c) Corrective Code Strategy:** In `JapaneseHubViewModelTest`, skip or check the initial loading state (`if (state.isLoading) state = awaitItem()`) or use `SharingStarted.Eagerly` / `advanceUntilIdle()` so Turbine asserts on the active state.
+- **Outcome:** PASS (GATE G2 PASS)

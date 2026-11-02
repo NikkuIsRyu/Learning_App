@@ -5,7 +5,9 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.toRoute
 import tech.nikku.learningapp.feature.chinese.ChineseHubRoute
+import tech.nikku.learningapp.feature.japanese.chapter.ChapterRoute
 import tech.nikku.learningapp.feature.japanese.hub.JapaneseHubRoute
 import tech.nikku.learningapp.feature.today.TodayRoute
 import tech.nikku.learningapp.feature.vault.VaultRoute
@@ -24,7 +26,18 @@ fun AppNavHost(
       TodayRoute()
     }
     composable<JapaneseRoute> {
-      JapaneseHubRoute()
+      JapaneseHubRoute(
+        onChapterClick = { chapter ->
+          navController.navigate(ChapterDetailRoute(chapter))
+        }
+      )
+    }
+    composable<ChapterDetailRoute> { backStackEntry ->
+      val route = backStackEntry.toRoute<ChapterDetailRoute>()
+      ChapterRoute(
+        chapter = route.chapter,
+        onBackClick = { navController.popBackStack() }
+      )
     }
     composable<ChineseRoute> {
       ChineseHubRoute()

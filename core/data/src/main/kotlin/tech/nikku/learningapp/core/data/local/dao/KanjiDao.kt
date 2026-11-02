@@ -20,6 +20,9 @@ interface KanjiDao {
   @Query("SELECT * FROM kanji WHERE introducedChapter = :chapter ORDER BY frequencyRank IS NULL, frequencyRank, literal")
   fun observeForChapter(chapter: Int): Flow<List<KanjiEntity>>
 
+  @Query("SELECT * FROM kanji ORDER BY frequencyRank IS NULL, frequencyRank, literal")
+  suspend fun getAll(): List<KanjiEntity>
+
   @Transaction
   @Query("SELECT * FROM kanji WHERE literal = :literal")
   fun observeDetail(literal: String): Flow<KanjiWithCompounds?>
