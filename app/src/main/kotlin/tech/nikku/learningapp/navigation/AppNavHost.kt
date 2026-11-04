@@ -17,6 +17,7 @@ import tech.nikku.learningapp.feature.japanese.lexicon.LexiconRoute as LexiconDe
 import tech.nikku.learningapp.feature.japanese.lexicon.WordDetailRoute as WordDetailDestination
 import tech.nikku.learningapp.feature.japanese.kanji.ChapterKanjiDestination
 import tech.nikku.learningapp.feature.japanese.kanji.KanjiDetailDestination
+import tech.nikku.learningapp.feature.review.ReviewSessionDestination
 import tech.nikku.learningapp.feature.japanese.hub.JapaneseHubRoute
 import tech.nikku.learningapp.feature.today.TodayRoute
 import tech.nikku.learningapp.feature.vault.VaultRoute
@@ -32,7 +33,11 @@ fun AppNavHost(
     modifier = modifier
   ) {
     composable<TodayRoute> {
-      TodayRoute()
+      TodayRoute(
+        onStartReview = { domain ->
+          navController.navigate(ReviewSessionRoute(domain = domain?.name))
+        }
+      )
     }
     composable<JapaneseRoute> {
       JapaneseHubRoute(
@@ -101,6 +106,11 @@ fun AppNavHost(
       KanjiDetailDestination(
         onBackClick = { navController.popBackStack() },
         onWordClick = { wordId -> navController.navigate(WordDetailRoute(wordId)) }
+      )
+    }
+    composable<ReviewSessionRoute> {
+      ReviewSessionDestination(
+        onFinishClick = { navController.popBackStack() }
       )
     }
     composable<ChineseRoute> {
