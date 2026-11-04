@@ -5,7 +5,7 @@ Track every ticket from [`02_HANDOFF_ROADMAP.md`](02_HANDOFF_ROADMAP.md). Allowe
 | Ticket | Phase | Title | Gates | Status | Gate Evidence / Log Path | Commit |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `T0.1` | 0 | Toolchain probe | G0 | `DONE` | `docs/ENVIRONMENT.md` generated & verified (G0 PASS) | — |
-| `T0.2` | 0 | Git wiring | G0 | `BLOCKED` | Local repo & initial commit `d9f8fe9` ready; remote `ls-remote` returned `Permission denied (publickey)` | `d9f8fe9` |
+| `T0.2` | 0 | Git wiring | G0 | `DONE` | Local repo & remote `origin main` wired; deploy key verified and pushed | `d9f8fe9` |
 | `T0.3` | 0 | Evaluator harness (`gate.ps1`, `preview.ps1`) | G0 | `DONE` | `gate.ps1 errors=0`, `preview.ps1 errors=0`, negative test verified | `86ffc32` |
 | `T1.1` | 1 | Generate Android project (`android create`) | G1 | `DONE` | GATE G1 PASS (`build/agent-logs/T1.1-G1-20261102-145205.log`) | `266401c` |
 | `T1.2` | 1 | 4-module split & dependency stack | G1, G2 | `DONE` | GATE G1 PASS (`build/agent-logs/T1.2-G1-20261102-150708.log`), GATE G2 PASS (`build/agent-logs/T1.2-G2-20261102-150945.log`) | `8da5c6d` |
